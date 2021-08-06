@@ -1,0 +1,15 @@
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/statementtest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/broker.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/tprintf.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/upc.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/addfrac.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/dweight2.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/floattest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/dweight.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/celsius.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/assigntest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pun.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/scantest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/beginc.dir

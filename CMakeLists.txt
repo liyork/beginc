@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.19)
+project(beginc C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(beginc main.c)
+add_executable(pun cpama/pun.c)
+add_executable(dweight cpama/dweight.c)
+add_executable(dweight2 cpama/dweight2.c)
+add_executable(celsius cpama/celsius.c)
+add_executable(floattest cpama/floattest.c)
+add_executable(tprintf cpama/tprintf.c)
+add_executable(scantest cpama/scantest.c)
+add_executable(addfrac cpama/addfrac.c)
+add_executable(upc cpama/upc.c)
+add_executable(assigntest cpama/assigntest.c)
+add_executable(broker cpama/broker.c)
+add_executable(statementtest cpama/statementtest.c)
