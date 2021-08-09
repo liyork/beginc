@@ -130,6 +130,487 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named guess
+
+# Build rule for target.
+guess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 guess
+.PHONY : guess
+
+# fast build rule for target.
+guess/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess.dir/build.make CMakeFiles/guess.dir/build
+.PHONY : guess/fast
+
+#=============================================================================
+# Target rules for targets named qsort
+
+# Build rule for target.
+qsort: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qsort
+.PHONY : qsort
+
+# fast build rule for target.
+qsort/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qsort.dir/build.make CMakeFiles/qsort.dir/build
+.PHONY : qsort/fast
+
+#=============================================================================
+# Target rules for targets named recursetest
+
+# Build rule for target.
+recursetest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 recursetest
+.PHONY : recursetest
+
+# fast build rule for target.
+recursetest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/build
+.PHONY : recursetest/fast
+
+#=============================================================================
+# Target rules for targets named average2
+
+# Build rule for target.
+average2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 average2
+.PHONY : average2
+
+# fast build rule for target.
+average2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average2.dir/build.make CMakeFiles/average2.dir/build
+.PHONY : average2/fast
+
+#=============================================================================
+# Target rules for targets named poker
+
+# Build rule for target.
+poker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 poker
+.PHONY : poker
+
+# fast build rule for target.
+poker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/poker.dir/build.make CMakeFiles/poker.dir/build
+.PHONY : poker/fast
+
+#=============================================================================
+# Target rules for targets named prime
+
+# Build rule for target.
+prime: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 prime
+.PHONY : prime
+
+# fast build rule for target.
+prime/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/build
+.PHONY : prime/fast
+
+#=============================================================================
+# Target rules for targets named methodtest
+
+# Build rule for target.
+methodtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 methodtest
+.PHONY : methodtest
+
+# fast build rule for target.
+methodtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methodtest.dir/build.make CMakeFiles/methodtest.dir/build
+.PHONY : methodtest/fast
+
+#=============================================================================
+# Target rules for targets named pun2
+
+# Build rule for target.
+pun2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pun2
+.PHONY : pun2
+
+# fast build rule for target.
+pun2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/build
+.PHONY : pun2/fast
+
+#=============================================================================
+# Target rules for targets named average
+
+# Build rule for target.
+average: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 average
+.PHONY : average
+
+# fast build rule for target.
+average/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average.dir/build.make CMakeFiles/average.dir/build
+.PHONY : average/fast
+
+#=============================================================================
+# Target rules for targets named reverse2
+
+# Build rule for target.
+reverse2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reverse2
+.PHONY : reverse2
+
+# fast build rule for target.
+reverse2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/build
+.PHONY : reverse2/fast
+
+#=============================================================================
+# Target rules for targets named interest
+
+# Build rule for target.
+interest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 interest
+.PHONY : interest
+
+# fast build rule for target.
+interest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/build
+.PHONY : interest/fast
+
+#=============================================================================
+# Target rules for targets named arraytest
+
+# Build rule for target.
+arraytest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arraytest
+.PHONY : arraytest
+
+# fast build rule for target.
+arraytest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/build
+.PHONY : arraytest/fast
+
+#=============================================================================
+# Target rules for targets named sum
+
+# Build rule for target.
+sum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sum
+.PHONY : sum
+
+# fast build rule for target.
+sum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/build
+.PHONY : sum/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named sizeoftest
+
+# Build rule for target.
+sizeoftest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sizeoftest
+.PHONY : sizeoftest
+
+# fast build rule for target.
+sizeoftest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/build
+.PHONY : sizeoftest/fast
+
+#=============================================================================
+# Target rules for targets named guess2
+
+# Build rule for target.
+guess2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 guess2
+.PHONY : guess2
+
+# fast build rule for target.
+guess2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess2.dir/build.make CMakeFiles/guess2.dir/build
+.PHONY : guess2/fast
+
+#=============================================================================
+# Target rules for targets named converttest
+
+# Build rule for target.
+converttest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 converttest
+.PHONY : converttest
+
+# fast build rule for target.
+converttest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/build
+.PHONY : converttest/fast
+
+#=============================================================================
+# Target rules for targets named length
+
+# Build rule for target.
+length: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 length
+.PHONY : length
+
+# fast build rule for target.
+length/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/build
+.PHONY : length/fast
+
+#=============================================================================
+# Target rules for targets named assigntest
+
+# Build rule for target.
+assigntest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assigntest
+.PHONY : assigntest
+
+# fast build rule for target.
+assigntest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/build
+.PHONY : assigntest/fast
+
+#=============================================================================
+# Target rules for targets named getchartest
+
+# Build rule for target.
+getchartest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 getchartest
+.PHONY : getchartest
+
+# fast build rule for target.
+getchartest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/build
+.PHONY : getchartest/fast
+
+#=============================================================================
+# Target rules for targets named reverse
+
+# Build rule for target.
+reverse: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reverse
+.PHONY : reverse
+
+# fast build rule for target.
+reverse/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
+.PHONY : reverse/fast
+
+#=============================================================================
+# Target rules for targets named sum2
+
+# Build rule for target.
+sum2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sum2
+.PHONY : sum2
+
+# fast build rule for target.
+sum2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/build
+.PHONY : sum2/fast
+
+#=============================================================================
+# Target rules for targets named length2
+
+# Build rule for target.
+length2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 length2
+.PHONY : length2
+
+# fast build rule for target.
+length2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/build
+.PHONY : length2/fast
+
+#=============================================================================
+# Target rules for targets named scantest
+
+# Build rule for target.
+scantest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scantest
+.PHONY : scantest
+
+# fast build rule for target.
+scantest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/build
+.PHONY : scantest/fast
+
+#=============================================================================
+# Target rules for targets named numdigit
+
+# Build rule for target.
+numdigit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 numdigit
+.PHONY : numdigit
+
+# fast build rule for target.
+numdigit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/build
+.PHONY : numdigit/fast
+
+#=============================================================================
+# Target rules for targets named repdigit
+
+# Build rule for target.
+repdigit: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 repdigit
+.PHONY : repdigit
+
+# fast build rule for target.
+repdigit/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/build
+.PHONY : repdigit/fast
+
+#=============================================================================
+# Target rules for targets named checking
+
+# Build rule for target.
+checking: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 checking
+.PHONY : checking
+
+# fast build rule for target.
+checking/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/build
+.PHONY : checking/fast
+
+#=============================================================================
+# Target rules for targets named square
+
+# Build rule for target.
+square: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square
+.PHONY : square
+
+# fast build rule for target.
+square/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
+.PHONY : square/fast
+
+#=============================================================================
+# Target rules for targets named floattest
+
+# Build rule for target.
+floattest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 floattest
+.PHONY : floattest
+
+# fast build rule for target.
+floattest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/build
+.PHONY : floattest/fast
+
+#=============================================================================
+# Target rules for targets named square2
+
+# Build rule for target.
+square2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square2
+.PHONY : square2
+
+# fast build rule for target.
+square2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/build
+.PHONY : square2/fast
+
+#=============================================================================
+# Target rules for targets named gototest
+
+# Build rule for target.
+gototest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gototest
+.PHONY : gototest
+
+# fast build rule for target.
+gototest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/build
+.PHONY : gototest/fast
+
+#=============================================================================
+# Target rules for targets named celsius
+
+# Build rule for target.
+celsius: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 celsius
+.PHONY : celsius
+
+# fast build rule for target.
+celsius/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/build
+.PHONY : celsius/fast
+
+#=============================================================================
+# Target rules for targets named square3
+
+# Build rule for target.
+square3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 square3
+.PHONY : square3
+
+# fast build rule for target.
+square3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/build
+.PHONY : square3/fast
+
+#=============================================================================
+# Target rules for targets named upc
+
+# Build rule for target.
+upc: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 upc
+.PHONY : upc
+
+# fast build rule for target.
+upc/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/build
+.PHONY : upc/fast
+
+#=============================================================================
+# Target rules for targets named data
+
+# Build rule for target.
+data: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 data
+.PHONY : data
+
+# fast build rule for target.
+data/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/build
+.PHONY : data/fast
+
+#=============================================================================
+# Target rules for targets named switchtest
+
+# Build rule for target.
+switchtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 switchtest
+.PHONY : switchtest
+
+# fast build rule for target.
+switchtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/build
+.PHONY : switchtest/fast
+
+#=============================================================================
+# Target rules for targets named pun
+
+# Build rule for target.
+pun: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pun
+.PHONY : pun
+
+# fast build rule for target.
+pun/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/build
+.PHONY : pun/fast
+
+#=============================================================================
 # Target rules for targets named statementtest
 
 # Build rule for target.
@@ -141,6 +622,19 @@ statementtest: cmake_check_build_system
 statementtest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/build
 .PHONY : statementtest/fast
+
+#=============================================================================
+# Target rules for targets named deal
+
+# Build rule for target.
+deal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 deal
+.PHONY : deal
+
+# fast build rule for target.
+deal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/build
+.PHONY : deal/fast
 
 #=============================================================================
 # Target rules for targets named broker
@@ -169,17 +663,17 @@ tprintf/fast:
 .PHONY : tprintf/fast
 
 #=============================================================================
-# Target rules for targets named upc
+# Target rules for targets named countdown
 
 # Build rule for target.
-upc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 upc
-.PHONY : upc
+countdown: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 countdown
+.PHONY : countdown
 
 # fast build rule for target.
-upc/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/build
-.PHONY : upc/fast
+countdown/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countdown.dir/build.make CMakeFiles/countdown.dir/build
+.PHONY : countdown/fast
 
 #=============================================================================
 # Target rules for targets named addfrac
@@ -208,19 +702,6 @@ dweight2/fast:
 .PHONY : dweight2/fast
 
 #=============================================================================
-# Target rules for targets named floattest
-
-# Build rule for target.
-floattest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 floattest
-.PHONY : floattest
-
-# fast build rule for target.
-floattest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/build
-.PHONY : floattest/fast
-
-#=============================================================================
 # Target rules for targets named dweight
 
 # Build rule for target.
@@ -232,58 +713,6 @@ dweight: cmake_check_build_system
 dweight/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/build
 .PHONY : dweight/fast
-
-#=============================================================================
-# Target rules for targets named celsius
-
-# Build rule for target.
-celsius: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 celsius
-.PHONY : celsius
-
-# fast build rule for target.
-celsius/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/build
-.PHONY : celsius/fast
-
-#=============================================================================
-# Target rules for targets named assigntest
-
-# Build rule for target.
-assigntest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 assigntest
-.PHONY : assigntest
-
-# fast build rule for target.
-assigntest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/build
-.PHONY : assigntest/fast
-
-#=============================================================================
-# Target rules for targets named pun
-
-# Build rule for target.
-pun: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pun
-.PHONY : pun
-
-# fast build rule for target.
-pun/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/build
-.PHONY : pun/fast
-
-#=============================================================================
-# Target rules for targets named scantest
-
-# Build rule for target.
-scantest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 scantest
-.PHONY : scantest
-
-# fast build rule for target.
-scantest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/build
-.PHONY : scantest/fast
 
 #=============================================================================
 # Target rules for targets named beginc
@@ -324,6 +753,33 @@ cpama/addfrac.s: cpama/addfrac.c.s
 cpama/addfrac.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/addfrac.c.s
 .PHONY : cpama/addfrac.c.s
+
+cpama/arraytest.o: cpama/arraytest.c.o
+
+.PHONY : cpama/arraytest.o
+
+# target to build an object file
+cpama/arraytest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arraytest.c.o
+.PHONY : cpama/arraytest.c.o
+
+cpama/arraytest.i: cpama/arraytest.c.i
+
+.PHONY : cpama/arraytest.i
+
+# target to preprocess a source file
+cpama/arraytest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arraytest.c.i
+.PHONY : cpama/arraytest.c.i
+
+cpama/arraytest.s: cpama/arraytest.c.s
+
+.PHONY : cpama/arraytest.s
+
+# target to generate assembly for a file
+cpama/arraytest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arraytest.c.s
+.PHONY : cpama/arraytest.c.s
 
 cpama/assigntest.o: cpama/assigntest.c.o
 
@@ -406,6 +862,114 @@ cpama/celsius.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/celsius.c.s
 .PHONY : cpama/celsius.c.s
 
+cpama/checking.o: cpama/checking.c.o
+
+.PHONY : cpama/checking.o
+
+# target to build an object file
+cpama/checking.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/checking.c.o
+.PHONY : cpama/checking.c.o
+
+cpama/checking.i: cpama/checking.c.i
+
+.PHONY : cpama/checking.i
+
+# target to preprocess a source file
+cpama/checking.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/checking.c.i
+.PHONY : cpama/checking.c.i
+
+cpama/checking.s: cpama/checking.c.s
+
+.PHONY : cpama/checking.s
+
+# target to generate assembly for a file
+cpama/checking.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/checking.c.s
+.PHONY : cpama/checking.c.s
+
+cpama/converttest.o: cpama/converttest.c.o
+
+.PHONY : cpama/converttest.o
+
+# target to build an object file
+cpama/converttest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/converttest.c.o
+.PHONY : cpama/converttest.c.o
+
+cpama/converttest.i: cpama/converttest.c.i
+
+.PHONY : cpama/converttest.i
+
+# target to preprocess a source file
+cpama/converttest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/converttest.c.i
+.PHONY : cpama/converttest.c.i
+
+cpama/converttest.s: cpama/converttest.c.s
+
+.PHONY : cpama/converttest.s
+
+# target to generate assembly for a file
+cpama/converttest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/converttest.c.s
+.PHONY : cpama/converttest.c.s
+
+cpama/data.o: cpama/data.c.o
+
+.PHONY : cpama/data.o
+
+# target to build an object file
+cpama/data.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/data.c.o
+.PHONY : cpama/data.c.o
+
+cpama/data.i: cpama/data.c.i
+
+.PHONY : cpama/data.i
+
+# target to preprocess a source file
+cpama/data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/data.c.i
+.PHONY : cpama/data.c.i
+
+cpama/data.s: cpama/data.c.s
+
+.PHONY : cpama/data.s
+
+# target to generate assembly for a file
+cpama/data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/data.c.s
+.PHONY : cpama/data.c.s
+
+cpama/deal.o: cpama/deal.c.o
+
+.PHONY : cpama/deal.o
+
+# target to build an object file
+cpama/deal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/deal.c.o
+.PHONY : cpama/deal.c.o
+
+cpama/deal.i: cpama/deal.c.i
+
+.PHONY : cpama/deal.i
+
+# target to preprocess a source file
+cpama/deal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/deal.c.i
+.PHONY : cpama/deal.c.i
+
+cpama/deal.s: cpama/deal.c.s
+
+.PHONY : cpama/deal.s
+
+# target to generate assembly for a file
+cpama/deal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/deal.c.s
+.PHONY : cpama/deal.c.s
+
 cpama/dweight.o: cpama/dweight.c.o
 
 .PHONY : cpama/dweight.o
@@ -487,6 +1051,384 @@ cpama/floattest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/floattest.c.s
 .PHONY : cpama/floattest.c.s
 
+cpama/getchartest.o: cpama/getchartest.c.o
+
+.PHONY : cpama/getchartest.o
+
+# target to build an object file
+cpama/getchartest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/getchartest.c.o
+.PHONY : cpama/getchartest.c.o
+
+cpama/getchartest.i: cpama/getchartest.c.i
+
+.PHONY : cpama/getchartest.i
+
+# target to preprocess a source file
+cpama/getchartest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/getchartest.c.i
+.PHONY : cpama/getchartest.c.i
+
+cpama/getchartest.s: cpama/getchartest.c.s
+
+.PHONY : cpama/getchartest.s
+
+# target to generate assembly for a file
+cpama/getchartest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/getchartest.c.s
+.PHONY : cpama/getchartest.c.s
+
+cpama/gototest.o: cpama/gototest.c.o
+
+.PHONY : cpama/gototest.o
+
+# target to build an object file
+cpama/gototest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/gototest.c.o
+.PHONY : cpama/gototest.c.o
+
+cpama/gototest.i: cpama/gototest.c.i
+
+.PHONY : cpama/gototest.i
+
+# target to preprocess a source file
+cpama/gototest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/gototest.c.i
+.PHONY : cpama/gototest.c.i
+
+cpama/gototest.s: cpama/gototest.c.s
+
+.PHONY : cpama/gototest.s
+
+# target to generate assembly for a file
+cpama/gototest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/gototest.c.s
+.PHONY : cpama/gototest.c.s
+
+cpama/interest.o: cpama/interest.c.o
+
+.PHONY : cpama/interest.o
+
+# target to build an object file
+cpama/interest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/interest.c.o
+.PHONY : cpama/interest.c.o
+
+cpama/interest.i: cpama/interest.c.i
+
+.PHONY : cpama/interest.i
+
+# target to preprocess a source file
+cpama/interest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/interest.c.i
+.PHONY : cpama/interest.c.i
+
+cpama/interest.s: cpama/interest.c.s
+
+.PHONY : cpama/interest.s
+
+# target to generate assembly for a file
+cpama/interest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/interest.c.s
+.PHONY : cpama/interest.c.s
+
+cpama/length.o: cpama/length.c.o
+
+.PHONY : cpama/length.o
+
+# target to build an object file
+cpama/length.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/length.c.o
+.PHONY : cpama/length.c.o
+
+cpama/length.i: cpama/length.c.i
+
+.PHONY : cpama/length.i
+
+# target to preprocess a source file
+cpama/length.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/length.c.i
+.PHONY : cpama/length.c.i
+
+cpama/length.s: cpama/length.c.s
+
+.PHONY : cpama/length.s
+
+# target to generate assembly for a file
+cpama/length.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/length.c.s
+.PHONY : cpama/length.c.s
+
+cpama/length2.o: cpama/length2.c.o
+
+.PHONY : cpama/length2.o
+
+# target to build an object file
+cpama/length2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/length2.c.o
+.PHONY : cpama/length2.c.o
+
+cpama/length2.i: cpama/length2.c.i
+
+.PHONY : cpama/length2.i
+
+# target to preprocess a source file
+cpama/length2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/length2.c.i
+.PHONY : cpama/length2.c.i
+
+cpama/length2.s: cpama/length2.c.s
+
+.PHONY : cpama/length2.s
+
+# target to generate assembly for a file
+cpama/length2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/length2.c.s
+.PHONY : cpama/length2.c.s
+
+cpama/method/average.o: cpama/method/average.c.o
+
+.PHONY : cpama/method/average.o
+
+# target to build an object file
+cpama/method/average.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average.dir/build.make CMakeFiles/average.dir/cpama/method/average.c.o
+.PHONY : cpama/method/average.c.o
+
+cpama/method/average.i: cpama/method/average.c.i
+
+.PHONY : cpama/method/average.i
+
+# target to preprocess a source file
+cpama/method/average.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average.dir/build.make CMakeFiles/average.dir/cpama/method/average.c.i
+.PHONY : cpama/method/average.c.i
+
+cpama/method/average.s: cpama/method/average.c.s
+
+.PHONY : cpama/method/average.s
+
+# target to generate assembly for a file
+cpama/method/average.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average.dir/build.make CMakeFiles/average.dir/cpama/method/average.c.s
+.PHONY : cpama/method/average.c.s
+
+cpama/method/average2.o: cpama/method/average2.c.o
+
+.PHONY : cpama/method/average2.o
+
+# target to build an object file
+cpama/method/average2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average2.dir/build.make CMakeFiles/average2.dir/cpama/method/average2.c.o
+.PHONY : cpama/method/average2.c.o
+
+cpama/method/average2.i: cpama/method/average2.c.i
+
+.PHONY : cpama/method/average2.i
+
+# target to preprocess a source file
+cpama/method/average2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average2.dir/build.make CMakeFiles/average2.dir/cpama/method/average2.c.i
+.PHONY : cpama/method/average2.c.i
+
+cpama/method/average2.s: cpama/method/average2.c.s
+
+.PHONY : cpama/method/average2.s
+
+# target to generate assembly for a file
+cpama/method/average2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/average2.dir/build.make CMakeFiles/average2.dir/cpama/method/average2.c.s
+.PHONY : cpama/method/average2.c.s
+
+cpama/method/countdown.o: cpama/method/countdown.c.o
+
+.PHONY : cpama/method/countdown.o
+
+# target to build an object file
+cpama/method/countdown.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countdown.dir/build.make CMakeFiles/countdown.dir/cpama/method/countdown.c.o
+.PHONY : cpama/method/countdown.c.o
+
+cpama/method/countdown.i: cpama/method/countdown.c.i
+
+.PHONY : cpama/method/countdown.i
+
+# target to preprocess a source file
+cpama/method/countdown.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countdown.dir/build.make CMakeFiles/countdown.dir/cpama/method/countdown.c.i
+.PHONY : cpama/method/countdown.c.i
+
+cpama/method/countdown.s: cpama/method/countdown.c.s
+
+.PHONY : cpama/method/countdown.s
+
+# target to generate assembly for a file
+cpama/method/countdown.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countdown.dir/build.make CMakeFiles/countdown.dir/cpama/method/countdown.c.s
+.PHONY : cpama/method/countdown.c.s
+
+cpama/method/methodtest.o: cpama/method/methodtest.c.o
+
+.PHONY : cpama/method/methodtest.o
+
+# target to build an object file
+cpama/method/methodtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methodtest.dir/build.make CMakeFiles/methodtest.dir/cpama/method/methodtest.c.o
+.PHONY : cpama/method/methodtest.c.o
+
+cpama/method/methodtest.i: cpama/method/methodtest.c.i
+
+.PHONY : cpama/method/methodtest.i
+
+# target to preprocess a source file
+cpama/method/methodtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methodtest.dir/build.make CMakeFiles/methodtest.dir/cpama/method/methodtest.c.i
+.PHONY : cpama/method/methodtest.c.i
+
+cpama/method/methodtest.s: cpama/method/methodtest.c.s
+
+.PHONY : cpama/method/methodtest.s
+
+# target to generate assembly for a file
+cpama/method/methodtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/methodtest.dir/build.make CMakeFiles/methodtest.dir/cpama/method/methodtest.c.s
+.PHONY : cpama/method/methodtest.c.s
+
+cpama/method/prime.o: cpama/method/prime.c.o
+
+.PHONY : cpama/method/prime.o
+
+# target to build an object file
+cpama/method/prime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/cpama/method/prime.c.o
+.PHONY : cpama/method/prime.c.o
+
+cpama/method/prime.i: cpama/method/prime.c.i
+
+.PHONY : cpama/method/prime.i
+
+# target to preprocess a source file
+cpama/method/prime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/cpama/method/prime.c.i
+.PHONY : cpama/method/prime.c.i
+
+cpama/method/prime.s: cpama/method/prime.c.s
+
+.PHONY : cpama/method/prime.s
+
+# target to generate assembly for a file
+cpama/method/prime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/cpama/method/prime.c.s
+.PHONY : cpama/method/prime.c.s
+
+cpama/method/pun2.o: cpama/method/pun2.c.o
+
+.PHONY : cpama/method/pun2.o
+
+# target to build an object file
+cpama/method/pun2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/cpama/method/pun2.c.o
+.PHONY : cpama/method/pun2.c.o
+
+cpama/method/pun2.i: cpama/method/pun2.c.i
+
+.PHONY : cpama/method/pun2.i
+
+# target to preprocess a source file
+cpama/method/pun2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/cpama/method/pun2.c.i
+.PHONY : cpama/method/pun2.c.i
+
+cpama/method/pun2.s: cpama/method/pun2.c.s
+
+.PHONY : cpama/method/pun2.s
+
+# target to generate assembly for a file
+cpama/method/pun2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/cpama/method/pun2.c.s
+.PHONY : cpama/method/pun2.c.s
+
+cpama/method/qsort.o: cpama/method/qsort.c.o
+
+.PHONY : cpama/method/qsort.o
+
+# target to build an object file
+cpama/method/qsort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qsort.dir/build.make CMakeFiles/qsort.dir/cpama/method/qsort.c.o
+.PHONY : cpama/method/qsort.c.o
+
+cpama/method/qsort.i: cpama/method/qsort.c.i
+
+.PHONY : cpama/method/qsort.i
+
+# target to preprocess a source file
+cpama/method/qsort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qsort.dir/build.make CMakeFiles/qsort.dir/cpama/method/qsort.c.i
+.PHONY : cpama/method/qsort.c.i
+
+cpama/method/qsort.s: cpama/method/qsort.c.s
+
+.PHONY : cpama/method/qsort.s
+
+# target to generate assembly for a file
+cpama/method/qsort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qsort.dir/build.make CMakeFiles/qsort.dir/cpama/method/qsort.c.s
+.PHONY : cpama/method/qsort.c.s
+
+cpama/method/recursetest.o: cpama/method/recursetest.c.o
+
+.PHONY : cpama/method/recursetest.o
+
+# target to build an object file
+cpama/method/recursetest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/cpama/method/recursetest.c.o
+.PHONY : cpama/method/recursetest.c.o
+
+cpama/method/recursetest.i: cpama/method/recursetest.c.i
+
+.PHONY : cpama/method/recursetest.i
+
+# target to preprocess a source file
+cpama/method/recursetest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/cpama/method/recursetest.c.i
+.PHONY : cpama/method/recursetest.c.i
+
+cpama/method/recursetest.s: cpama/method/recursetest.c.s
+
+.PHONY : cpama/method/recursetest.s
+
+# target to generate assembly for a file
+cpama/method/recursetest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/cpama/method/recursetest.c.s
+.PHONY : cpama/method/recursetest.c.s
+
+cpama/numdigit.o: cpama/numdigit.c.o
+
+.PHONY : cpama/numdigit.o
+
+# target to build an object file
+cpama/numdigit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.o
+.PHONY : cpama/numdigit.c.o
+
+cpama/numdigit.i: cpama/numdigit.c.i
+
+.PHONY : cpama/numdigit.i
+
+# target to preprocess a source file
+cpama/numdigit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.i
+.PHONY : cpama/numdigit.c.i
+
+cpama/numdigit.s: cpama/numdigit.c.s
+
+.PHONY : cpama/numdigit.s
+
+# target to generate assembly for a file
+cpama/numdigit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.s
+.PHONY : cpama/numdigit.c.s
+
 cpama/pun.o: cpama/pun.c.o
 
 .PHONY : cpama/pun.o
@@ -513,6 +1455,87 @@ cpama/pun.s: cpama/pun.c.s
 cpama/pun.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/pun.c.s
 .PHONY : cpama/pun.c.s
+
+cpama/repdigit.o: cpama/repdigit.c.o
+
+.PHONY : cpama/repdigit.o
+
+# target to build an object file
+cpama/repdigit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/repdigit.c.o
+.PHONY : cpama/repdigit.c.o
+
+cpama/repdigit.i: cpama/repdigit.c.i
+
+.PHONY : cpama/repdigit.i
+
+# target to preprocess a source file
+cpama/repdigit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/repdigit.c.i
+.PHONY : cpama/repdigit.c.i
+
+cpama/repdigit.s: cpama/repdigit.c.s
+
+.PHONY : cpama/repdigit.s
+
+# target to generate assembly for a file
+cpama/repdigit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/repdigit.c.s
+.PHONY : cpama/repdigit.c.s
+
+cpama/reverse.o: cpama/reverse.c.o
+
+.PHONY : cpama/reverse.o
+
+# target to build an object file
+cpama/reverse.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/reverse.c.o
+.PHONY : cpama/reverse.c.o
+
+cpama/reverse.i: cpama/reverse.c.i
+
+.PHONY : cpama/reverse.i
+
+# target to preprocess a source file
+cpama/reverse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/reverse.c.i
+.PHONY : cpama/reverse.c.i
+
+cpama/reverse.s: cpama/reverse.c.s
+
+.PHONY : cpama/reverse.s
+
+# target to generate assembly for a file
+cpama/reverse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/reverse.c.s
+.PHONY : cpama/reverse.c.s
+
+cpama/reverse2.o: cpama/reverse2.c.o
+
+.PHONY : cpama/reverse2.o
+
+# target to build an object file
+cpama/reverse2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/reverse2.c.o
+.PHONY : cpama/reverse2.c.o
+
+cpama/reverse2.i: cpama/reverse2.c.i
+
+.PHONY : cpama/reverse2.i
+
+# target to preprocess a source file
+cpama/reverse2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/reverse2.c.i
+.PHONY : cpama/reverse2.c.i
+
+cpama/reverse2.s: cpama/reverse2.c.s
+
+.PHONY : cpama/reverse2.s
+
+# target to generate assembly for a file
+cpama/reverse2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/reverse2.c.s
+.PHONY : cpama/reverse2.c.s
 
 cpama/scantest.o: cpama/scantest.c.o
 
@@ -541,6 +1564,114 @@ cpama/scantest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/scantest.c.s
 .PHONY : cpama/scantest.c.s
 
+cpama/sizeoftest.o: cpama/sizeoftest.c.o
+
+.PHONY : cpama/sizeoftest.o
+
+# target to build an object file
+cpama/sizeoftest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/sizeoftest.c.o
+.PHONY : cpama/sizeoftest.c.o
+
+cpama/sizeoftest.i: cpama/sizeoftest.c.i
+
+.PHONY : cpama/sizeoftest.i
+
+# target to preprocess a source file
+cpama/sizeoftest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/sizeoftest.c.i
+.PHONY : cpama/sizeoftest.c.i
+
+cpama/sizeoftest.s: cpama/sizeoftest.c.s
+
+.PHONY : cpama/sizeoftest.s
+
+# target to generate assembly for a file
+cpama/sizeoftest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/sizeoftest.c.s
+.PHONY : cpama/sizeoftest.c.s
+
+cpama/square.o: cpama/square.c.o
+
+.PHONY : cpama/square.o
+
+# target to build an object file
+cpama/square.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/square.c.o
+.PHONY : cpama/square.c.o
+
+cpama/square.i: cpama/square.c.i
+
+.PHONY : cpama/square.i
+
+# target to preprocess a source file
+cpama/square.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/square.c.i
+.PHONY : cpama/square.c.i
+
+cpama/square.s: cpama/square.c.s
+
+.PHONY : cpama/square.s
+
+# target to generate assembly for a file
+cpama/square.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/square.c.s
+.PHONY : cpama/square.c.s
+
+cpama/square2.o: cpama/square2.c.o
+
+.PHONY : cpama/square2.o
+
+# target to build an object file
+cpama/square2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/square2.c.o
+.PHONY : cpama/square2.c.o
+
+cpama/square2.i: cpama/square2.c.i
+
+.PHONY : cpama/square2.i
+
+# target to preprocess a source file
+cpama/square2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/square2.c.i
+.PHONY : cpama/square2.c.i
+
+cpama/square2.s: cpama/square2.c.s
+
+.PHONY : cpama/square2.s
+
+# target to generate assembly for a file
+cpama/square2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/square2.c.s
+.PHONY : cpama/square2.c.s
+
+cpama/square3.o: cpama/square3.c.o
+
+.PHONY : cpama/square3.o
+
+# target to build an object file
+cpama/square3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/square3.c.o
+.PHONY : cpama/square3.c.o
+
+cpama/square3.i: cpama/square3.c.i
+
+.PHONY : cpama/square3.i
+
+# target to preprocess a source file
+cpama/square3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/square3.c.i
+.PHONY : cpama/square3.c.i
+
+cpama/square3.s: cpama/square3.c.s
+
+.PHONY : cpama/square3.s
+
+# target to generate assembly for a file
+cpama/square3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/square3.c.s
+.PHONY : cpama/square3.c.s
+
 cpama/statementtest.o: cpama/statementtest.c.o
 
 .PHONY : cpama/statementtest.o
@@ -567,6 +1698,195 @@ cpama/statementtest.s: cpama/statementtest.c.s
 cpama/statementtest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/statementtest.c.s
 .PHONY : cpama/statementtest.c.s
+
+cpama/structure/guess.o: cpama/structure/guess.c.o
+
+.PHONY : cpama/structure/guess.o
+
+# target to build an object file
+cpama/structure/guess.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess.dir/build.make CMakeFiles/guess.dir/cpama/structure/guess.c.o
+.PHONY : cpama/structure/guess.c.o
+
+cpama/structure/guess.i: cpama/structure/guess.c.i
+
+.PHONY : cpama/structure/guess.i
+
+# target to preprocess a source file
+cpama/structure/guess.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess.dir/build.make CMakeFiles/guess.dir/cpama/structure/guess.c.i
+.PHONY : cpama/structure/guess.c.i
+
+cpama/structure/guess.s: cpama/structure/guess.c.s
+
+.PHONY : cpama/structure/guess.s
+
+# target to generate assembly for a file
+cpama/structure/guess.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess.dir/build.make CMakeFiles/guess.dir/cpama/structure/guess.c.s
+.PHONY : cpama/structure/guess.c.s
+
+cpama/structure/guess2.o: cpama/structure/guess2.c.o
+
+.PHONY : cpama/structure/guess2.o
+
+# target to build an object file
+cpama/structure/guess2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess2.dir/build.make CMakeFiles/guess2.dir/cpama/structure/guess2.c.o
+.PHONY : cpama/structure/guess2.c.o
+
+cpama/structure/guess2.i: cpama/structure/guess2.c.i
+
+.PHONY : cpama/structure/guess2.i
+
+# target to preprocess a source file
+cpama/structure/guess2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess2.dir/build.make CMakeFiles/guess2.dir/cpama/structure/guess2.c.i
+.PHONY : cpama/structure/guess2.c.i
+
+cpama/structure/guess2.s: cpama/structure/guess2.c.s
+
+.PHONY : cpama/structure/guess2.s
+
+# target to generate assembly for a file
+cpama/structure/guess2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess2.dir/build.make CMakeFiles/guess2.dir/cpama/structure/guess2.c.s
+.PHONY : cpama/structure/guess2.c.s
+
+cpama/structure/poker.o: cpama/structure/poker.c.o
+
+.PHONY : cpama/structure/poker.o
+
+# target to build an object file
+cpama/structure/poker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/poker.dir/build.make CMakeFiles/poker.dir/cpama/structure/poker.c.o
+.PHONY : cpama/structure/poker.c.o
+
+cpama/structure/poker.i: cpama/structure/poker.c.i
+
+.PHONY : cpama/structure/poker.i
+
+# target to preprocess a source file
+cpama/structure/poker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/poker.dir/build.make CMakeFiles/poker.dir/cpama/structure/poker.c.i
+.PHONY : cpama/structure/poker.c.i
+
+cpama/structure/poker.s: cpama/structure/poker.c.s
+
+.PHONY : cpama/structure/poker.s
+
+# target to generate assembly for a file
+cpama/structure/poker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/poker.dir/build.make CMakeFiles/poker.dir/cpama/structure/poker.c.s
+.PHONY : cpama/structure/poker.c.s
+
+cpama/structure/stack.o: cpama/structure/stack.c.o
+
+.PHONY : cpama/structure/stack.o
+
+# target to build an object file
+cpama/structure/stack.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/cpama/structure/stack.c.o
+.PHONY : cpama/structure/stack.c.o
+
+cpama/structure/stack.i: cpama/structure/stack.c.i
+
+.PHONY : cpama/structure/stack.i
+
+# target to preprocess a source file
+cpama/structure/stack.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/cpama/structure/stack.c.i
+.PHONY : cpama/structure/stack.c.i
+
+cpama/structure/stack.s: cpama/structure/stack.c.s
+
+.PHONY : cpama/structure/stack.s
+
+# target to generate assembly for a file
+cpama/structure/stack.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/cpama/structure/stack.c.s
+.PHONY : cpama/structure/stack.c.s
+
+cpama/sum.o: cpama/sum.c.o
+
+.PHONY : cpama/sum.o
+
+# target to build an object file
+cpama/sum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/sum.c.o
+.PHONY : cpama/sum.c.o
+
+cpama/sum.i: cpama/sum.c.i
+
+.PHONY : cpama/sum.i
+
+# target to preprocess a source file
+cpama/sum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/sum.c.i
+.PHONY : cpama/sum.c.i
+
+cpama/sum.s: cpama/sum.c.s
+
+.PHONY : cpama/sum.s
+
+# target to generate assembly for a file
+cpama/sum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/sum.c.s
+.PHONY : cpama/sum.c.s
+
+cpama/sum2.o: cpama/sum2.c.o
+
+.PHONY : cpama/sum2.o
+
+# target to build an object file
+cpama/sum2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/sum2.c.o
+.PHONY : cpama/sum2.c.o
+
+cpama/sum2.i: cpama/sum2.c.i
+
+.PHONY : cpama/sum2.i
+
+# target to preprocess a source file
+cpama/sum2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/sum2.c.i
+.PHONY : cpama/sum2.c.i
+
+cpama/sum2.s: cpama/sum2.c.s
+
+.PHONY : cpama/sum2.s
+
+# target to generate assembly for a file
+cpama/sum2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/sum2.c.s
+.PHONY : cpama/sum2.c.s
+
+cpama/switchtest.o: cpama/switchtest.c.o
+
+.PHONY : cpama/switchtest.o
+
+# target to build an object file
+cpama/switchtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/switchtest.c.o
+.PHONY : cpama/switchtest.c.o
+
+cpama/switchtest.i: cpama/switchtest.c.i
+
+.PHONY : cpama/switchtest.i
+
+# target to preprocess a source file
+cpama/switchtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/switchtest.c.i
+.PHONY : cpama/switchtest.c.i
+
+cpama/switchtest.s: cpama/switchtest.c.s
+
+.PHONY : cpama/switchtest.s
+
+# target to generate assembly for a file
+cpama/switchtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/switchtest.c.s
+.PHONY : cpama/switchtest.c.s
 
 cpama/tprintf.o: cpama/tprintf.c.o
 
@@ -658,21 +1978,57 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... addfrac"
+	@echo "... arraytest"
 	@echo "... assigntest"
+	@echo "... average"
+	@echo "... average2"
 	@echo "... beginc"
 	@echo "... broker"
 	@echo "... celsius"
+	@echo "... checking"
+	@echo "... converttest"
+	@echo "... countdown"
+	@echo "... data"
+	@echo "... deal"
 	@echo "... dweight"
 	@echo "... dweight2"
 	@echo "... floattest"
+	@echo "... getchartest"
+	@echo "... gototest"
+	@echo "... guess"
+	@echo "... guess2"
+	@echo "... interest"
+	@echo "... length"
+	@echo "... length2"
+	@echo "... methodtest"
+	@echo "... numdigit"
+	@echo "... poker"
+	@echo "... prime"
 	@echo "... pun"
+	@echo "... pun2"
+	@echo "... qsort"
+	@echo "... recursetest"
+	@echo "... repdigit"
+	@echo "... reverse"
+	@echo "... reverse2"
 	@echo "... scantest"
+	@echo "... sizeoftest"
+	@echo "... square"
+	@echo "... square2"
+	@echo "... square3"
+	@echo "... stack"
 	@echo "... statementtest"
+	@echo "... sum"
+	@echo "... sum2"
+	@echo "... switchtest"
 	@echo "... tprintf"
 	@echo "... upc"
 	@echo "... cpama/addfrac.o"
 	@echo "... cpama/addfrac.i"
 	@echo "... cpama/addfrac.s"
+	@echo "... cpama/arraytest.o"
+	@echo "... cpama/arraytest.i"
+	@echo "... cpama/arraytest.s"
 	@echo "... cpama/assigntest.o"
 	@echo "... cpama/assigntest.i"
 	@echo "... cpama/assigntest.s"
@@ -682,6 +2038,18 @@ help:
 	@echo "... cpama/celsius.o"
 	@echo "... cpama/celsius.i"
 	@echo "... cpama/celsius.s"
+	@echo "... cpama/checking.o"
+	@echo "... cpama/checking.i"
+	@echo "... cpama/checking.s"
+	@echo "... cpama/converttest.o"
+	@echo "... cpama/converttest.i"
+	@echo "... cpama/converttest.s"
+	@echo "... cpama/data.o"
+	@echo "... cpama/data.i"
+	@echo "... cpama/data.s"
+	@echo "... cpama/deal.o"
+	@echo "... cpama/deal.i"
+	@echo "... cpama/deal.s"
 	@echo "... cpama/dweight.o"
 	@echo "... cpama/dweight.i"
 	@echo "... cpama/dweight.s"
@@ -691,15 +2059,99 @@ help:
 	@echo "... cpama/floattest.o"
 	@echo "... cpama/floattest.i"
 	@echo "... cpama/floattest.s"
+	@echo "... cpama/getchartest.o"
+	@echo "... cpama/getchartest.i"
+	@echo "... cpama/getchartest.s"
+	@echo "... cpama/gototest.o"
+	@echo "... cpama/gototest.i"
+	@echo "... cpama/gototest.s"
+	@echo "... cpama/interest.o"
+	@echo "... cpama/interest.i"
+	@echo "... cpama/interest.s"
+	@echo "... cpama/length.o"
+	@echo "... cpama/length.i"
+	@echo "... cpama/length.s"
+	@echo "... cpama/length2.o"
+	@echo "... cpama/length2.i"
+	@echo "... cpama/length2.s"
+	@echo "... cpama/method/average.o"
+	@echo "... cpama/method/average.i"
+	@echo "... cpama/method/average.s"
+	@echo "... cpama/method/average2.o"
+	@echo "... cpama/method/average2.i"
+	@echo "... cpama/method/average2.s"
+	@echo "... cpama/method/countdown.o"
+	@echo "... cpama/method/countdown.i"
+	@echo "... cpama/method/countdown.s"
+	@echo "... cpama/method/methodtest.o"
+	@echo "... cpama/method/methodtest.i"
+	@echo "... cpama/method/methodtest.s"
+	@echo "... cpama/method/prime.o"
+	@echo "... cpama/method/prime.i"
+	@echo "... cpama/method/prime.s"
+	@echo "... cpama/method/pun2.o"
+	@echo "... cpama/method/pun2.i"
+	@echo "... cpama/method/pun2.s"
+	@echo "... cpama/method/qsort.o"
+	@echo "... cpama/method/qsort.i"
+	@echo "... cpama/method/qsort.s"
+	@echo "... cpama/method/recursetest.o"
+	@echo "... cpama/method/recursetest.i"
+	@echo "... cpama/method/recursetest.s"
+	@echo "... cpama/numdigit.o"
+	@echo "... cpama/numdigit.i"
+	@echo "... cpama/numdigit.s"
 	@echo "... cpama/pun.o"
 	@echo "... cpama/pun.i"
 	@echo "... cpama/pun.s"
+	@echo "... cpama/repdigit.o"
+	@echo "... cpama/repdigit.i"
+	@echo "... cpama/repdigit.s"
+	@echo "... cpama/reverse.o"
+	@echo "... cpama/reverse.i"
+	@echo "... cpama/reverse.s"
+	@echo "... cpama/reverse2.o"
+	@echo "... cpama/reverse2.i"
+	@echo "... cpama/reverse2.s"
 	@echo "... cpama/scantest.o"
 	@echo "... cpama/scantest.i"
 	@echo "... cpama/scantest.s"
+	@echo "... cpama/sizeoftest.o"
+	@echo "... cpama/sizeoftest.i"
+	@echo "... cpama/sizeoftest.s"
+	@echo "... cpama/square.o"
+	@echo "... cpama/square.i"
+	@echo "... cpama/square.s"
+	@echo "... cpama/square2.o"
+	@echo "... cpama/square2.i"
+	@echo "... cpama/square2.s"
+	@echo "... cpama/square3.o"
+	@echo "... cpama/square3.i"
+	@echo "... cpama/square3.s"
 	@echo "... cpama/statementtest.o"
 	@echo "... cpama/statementtest.i"
 	@echo "... cpama/statementtest.s"
+	@echo "... cpama/structure/guess.o"
+	@echo "... cpama/structure/guess.i"
+	@echo "... cpama/structure/guess.s"
+	@echo "... cpama/structure/guess2.o"
+	@echo "... cpama/structure/guess2.i"
+	@echo "... cpama/structure/guess2.s"
+	@echo "... cpama/structure/poker.o"
+	@echo "... cpama/structure/poker.i"
+	@echo "... cpama/structure/poker.s"
+	@echo "... cpama/structure/stack.o"
+	@echo "... cpama/structure/stack.i"
+	@echo "... cpama/structure/stack.s"
+	@echo "... cpama/sum.o"
+	@echo "... cpama/sum.i"
+	@echo "... cpama/sum.s"
+	@echo "... cpama/sum2.o"
+	@echo "... cpama/sum2.i"
+	@echo "... cpama/sum2.s"
+	@echo "... cpama/switchtest.o"
+	@echo "... cpama/switchtest.i"
+	@echo "... cpama/switchtest.s"
 	@echo "... cpama/tprintf.o"
 	@echo "... cpama/tprintf.i"
 	@echo "... cpama/tprintf.s"
