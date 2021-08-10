@@ -1,4 +1,6 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/maxmin.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/guess.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/qsort.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/recursetest.dir
@@ -19,7 +21,6 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/length.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/assigntest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/getchartest.dir
-/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/reverse.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/sum2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/length2.dir

@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named maxmin
+
+# Build rule for target.
+maxmin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maxmin
+.PHONY : maxmin
+
+# fast build rule for target.
+maxmin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/build
+.PHONY : maxmin/fast
+
+#=============================================================================
 # Target rules for targets named guess
 
 # Build rule for target.
@@ -1429,6 +1442,33 @@ cpama/numdigit.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.s
 .PHONY : cpama/numdigit.c.s
 
+cpama/pointer/maxmin.o: cpama/pointer/maxmin.c.o
+
+.PHONY : cpama/pointer/maxmin.o
+
+# target to build an object file
+cpama/pointer/maxmin.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/cpama/pointer/maxmin.c.o
+.PHONY : cpama/pointer/maxmin.c.o
+
+cpama/pointer/maxmin.i: cpama/pointer/maxmin.c.i
+
+.PHONY : cpama/pointer/maxmin.i
+
+# target to preprocess a source file
+cpama/pointer/maxmin.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/cpama/pointer/maxmin.c.i
+.PHONY : cpama/pointer/maxmin.c.i
+
+cpama/pointer/maxmin.s: cpama/pointer/maxmin.c.s
+
+.PHONY : cpama/pointer/maxmin.s
+
+# target to generate assembly for a file
+cpama/pointer/maxmin.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/cpama/pointer/maxmin.c.s
+.PHONY : cpama/pointer/maxmin.c.s
+
 cpama/pun.o: cpama/pun.c.o
 
 .PHONY : cpama/pun.o
@@ -2000,6 +2040,7 @@ help:
 	@echo "... interest"
 	@echo "... length"
 	@echo "... length2"
+	@echo "... maxmin"
 	@echo "... methodtest"
 	@echo "... numdigit"
 	@echo "... poker"
@@ -2101,6 +2142,9 @@ help:
 	@echo "... cpama/numdigit.o"
 	@echo "... cpama/numdigit.i"
 	@echo "... cpama/numdigit.s"
+	@echo "... cpama/pointer/maxmin.o"
+	@echo "... cpama/pointer/maxmin.i"
+	@echo "... cpama/pointer/maxmin.s"
 	@echo "... cpama/pun.o"
 	@echo "... cpama/pun.i"
 	@echo "... cpama/pun.s"
