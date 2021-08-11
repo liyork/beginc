@@ -76,27 +76,27 @@ include CMakeFiles/upc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/upc.dir/flags.make
 
-CMakeFiles/upc.dir/cpama/upc.c.o: CMakeFiles/upc.dir/flags.make
-CMakeFiles/upc.dir/cpama/upc.c.o: ../cpama/upc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/upc.dir/cpama/upc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upc.dir/cpama/upc.c.o -c /Users/chaoli/c_workspace/beginc/cpama/upc.c
+CMakeFiles/upc.dir/cpama/base/upc.c.o: CMakeFiles/upc.dir/flags.make
+CMakeFiles/upc.dir/cpama/base/upc.c.o: ../cpama/base/upc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/upc.dir/cpama/base/upc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/upc.dir/cpama/base/upc.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/upc.c
 
-CMakeFiles/upc.dir/cpama/upc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upc.dir/cpama/upc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/upc.c > CMakeFiles/upc.dir/cpama/upc.c.i
+CMakeFiles/upc.dir/cpama/base/upc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/upc.dir/cpama/base/upc.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/upc.c > CMakeFiles/upc.dir/cpama/base/upc.c.i
 
-CMakeFiles/upc.dir/cpama/upc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upc.dir/cpama/upc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/upc.c -o CMakeFiles/upc.dir/cpama/upc.c.s
+CMakeFiles/upc.dir/cpama/base/upc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/upc.dir/cpama/base/upc.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/upc.c -o CMakeFiles/upc.dir/cpama/base/upc.c.s
 
 # Object files for target upc
 upc_OBJECTS = \
-"CMakeFiles/upc.dir/cpama/upc.c.o"
+"CMakeFiles/upc.dir/cpama/base/upc.c.o"
 
 # External object files for target upc
 upc_EXTERNAL_OBJECTS =
 
-upc: CMakeFiles/upc.dir/cpama/upc.c.o
+upc: CMakeFiles/upc.dir/cpama/base/upc.c.o
 upc: CMakeFiles/upc.dir/build.make
 upc: CMakeFiles/upc.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable upc"

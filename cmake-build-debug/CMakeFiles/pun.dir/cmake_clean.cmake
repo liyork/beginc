@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/pun.dir/cpama/pun.c.o"
+  "CMakeFiles/pun.dir/cpama/base/pun.c.o"
   "pun"
   "pun.pdb"
 )

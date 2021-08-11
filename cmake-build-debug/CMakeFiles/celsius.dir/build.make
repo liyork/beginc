@@ -76,27 +76,27 @@ include CMakeFiles/celsius.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/celsius.dir/flags.make
 
-CMakeFiles/celsius.dir/cpama/celsius.c.o: CMakeFiles/celsius.dir/flags.make
-CMakeFiles/celsius.dir/cpama/celsius.c.o: ../cpama/celsius.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/celsius.dir/cpama/celsius.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/celsius.dir/cpama/celsius.c.o -c /Users/chaoli/c_workspace/beginc/cpama/celsius.c
+CMakeFiles/celsius.dir/cpama/base/celsius.c.o: CMakeFiles/celsius.dir/flags.make
+CMakeFiles/celsius.dir/cpama/base/celsius.c.o: ../cpama/base/celsius.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/celsius.dir/cpama/base/celsius.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/celsius.dir/cpama/base/celsius.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/celsius.c
 
-CMakeFiles/celsius.dir/cpama/celsius.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/celsius.dir/cpama/celsius.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/celsius.c > CMakeFiles/celsius.dir/cpama/celsius.c.i
+CMakeFiles/celsius.dir/cpama/base/celsius.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/celsius.dir/cpama/base/celsius.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/celsius.c > CMakeFiles/celsius.dir/cpama/base/celsius.c.i
 
-CMakeFiles/celsius.dir/cpama/celsius.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/celsius.dir/cpama/celsius.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/celsius.c -o CMakeFiles/celsius.dir/cpama/celsius.c.s
+CMakeFiles/celsius.dir/cpama/base/celsius.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/celsius.dir/cpama/base/celsius.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/celsius.c -o CMakeFiles/celsius.dir/cpama/base/celsius.c.s
 
 # Object files for target celsius
 celsius_OBJECTS = \
-"CMakeFiles/celsius.dir/cpama/celsius.c.o"
+"CMakeFiles/celsius.dir/cpama/base/celsius.c.o"
 
 # External object files for target celsius
 celsius_EXTERNAL_OBJECTS =
 
-celsius: CMakeFiles/celsius.dir/cpama/celsius.c.o
+celsius: CMakeFiles/celsius.dir/cpama/base/celsius.c.o
 celsius: CMakeFiles/celsius.dir/build.make
 celsius: CMakeFiles/celsius.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable celsius"

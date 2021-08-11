@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/chaoli/c_workspace/beginc/cpama/broker.c" "/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/broker.dir/cpama/broker.c.o"
+  "/Users/chaoli/c_workspace/beginc/cpama/base/broker.c" "/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/broker.dir/cpama/base/broker.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/chaoli/c_workspace/beginc/cpama/statementtest.c" "/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/statementtest.dir/cpama/statementtest.c.o"
+  "/Users/chaoli/c_workspace/beginc/cpama/base/statementtest.c" "/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

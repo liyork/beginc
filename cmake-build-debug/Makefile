@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named pointermultiarray
+
+# Build rule for target.
+pointermultiarray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointermultiarray
+.PHONY : pointermultiarray
+
+# fast build rule for target.
+pointermultiarray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointermultiarray.dir/build.make CMakeFiles/pointermultiarray.dir/build
+.PHONY : pointermultiarray/fast
+
+#=============================================================================
+# Target rules for targets named findlargest
+
+# Build rule for target.
+findlargest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 findlargest
+.PHONY : findlargest
+
+# fast build rule for target.
+findlargest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findlargest.dir/build.make CMakeFiles/findlargest.dir/build
+.PHONY : findlargest/fast
+
+#=============================================================================
 # Target rules for targets named maxmin
 
 # Build rule for target.
@@ -325,6 +351,19 @@ stack/fast:
 .PHONY : stack/fast
 
 #=============================================================================
+# Target rules for targets named stack2
+
+# Build rule for target.
+stack2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack2
+.PHONY : stack2
+
+# fast build rule for target.
+stack2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/build
+.PHONY : stack2/fast
+
+#=============================================================================
 # Target rules for targets named sizeoftest
 
 # Build rule for target.
@@ -336,6 +375,19 @@ sizeoftest: cmake_check_build_system
 sizeoftest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/build
 .PHONY : sizeoftest/fast
+
+#=============================================================================
+# Target rules for targets named pointerarrtest
+
+# Build rule for target.
+pointerarrtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pointerarrtest
+.PHONY : pointerarrtest
+
+# fast build rule for target.
+pointerarrtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerarrtest.dir/build.make CMakeFiles/pointerarrtest.dir/build
+.PHONY : pointerarrtest/fast
 
 #=============================================================================
 # Target rules for targets named guess2
@@ -507,6 +559,19 @@ square/fast:
 .PHONY : square/fast
 
 #=============================================================================
+# Target rules for targets named stringtest
+
+# Build rule for target.
+stringtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stringtest
+.PHONY : stringtest
+
+# fast build rule for target.
+stringtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/build
+.PHONY : stringtest/fast
+
+#=============================================================================
 # Target rules for targets named floattest
 
 # Build rule for target.
@@ -544,6 +609,19 @@ gototest: cmake_check_build_system
 gototest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/build
 .PHONY : gototest/fast
+
+#=============================================================================
+# Target rules for targets named reverse3
+
+# Build rule for target.
+reverse3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reverse3
+.PHONY : reverse3
+
+# fast build rule for target.
+reverse3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse3.dir/build.make CMakeFiles/reverse3.dir/build
+.PHONY : reverse3/fast
 
 #=============================================================================
 # Target rules for targets named celsius
@@ -622,6 +700,19 @@ pun: cmake_check_build_system
 pun/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/build
 .PHONY : pun/fast
+
+#=============================================================================
+# Target rules for targets named arrsum
+
+# Build rule for target.
+arrsum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 arrsum
+.PHONY : arrsum
+
+# fast build rule for target.
+arrsum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrsum.dir/build.make CMakeFiles/arrsum.dir/build
+.PHONY : arrsum/fast
 
 #=============================================================================
 # Target rules for targets named statementtest
@@ -740,464 +831,896 @@ beginc/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/beginc.dir/build.make CMakeFiles/beginc.dir/build
 .PHONY : beginc/fast
 
-cpama/addfrac.o: cpama/addfrac.c.o
+cpama/arr/arraytest.o: cpama/arr/arraytest.c.o
 
-.PHONY : cpama/addfrac.o
-
-# target to build an object file
-cpama/addfrac.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/addfrac.c.o
-.PHONY : cpama/addfrac.c.o
-
-cpama/addfrac.i: cpama/addfrac.c.i
-
-.PHONY : cpama/addfrac.i
-
-# target to preprocess a source file
-cpama/addfrac.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/addfrac.c.i
-.PHONY : cpama/addfrac.c.i
-
-cpama/addfrac.s: cpama/addfrac.c.s
-
-.PHONY : cpama/addfrac.s
-
-# target to generate assembly for a file
-cpama/addfrac.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/addfrac.c.s
-.PHONY : cpama/addfrac.c.s
-
-cpama/arraytest.o: cpama/arraytest.c.o
-
-.PHONY : cpama/arraytest.o
+.PHONY : cpama/arr/arraytest.o
 
 # target to build an object file
-cpama/arraytest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arraytest.c.o
-.PHONY : cpama/arraytest.c.o
+cpama/arr/arraytest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arr/arraytest.c.o
+.PHONY : cpama/arr/arraytest.c.o
 
-cpama/arraytest.i: cpama/arraytest.c.i
+cpama/arr/arraytest.i: cpama/arr/arraytest.c.i
 
-.PHONY : cpama/arraytest.i
+.PHONY : cpama/arr/arraytest.i
 
 # target to preprocess a source file
-cpama/arraytest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arraytest.c.i
-.PHONY : cpama/arraytest.c.i
+cpama/arr/arraytest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arr/arraytest.c.i
+.PHONY : cpama/arr/arraytest.c.i
 
-cpama/arraytest.s: cpama/arraytest.c.s
+cpama/arr/arraytest.s: cpama/arr/arraytest.c.s
 
-.PHONY : cpama/arraytest.s
+.PHONY : cpama/arr/arraytest.s
 
 # target to generate assembly for a file
-cpama/arraytest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arraytest.c.s
-.PHONY : cpama/arraytest.c.s
+cpama/arr/arraytest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/cpama/arr/arraytest.c.s
+.PHONY : cpama/arr/arraytest.c.s
 
-cpama/assigntest.o: cpama/assigntest.c.o
+cpama/arr/deal.o: cpama/arr/deal.c.o
 
-.PHONY : cpama/assigntest.o
+.PHONY : cpama/arr/deal.o
 
 # target to build an object file
-cpama/assigntest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/cpama/assigntest.c.o
-.PHONY : cpama/assigntest.c.o
+cpama/arr/deal.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/arr/deal.c.o
+.PHONY : cpama/arr/deal.c.o
 
-cpama/assigntest.i: cpama/assigntest.c.i
+cpama/arr/deal.i: cpama/arr/deal.c.i
 
-.PHONY : cpama/assigntest.i
+.PHONY : cpama/arr/deal.i
 
 # target to preprocess a source file
-cpama/assigntest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/cpama/assigntest.c.i
-.PHONY : cpama/assigntest.c.i
+cpama/arr/deal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/arr/deal.c.i
+.PHONY : cpama/arr/deal.c.i
 
-cpama/assigntest.s: cpama/assigntest.c.s
+cpama/arr/deal.s: cpama/arr/deal.c.s
 
-.PHONY : cpama/assigntest.s
+.PHONY : cpama/arr/deal.s
 
 # target to generate assembly for a file
-cpama/assigntest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/cpama/assigntest.c.s
-.PHONY : cpama/assigntest.c.s
+cpama/arr/deal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/arr/deal.c.s
+.PHONY : cpama/arr/deal.c.s
 
-cpama/broker.o: cpama/broker.c.o
+cpama/arr/interest.o: cpama/arr/interest.c.o
 
-.PHONY : cpama/broker.o
+.PHONY : cpama/arr/interest.o
 
 # target to build an object file
-cpama/broker.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/cpama/broker.c.o
-.PHONY : cpama/broker.c.o
+cpama/arr/interest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/arr/interest.c.o
+.PHONY : cpama/arr/interest.c.o
 
-cpama/broker.i: cpama/broker.c.i
+cpama/arr/interest.i: cpama/arr/interest.c.i
 
-.PHONY : cpama/broker.i
+.PHONY : cpama/arr/interest.i
 
 # target to preprocess a source file
-cpama/broker.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/cpama/broker.c.i
-.PHONY : cpama/broker.c.i
+cpama/arr/interest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/arr/interest.c.i
+.PHONY : cpama/arr/interest.c.i
 
-cpama/broker.s: cpama/broker.c.s
+cpama/arr/interest.s: cpama/arr/interest.c.s
 
-.PHONY : cpama/broker.s
+.PHONY : cpama/arr/interest.s
 
 # target to generate assembly for a file
-cpama/broker.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/cpama/broker.c.s
-.PHONY : cpama/broker.c.s
+cpama/arr/interest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/arr/interest.c.s
+.PHONY : cpama/arr/interest.c.s
 
-cpama/celsius.o: cpama/celsius.c.o
+cpama/arr/repdigit.o: cpama/arr/repdigit.c.o
 
-.PHONY : cpama/celsius.o
+.PHONY : cpama/arr/repdigit.o
 
 # target to build an object file
-cpama/celsius.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/celsius.c.o
-.PHONY : cpama/celsius.c.o
+cpama/arr/repdigit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/arr/repdigit.c.o
+.PHONY : cpama/arr/repdigit.c.o
 
-cpama/celsius.i: cpama/celsius.c.i
+cpama/arr/repdigit.i: cpama/arr/repdigit.c.i
 
-.PHONY : cpama/celsius.i
+.PHONY : cpama/arr/repdigit.i
 
 # target to preprocess a source file
-cpama/celsius.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/celsius.c.i
-.PHONY : cpama/celsius.c.i
+cpama/arr/repdigit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/arr/repdigit.c.i
+.PHONY : cpama/arr/repdigit.c.i
 
-cpama/celsius.s: cpama/celsius.c.s
+cpama/arr/repdigit.s: cpama/arr/repdigit.c.s
 
-.PHONY : cpama/celsius.s
+.PHONY : cpama/arr/repdigit.s
 
 # target to generate assembly for a file
-cpama/celsius.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/celsius.c.s
-.PHONY : cpama/celsius.c.s
+cpama/arr/repdigit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/arr/repdigit.c.s
+.PHONY : cpama/arr/repdigit.c.s
 
-cpama/checking.o: cpama/checking.c.o
+cpama/arr/reverse.o: cpama/arr/reverse.c.o
 
-.PHONY : cpama/checking.o
+.PHONY : cpama/arr/reverse.o
 
 # target to build an object file
-cpama/checking.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/checking.c.o
-.PHONY : cpama/checking.c.o
+cpama/arr/reverse.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/arr/reverse.c.o
+.PHONY : cpama/arr/reverse.c.o
 
-cpama/checking.i: cpama/checking.c.i
+cpama/arr/reverse.i: cpama/arr/reverse.c.i
 
-.PHONY : cpama/checking.i
+.PHONY : cpama/arr/reverse.i
 
 # target to preprocess a source file
-cpama/checking.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/checking.c.i
-.PHONY : cpama/checking.c.i
+cpama/arr/reverse.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/arr/reverse.c.i
+.PHONY : cpama/arr/reverse.c.i
 
-cpama/checking.s: cpama/checking.c.s
+cpama/arr/reverse.s: cpama/arr/reverse.c.s
 
-.PHONY : cpama/checking.s
+.PHONY : cpama/arr/reverse.s
 
 # target to generate assembly for a file
-cpama/checking.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/checking.c.s
-.PHONY : cpama/checking.c.s
+cpama/arr/reverse.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/arr/reverse.c.s
+.PHONY : cpama/arr/reverse.c.s
 
-cpama/converttest.o: cpama/converttest.c.o
+cpama/arr/reverse2.o: cpama/arr/reverse2.c.o
 
-.PHONY : cpama/converttest.o
+.PHONY : cpama/arr/reverse2.o
 
 # target to build an object file
-cpama/converttest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/converttest.c.o
-.PHONY : cpama/converttest.c.o
+cpama/arr/reverse2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/arr/reverse2.c.o
+.PHONY : cpama/arr/reverse2.c.o
 
-cpama/converttest.i: cpama/converttest.c.i
+cpama/arr/reverse2.i: cpama/arr/reverse2.c.i
 
-.PHONY : cpama/converttest.i
+.PHONY : cpama/arr/reverse2.i
 
 # target to preprocess a source file
-cpama/converttest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/converttest.c.i
-.PHONY : cpama/converttest.c.i
+cpama/arr/reverse2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/arr/reverse2.c.i
+.PHONY : cpama/arr/reverse2.c.i
 
-cpama/converttest.s: cpama/converttest.c.s
+cpama/arr/reverse2.s: cpama/arr/reverse2.c.s
 
-.PHONY : cpama/converttest.s
+.PHONY : cpama/arr/reverse2.s
 
 # target to generate assembly for a file
-cpama/converttest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/converttest.c.s
-.PHONY : cpama/converttest.c.s
+cpama/arr/reverse2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/arr/reverse2.c.s
+.PHONY : cpama/arr/reverse2.c.s
 
-cpama/data.o: cpama/data.c.o
+cpama/base/addfrac.o: cpama/base/addfrac.c.o
 
-.PHONY : cpama/data.o
+.PHONY : cpama/base/addfrac.o
 
 # target to build an object file
-cpama/data.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/data.c.o
-.PHONY : cpama/data.c.o
+cpama/base/addfrac.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o
+.PHONY : cpama/base/addfrac.c.o
 
-cpama/data.i: cpama/data.c.i
+cpama/base/addfrac.i: cpama/base/addfrac.c.i
 
-.PHONY : cpama/data.i
+.PHONY : cpama/base/addfrac.i
 
 # target to preprocess a source file
-cpama/data.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/data.c.i
-.PHONY : cpama/data.c.i
+cpama/base/addfrac.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/base/addfrac.c.i
+.PHONY : cpama/base/addfrac.c.i
 
-cpama/data.s: cpama/data.c.s
+cpama/base/addfrac.s: cpama/base/addfrac.c.s
 
-.PHONY : cpama/data.s
+.PHONY : cpama/base/addfrac.s
 
 # target to generate assembly for a file
-cpama/data.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/data.c.s
-.PHONY : cpama/data.c.s
+cpama/base/addfrac.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/cpama/base/addfrac.c.s
+.PHONY : cpama/base/addfrac.c.s
 
-cpama/deal.o: cpama/deal.c.o
+cpama/base/assigntest.o: cpama/base/assigntest.c.o
 
-.PHONY : cpama/deal.o
+.PHONY : cpama/base/assigntest.o
 
 # target to build an object file
-cpama/deal.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/deal.c.o
-.PHONY : cpama/deal.c.o
+cpama/base/assigntest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o
+.PHONY : cpama/base/assigntest.c.o
 
-cpama/deal.i: cpama/deal.c.i
+cpama/base/assigntest.i: cpama/base/assigntest.c.i
 
-.PHONY : cpama/deal.i
+.PHONY : cpama/base/assigntest.i
 
 # target to preprocess a source file
-cpama/deal.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/deal.c.i
-.PHONY : cpama/deal.c.i
+cpama/base/assigntest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/cpama/base/assigntest.c.i
+.PHONY : cpama/base/assigntest.c.i
 
-cpama/deal.s: cpama/deal.c.s
+cpama/base/assigntest.s: cpama/base/assigntest.c.s
 
-.PHONY : cpama/deal.s
+.PHONY : cpama/base/assigntest.s
 
 # target to generate assembly for a file
-cpama/deal.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/cpama/deal.c.s
-.PHONY : cpama/deal.c.s
+cpama/base/assigntest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/cpama/base/assigntest.c.s
+.PHONY : cpama/base/assigntest.c.s
 
-cpama/dweight.o: cpama/dweight.c.o
+cpama/base/broker.o: cpama/base/broker.c.o
 
-.PHONY : cpama/dweight.o
+.PHONY : cpama/base/broker.o
 
 # target to build an object file
-cpama/dweight.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/cpama/dweight.c.o
-.PHONY : cpama/dweight.c.o
+cpama/base/broker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/cpama/base/broker.c.o
+.PHONY : cpama/base/broker.c.o
 
-cpama/dweight.i: cpama/dweight.c.i
+cpama/base/broker.i: cpama/base/broker.c.i
 
-.PHONY : cpama/dweight.i
+.PHONY : cpama/base/broker.i
 
 # target to preprocess a source file
-cpama/dweight.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/cpama/dweight.c.i
-.PHONY : cpama/dweight.c.i
+cpama/base/broker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/cpama/base/broker.c.i
+.PHONY : cpama/base/broker.c.i
 
-cpama/dweight.s: cpama/dweight.c.s
+cpama/base/broker.s: cpama/base/broker.c.s
 
-.PHONY : cpama/dweight.s
+.PHONY : cpama/base/broker.s
 
 # target to generate assembly for a file
-cpama/dweight.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/cpama/dweight.c.s
-.PHONY : cpama/dweight.c.s
+cpama/base/broker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/cpama/base/broker.c.s
+.PHONY : cpama/base/broker.c.s
 
-cpama/dweight2.o: cpama/dweight2.c.o
+cpama/base/celsius.o: cpama/base/celsius.c.o
 
-.PHONY : cpama/dweight2.o
+.PHONY : cpama/base/celsius.o
 
 # target to build an object file
-cpama/dweight2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/cpama/dweight2.c.o
-.PHONY : cpama/dweight2.c.o
+cpama/base/celsius.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/base/celsius.c.o
+.PHONY : cpama/base/celsius.c.o
 
-cpama/dweight2.i: cpama/dweight2.c.i
+cpama/base/celsius.i: cpama/base/celsius.c.i
 
-.PHONY : cpama/dweight2.i
+.PHONY : cpama/base/celsius.i
 
 # target to preprocess a source file
-cpama/dweight2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/cpama/dweight2.c.i
-.PHONY : cpama/dweight2.c.i
+cpama/base/celsius.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/base/celsius.c.i
+.PHONY : cpama/base/celsius.c.i
 
-cpama/dweight2.s: cpama/dweight2.c.s
+cpama/base/celsius.s: cpama/base/celsius.c.s
 
-.PHONY : cpama/dweight2.s
+.PHONY : cpama/base/celsius.s
 
 # target to generate assembly for a file
-cpama/dweight2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/cpama/dweight2.c.s
-.PHONY : cpama/dweight2.c.s
+cpama/base/celsius.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/cpama/base/celsius.c.s
+.PHONY : cpama/base/celsius.c.s
 
-cpama/floattest.o: cpama/floattest.c.o
+cpama/base/checking.o: cpama/base/checking.c.o
 
-.PHONY : cpama/floattest.o
+.PHONY : cpama/base/checking.o
 
 # target to build an object file
-cpama/floattest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/floattest.c.o
-.PHONY : cpama/floattest.c.o
+cpama/base/checking.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/base/checking.c.o
+.PHONY : cpama/base/checking.c.o
 
-cpama/floattest.i: cpama/floattest.c.i
+cpama/base/checking.i: cpama/base/checking.c.i
 
-.PHONY : cpama/floattest.i
+.PHONY : cpama/base/checking.i
 
 # target to preprocess a source file
-cpama/floattest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/floattest.c.i
-.PHONY : cpama/floattest.c.i
+cpama/base/checking.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/base/checking.c.i
+.PHONY : cpama/base/checking.c.i
 
-cpama/floattest.s: cpama/floattest.c.s
+cpama/base/checking.s: cpama/base/checking.c.s
 
-.PHONY : cpama/floattest.s
+.PHONY : cpama/base/checking.s
 
 # target to generate assembly for a file
-cpama/floattest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/floattest.c.s
-.PHONY : cpama/floattest.c.s
+cpama/base/checking.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/cpama/base/checking.c.s
+.PHONY : cpama/base/checking.c.s
 
-cpama/getchartest.o: cpama/getchartest.c.o
+cpama/base/converttest.o: cpama/base/converttest.c.o
 
-.PHONY : cpama/getchartest.o
+.PHONY : cpama/base/converttest.o
 
 # target to build an object file
-cpama/getchartest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/getchartest.c.o
-.PHONY : cpama/getchartest.c.o
+cpama/base/converttest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/base/converttest.c.o
+.PHONY : cpama/base/converttest.c.o
 
-cpama/getchartest.i: cpama/getchartest.c.i
+cpama/base/converttest.i: cpama/base/converttest.c.i
 
-.PHONY : cpama/getchartest.i
+.PHONY : cpama/base/converttest.i
 
 # target to preprocess a source file
-cpama/getchartest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/getchartest.c.i
-.PHONY : cpama/getchartest.c.i
+cpama/base/converttest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/base/converttest.c.i
+.PHONY : cpama/base/converttest.c.i
 
-cpama/getchartest.s: cpama/getchartest.c.s
+cpama/base/converttest.s: cpama/base/converttest.c.s
 
-.PHONY : cpama/getchartest.s
+.PHONY : cpama/base/converttest.s
 
 # target to generate assembly for a file
-cpama/getchartest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/getchartest.c.s
-.PHONY : cpama/getchartest.c.s
+cpama/base/converttest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/cpama/base/converttest.c.s
+.PHONY : cpama/base/converttest.c.s
 
-cpama/gototest.o: cpama/gototest.c.o
+cpama/base/data.o: cpama/base/data.c.o
 
-.PHONY : cpama/gototest.o
+.PHONY : cpama/base/data.o
 
 # target to build an object file
-cpama/gototest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/gototest.c.o
-.PHONY : cpama/gototest.c.o
+cpama/base/data.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/base/data.c.o
+.PHONY : cpama/base/data.c.o
 
-cpama/gototest.i: cpama/gototest.c.i
+cpama/base/data.i: cpama/base/data.c.i
 
-.PHONY : cpama/gototest.i
+.PHONY : cpama/base/data.i
 
 # target to preprocess a source file
-cpama/gototest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/gototest.c.i
-.PHONY : cpama/gototest.c.i
+cpama/base/data.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/base/data.c.i
+.PHONY : cpama/base/data.c.i
 
-cpama/gototest.s: cpama/gototest.c.s
+cpama/base/data.s: cpama/base/data.c.s
 
-.PHONY : cpama/gototest.s
+.PHONY : cpama/base/data.s
 
 # target to generate assembly for a file
-cpama/gototest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/gototest.c.s
-.PHONY : cpama/gototest.c.s
+cpama/base/data.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/cpama/base/data.c.s
+.PHONY : cpama/base/data.c.s
 
-cpama/interest.o: cpama/interest.c.o
+cpama/base/dweight.o: cpama/base/dweight.c.o
 
-.PHONY : cpama/interest.o
+.PHONY : cpama/base/dweight.o
 
 # target to build an object file
-cpama/interest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/interest.c.o
-.PHONY : cpama/interest.c.o
+cpama/base/dweight.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/cpama/base/dweight.c.o
+.PHONY : cpama/base/dweight.c.o
 
-cpama/interest.i: cpama/interest.c.i
+cpama/base/dweight.i: cpama/base/dweight.c.i
 
-.PHONY : cpama/interest.i
+.PHONY : cpama/base/dweight.i
 
 # target to preprocess a source file
-cpama/interest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/interest.c.i
-.PHONY : cpama/interest.c.i
+cpama/base/dweight.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/cpama/base/dweight.c.i
+.PHONY : cpama/base/dweight.c.i
 
-cpama/interest.s: cpama/interest.c.s
+cpama/base/dweight.s: cpama/base/dweight.c.s
 
-.PHONY : cpama/interest.s
+.PHONY : cpama/base/dweight.s
 
 # target to generate assembly for a file
-cpama/interest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/cpama/interest.c.s
-.PHONY : cpama/interest.c.s
+cpama/base/dweight.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/cpama/base/dweight.c.s
+.PHONY : cpama/base/dweight.c.s
 
-cpama/length.o: cpama/length.c.o
+cpama/base/dweight2.o: cpama/base/dweight2.c.o
 
-.PHONY : cpama/length.o
+.PHONY : cpama/base/dweight2.o
 
 # target to build an object file
-cpama/length.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/length.c.o
-.PHONY : cpama/length.c.o
+cpama/base/dweight2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o
+.PHONY : cpama/base/dweight2.c.o
 
-cpama/length.i: cpama/length.c.i
+cpama/base/dweight2.i: cpama/base/dweight2.c.i
 
-.PHONY : cpama/length.i
+.PHONY : cpama/base/dweight2.i
 
 # target to preprocess a source file
-cpama/length.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/length.c.i
-.PHONY : cpama/length.c.i
+cpama/base/dweight2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/cpama/base/dweight2.c.i
+.PHONY : cpama/base/dweight2.c.i
 
-cpama/length.s: cpama/length.c.s
+cpama/base/dweight2.s: cpama/base/dweight2.c.s
 
-.PHONY : cpama/length.s
+.PHONY : cpama/base/dweight2.s
 
 # target to generate assembly for a file
-cpama/length.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/length.c.s
-.PHONY : cpama/length.c.s
+cpama/base/dweight2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/cpama/base/dweight2.c.s
+.PHONY : cpama/base/dweight2.c.s
 
-cpama/length2.o: cpama/length2.c.o
+cpama/base/floattest.o: cpama/base/floattest.c.o
 
-.PHONY : cpama/length2.o
+.PHONY : cpama/base/floattest.o
 
 # target to build an object file
-cpama/length2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/length2.c.o
-.PHONY : cpama/length2.c.o
+cpama/base/floattest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/base/floattest.c.o
+.PHONY : cpama/base/floattest.c.o
 
-cpama/length2.i: cpama/length2.c.i
+cpama/base/floattest.i: cpama/base/floattest.c.i
 
-.PHONY : cpama/length2.i
+.PHONY : cpama/base/floattest.i
 
 # target to preprocess a source file
-cpama/length2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/length2.c.i
-.PHONY : cpama/length2.c.i
+cpama/base/floattest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/base/floattest.c.i
+.PHONY : cpama/base/floattest.c.i
 
-cpama/length2.s: cpama/length2.c.s
+cpama/base/floattest.s: cpama/base/floattest.c.s
 
-.PHONY : cpama/length2.s
+.PHONY : cpama/base/floattest.s
 
 # target to generate assembly for a file
-cpama/length2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/length2.c.s
-.PHONY : cpama/length2.c.s
+cpama/base/floattest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/cpama/base/floattest.c.s
+.PHONY : cpama/base/floattest.c.s
+
+cpama/base/getchartest.o: cpama/base/getchartest.c.o
+
+.PHONY : cpama/base/getchartest.o
+
+# target to build an object file
+cpama/base/getchartest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/base/getchartest.c.o
+.PHONY : cpama/base/getchartest.c.o
+
+cpama/base/getchartest.i: cpama/base/getchartest.c.i
+
+.PHONY : cpama/base/getchartest.i
+
+# target to preprocess a source file
+cpama/base/getchartest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/base/getchartest.c.i
+.PHONY : cpama/base/getchartest.c.i
+
+cpama/base/getchartest.s: cpama/base/getchartest.c.s
+
+.PHONY : cpama/base/getchartest.s
+
+# target to generate assembly for a file
+cpama/base/getchartest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/cpama/base/getchartest.c.s
+.PHONY : cpama/base/getchartest.c.s
+
+cpama/base/gototest.o: cpama/base/gototest.c.o
+
+.PHONY : cpama/base/gototest.o
+
+# target to build an object file
+cpama/base/gototest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/base/gototest.c.o
+.PHONY : cpama/base/gototest.c.o
+
+cpama/base/gototest.i: cpama/base/gototest.c.i
+
+.PHONY : cpama/base/gototest.i
+
+# target to preprocess a source file
+cpama/base/gototest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/base/gototest.c.i
+.PHONY : cpama/base/gototest.c.i
+
+cpama/base/gototest.s: cpama/base/gototest.c.s
+
+.PHONY : cpama/base/gototest.s
+
+# target to generate assembly for a file
+cpama/base/gototest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/cpama/base/gototest.c.s
+.PHONY : cpama/base/gototest.c.s
+
+cpama/base/length.o: cpama/base/length.c.o
+
+.PHONY : cpama/base/length.o
+
+# target to build an object file
+cpama/base/length.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/base/length.c.o
+.PHONY : cpama/base/length.c.o
+
+cpama/base/length.i: cpama/base/length.c.i
+
+.PHONY : cpama/base/length.i
+
+# target to preprocess a source file
+cpama/base/length.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/base/length.c.i
+.PHONY : cpama/base/length.c.i
+
+cpama/base/length.s: cpama/base/length.c.s
+
+.PHONY : cpama/base/length.s
+
+# target to generate assembly for a file
+cpama/base/length.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/cpama/base/length.c.s
+.PHONY : cpama/base/length.c.s
+
+cpama/base/length2.o: cpama/base/length2.c.o
+
+.PHONY : cpama/base/length2.o
+
+# target to build an object file
+cpama/base/length2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/base/length2.c.o
+.PHONY : cpama/base/length2.c.o
+
+cpama/base/length2.i: cpama/base/length2.c.i
+
+.PHONY : cpama/base/length2.i
+
+# target to preprocess a source file
+cpama/base/length2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/base/length2.c.i
+.PHONY : cpama/base/length2.c.i
+
+cpama/base/length2.s: cpama/base/length2.c.s
+
+.PHONY : cpama/base/length2.s
+
+# target to generate assembly for a file
+cpama/base/length2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/cpama/base/length2.c.s
+.PHONY : cpama/base/length2.c.s
+
+cpama/base/numdigit.o: cpama/base/numdigit.c.o
+
+.PHONY : cpama/base/numdigit.o
+
+# target to build an object file
+cpama/base/numdigit.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/base/numdigit.c.o
+.PHONY : cpama/base/numdigit.c.o
+
+cpama/base/numdigit.i: cpama/base/numdigit.c.i
+
+.PHONY : cpama/base/numdigit.i
+
+# target to preprocess a source file
+cpama/base/numdigit.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/base/numdigit.c.i
+.PHONY : cpama/base/numdigit.c.i
+
+cpama/base/numdigit.s: cpama/base/numdigit.c.s
+
+.PHONY : cpama/base/numdigit.s
+
+# target to generate assembly for a file
+cpama/base/numdigit.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/base/numdigit.c.s
+.PHONY : cpama/base/numdigit.c.s
+
+cpama/base/pun.o: cpama/base/pun.c.o
+
+.PHONY : cpama/base/pun.o
+
+# target to build an object file
+cpama/base/pun.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/base/pun.c.o
+.PHONY : cpama/base/pun.c.o
+
+cpama/base/pun.i: cpama/base/pun.c.i
+
+.PHONY : cpama/base/pun.i
+
+# target to preprocess a source file
+cpama/base/pun.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/base/pun.c.i
+.PHONY : cpama/base/pun.c.i
+
+cpama/base/pun.s: cpama/base/pun.c.s
+
+.PHONY : cpama/base/pun.s
+
+# target to generate assembly for a file
+cpama/base/pun.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/base/pun.c.s
+.PHONY : cpama/base/pun.c.s
+
+cpama/base/scantest.o: cpama/base/scantest.c.o
+
+.PHONY : cpama/base/scantest.o
+
+# target to build an object file
+cpama/base/scantest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/base/scantest.c.o
+.PHONY : cpama/base/scantest.c.o
+
+cpama/base/scantest.i: cpama/base/scantest.c.i
+
+.PHONY : cpama/base/scantest.i
+
+# target to preprocess a source file
+cpama/base/scantest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/base/scantest.c.i
+.PHONY : cpama/base/scantest.c.i
+
+cpama/base/scantest.s: cpama/base/scantest.c.s
+
+.PHONY : cpama/base/scantest.s
+
+# target to generate assembly for a file
+cpama/base/scantest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/base/scantest.c.s
+.PHONY : cpama/base/scantest.c.s
+
+cpama/base/sizeoftest.o: cpama/base/sizeoftest.c.o
+
+.PHONY : cpama/base/sizeoftest.o
+
+# target to build an object file
+cpama/base/sizeoftest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/base/sizeoftest.c.o
+.PHONY : cpama/base/sizeoftest.c.o
+
+cpama/base/sizeoftest.i: cpama/base/sizeoftest.c.i
+
+.PHONY : cpama/base/sizeoftest.i
+
+# target to preprocess a source file
+cpama/base/sizeoftest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/base/sizeoftest.c.i
+.PHONY : cpama/base/sizeoftest.c.i
+
+cpama/base/sizeoftest.s: cpama/base/sizeoftest.c.s
+
+.PHONY : cpama/base/sizeoftest.s
+
+# target to generate assembly for a file
+cpama/base/sizeoftest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/base/sizeoftest.c.s
+.PHONY : cpama/base/sizeoftest.c.s
+
+cpama/base/square.o: cpama/base/square.c.o
+
+.PHONY : cpama/base/square.o
+
+# target to build an object file
+cpama/base/square.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/base/square.c.o
+.PHONY : cpama/base/square.c.o
+
+cpama/base/square.i: cpama/base/square.c.i
+
+.PHONY : cpama/base/square.i
+
+# target to preprocess a source file
+cpama/base/square.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/base/square.c.i
+.PHONY : cpama/base/square.c.i
+
+cpama/base/square.s: cpama/base/square.c.s
+
+.PHONY : cpama/base/square.s
+
+# target to generate assembly for a file
+cpama/base/square.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/base/square.c.s
+.PHONY : cpama/base/square.c.s
+
+cpama/base/square2.o: cpama/base/square2.c.o
+
+.PHONY : cpama/base/square2.o
+
+# target to build an object file
+cpama/base/square2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/base/square2.c.o
+.PHONY : cpama/base/square2.c.o
+
+cpama/base/square2.i: cpama/base/square2.c.i
+
+.PHONY : cpama/base/square2.i
+
+# target to preprocess a source file
+cpama/base/square2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/base/square2.c.i
+.PHONY : cpama/base/square2.c.i
+
+cpama/base/square2.s: cpama/base/square2.c.s
+
+.PHONY : cpama/base/square2.s
+
+# target to generate assembly for a file
+cpama/base/square2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/base/square2.c.s
+.PHONY : cpama/base/square2.c.s
+
+cpama/base/square3.o: cpama/base/square3.c.o
+
+.PHONY : cpama/base/square3.o
+
+# target to build an object file
+cpama/base/square3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/base/square3.c.o
+.PHONY : cpama/base/square3.c.o
+
+cpama/base/square3.i: cpama/base/square3.c.i
+
+.PHONY : cpama/base/square3.i
+
+# target to preprocess a source file
+cpama/base/square3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/base/square3.c.i
+.PHONY : cpama/base/square3.c.i
+
+cpama/base/square3.s: cpama/base/square3.c.s
+
+.PHONY : cpama/base/square3.s
+
+# target to generate assembly for a file
+cpama/base/square3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/base/square3.c.s
+.PHONY : cpama/base/square3.c.s
+
+cpama/base/statementtest.o: cpama/base/statementtest.c.o
+
+.PHONY : cpama/base/statementtest.o
+
+# target to build an object file
+cpama/base/statementtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o
+.PHONY : cpama/base/statementtest.c.o
+
+cpama/base/statementtest.i: cpama/base/statementtest.c.i
+
+.PHONY : cpama/base/statementtest.i
+
+# target to preprocess a source file
+cpama/base/statementtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/base/statementtest.c.i
+.PHONY : cpama/base/statementtest.c.i
+
+cpama/base/statementtest.s: cpama/base/statementtest.c.s
+
+.PHONY : cpama/base/statementtest.s
+
+# target to generate assembly for a file
+cpama/base/statementtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/base/statementtest.c.s
+.PHONY : cpama/base/statementtest.c.s
+
+cpama/base/sum.o: cpama/base/sum.c.o
+
+.PHONY : cpama/base/sum.o
+
+# target to build an object file
+cpama/base/sum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/base/sum.c.o
+.PHONY : cpama/base/sum.c.o
+
+cpama/base/sum.i: cpama/base/sum.c.i
+
+.PHONY : cpama/base/sum.i
+
+# target to preprocess a source file
+cpama/base/sum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/base/sum.c.i
+.PHONY : cpama/base/sum.c.i
+
+cpama/base/sum.s: cpama/base/sum.c.s
+
+.PHONY : cpama/base/sum.s
+
+# target to generate assembly for a file
+cpama/base/sum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/base/sum.c.s
+.PHONY : cpama/base/sum.c.s
+
+cpama/base/sum2.o: cpama/base/sum2.c.o
+
+.PHONY : cpama/base/sum2.o
+
+# target to build an object file
+cpama/base/sum2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/base/sum2.c.o
+.PHONY : cpama/base/sum2.c.o
+
+cpama/base/sum2.i: cpama/base/sum2.c.i
+
+.PHONY : cpama/base/sum2.i
+
+# target to preprocess a source file
+cpama/base/sum2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/base/sum2.c.i
+.PHONY : cpama/base/sum2.c.i
+
+cpama/base/sum2.s: cpama/base/sum2.c.s
+
+.PHONY : cpama/base/sum2.s
+
+# target to generate assembly for a file
+cpama/base/sum2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/base/sum2.c.s
+.PHONY : cpama/base/sum2.c.s
+
+cpama/base/switchtest.o: cpama/base/switchtest.c.o
+
+.PHONY : cpama/base/switchtest.o
+
+# target to build an object file
+cpama/base/switchtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/base/switchtest.c.o
+.PHONY : cpama/base/switchtest.c.o
+
+cpama/base/switchtest.i: cpama/base/switchtest.c.i
+
+.PHONY : cpama/base/switchtest.i
+
+# target to preprocess a source file
+cpama/base/switchtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/base/switchtest.c.i
+.PHONY : cpama/base/switchtest.c.i
+
+cpama/base/switchtest.s: cpama/base/switchtest.c.s
+
+.PHONY : cpama/base/switchtest.s
+
+# target to generate assembly for a file
+cpama/base/switchtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/base/switchtest.c.s
+.PHONY : cpama/base/switchtest.c.s
+
+cpama/base/tprintf.o: cpama/base/tprintf.c.o
+
+.PHONY : cpama/base/tprintf.o
+
+# target to build an object file
+cpama/base/tprintf.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tprintf.dir/build.make CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o
+.PHONY : cpama/base/tprintf.c.o
+
+cpama/base/tprintf.i: cpama/base/tprintf.c.i
+
+.PHONY : cpama/base/tprintf.i
+
+# target to preprocess a source file
+cpama/base/tprintf.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tprintf.dir/build.make CMakeFiles/tprintf.dir/cpama/base/tprintf.c.i
+.PHONY : cpama/base/tprintf.c.i
+
+cpama/base/tprintf.s: cpama/base/tprintf.c.s
+
+.PHONY : cpama/base/tprintf.s
+
+# target to generate assembly for a file
+cpama/base/tprintf.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tprintf.dir/build.make CMakeFiles/tprintf.dir/cpama/base/tprintf.c.s
+.PHONY : cpama/base/tprintf.c.s
+
+cpama/base/upc.o: cpama/base/upc.c.o
+
+.PHONY : cpama/base/upc.o
+
+# target to build an object file
+cpama/base/upc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/base/upc.c.o
+.PHONY : cpama/base/upc.c.o
+
+cpama/base/upc.i: cpama/base/upc.c.i
+
+.PHONY : cpama/base/upc.i
+
+# target to preprocess a source file
+cpama/base/upc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/base/upc.c.i
+.PHONY : cpama/base/upc.c.i
+
+cpama/base/upc.s: cpama/base/upc.c.s
+
+.PHONY : cpama/base/upc.s
+
+# target to generate assembly for a file
+cpama/base/upc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/base/upc.c.s
+.PHONY : cpama/base/upc.c.s
 
 cpama/method/average.o: cpama/method/average.c.o
 
@@ -1415,32 +1938,59 @@ cpama/method/recursetest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/cpama/method/recursetest.c.s
 .PHONY : cpama/method/recursetest.c.s
 
-cpama/numdigit.o: cpama/numdigit.c.o
+cpama/pointer/arrsum.o: cpama/pointer/arrsum.c.o
 
-.PHONY : cpama/numdigit.o
+.PHONY : cpama/pointer/arrsum.o
 
 # target to build an object file
-cpama/numdigit.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.o
-.PHONY : cpama/numdigit.c.o
+cpama/pointer/arrsum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrsum.dir/build.make CMakeFiles/arrsum.dir/cpama/pointer/arrsum.c.o
+.PHONY : cpama/pointer/arrsum.c.o
 
-cpama/numdigit.i: cpama/numdigit.c.i
+cpama/pointer/arrsum.i: cpama/pointer/arrsum.c.i
 
-.PHONY : cpama/numdigit.i
+.PHONY : cpama/pointer/arrsum.i
 
 # target to preprocess a source file
-cpama/numdigit.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.i
-.PHONY : cpama/numdigit.c.i
+cpama/pointer/arrsum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrsum.dir/build.make CMakeFiles/arrsum.dir/cpama/pointer/arrsum.c.i
+.PHONY : cpama/pointer/arrsum.c.i
 
-cpama/numdigit.s: cpama/numdigit.c.s
+cpama/pointer/arrsum.s: cpama/pointer/arrsum.c.s
 
-.PHONY : cpama/numdigit.s
+.PHONY : cpama/pointer/arrsum.s
 
 # target to generate assembly for a file
-cpama/numdigit.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/cpama/numdigit.c.s
-.PHONY : cpama/numdigit.c.s
+cpama/pointer/arrsum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrsum.dir/build.make CMakeFiles/arrsum.dir/cpama/pointer/arrsum.c.s
+.PHONY : cpama/pointer/arrsum.c.s
+
+cpama/pointer/findlargest.o: cpama/pointer/findlargest.c.o
+
+.PHONY : cpama/pointer/findlargest.o
+
+# target to build an object file
+cpama/pointer/findlargest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findlargest.dir/build.make CMakeFiles/findlargest.dir/cpama/pointer/findlargest.c.o
+.PHONY : cpama/pointer/findlargest.c.o
+
+cpama/pointer/findlargest.i: cpama/pointer/findlargest.c.i
+
+.PHONY : cpama/pointer/findlargest.i
+
+# target to preprocess a source file
+cpama/pointer/findlargest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findlargest.dir/build.make CMakeFiles/findlargest.dir/cpama/pointer/findlargest.c.i
+.PHONY : cpama/pointer/findlargest.c.i
+
+cpama/pointer/findlargest.s: cpama/pointer/findlargest.c.s
+
+.PHONY : cpama/pointer/findlargest.s
+
+# target to generate assembly for a file
+cpama/pointer/findlargest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/findlargest.dir/build.make CMakeFiles/findlargest.dir/cpama/pointer/findlargest.c.s
+.PHONY : cpama/pointer/findlargest.c.s
 
 cpama/pointer/maxmin.o: cpama/pointer/maxmin.c.o
 
@@ -1469,275 +2019,140 @@ cpama/pointer/maxmin.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/cpama/pointer/maxmin.c.s
 .PHONY : cpama/pointer/maxmin.c.s
 
-cpama/pun.o: cpama/pun.c.o
+cpama/pointer/pointerarrtest.o: cpama/pointer/pointerarrtest.c.o
 
-.PHONY : cpama/pun.o
-
-# target to build an object file
-cpama/pun.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/pun.c.o
-.PHONY : cpama/pun.c.o
-
-cpama/pun.i: cpama/pun.c.i
-
-.PHONY : cpama/pun.i
-
-# target to preprocess a source file
-cpama/pun.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/pun.c.i
-.PHONY : cpama/pun.c.i
-
-cpama/pun.s: cpama/pun.c.s
-
-.PHONY : cpama/pun.s
-
-# target to generate assembly for a file
-cpama/pun.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/cpama/pun.c.s
-.PHONY : cpama/pun.c.s
-
-cpama/repdigit.o: cpama/repdigit.c.o
-
-.PHONY : cpama/repdigit.o
+.PHONY : cpama/pointer/pointerarrtest.o
 
 # target to build an object file
-cpama/repdigit.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/repdigit.c.o
-.PHONY : cpama/repdigit.c.o
+cpama/pointer/pointerarrtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerarrtest.dir/build.make CMakeFiles/pointerarrtest.dir/cpama/pointer/pointerarrtest.c.o
+.PHONY : cpama/pointer/pointerarrtest.c.o
 
-cpama/repdigit.i: cpama/repdigit.c.i
+cpama/pointer/pointerarrtest.i: cpama/pointer/pointerarrtest.c.i
 
-.PHONY : cpama/repdigit.i
+.PHONY : cpama/pointer/pointerarrtest.i
 
 # target to preprocess a source file
-cpama/repdigit.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/repdigit.c.i
-.PHONY : cpama/repdigit.c.i
+cpama/pointer/pointerarrtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerarrtest.dir/build.make CMakeFiles/pointerarrtest.dir/cpama/pointer/pointerarrtest.c.i
+.PHONY : cpama/pointer/pointerarrtest.c.i
 
-cpama/repdigit.s: cpama/repdigit.c.s
+cpama/pointer/pointerarrtest.s: cpama/pointer/pointerarrtest.c.s
 
-.PHONY : cpama/repdigit.s
+.PHONY : cpama/pointer/pointerarrtest.s
 
 # target to generate assembly for a file
-cpama/repdigit.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/cpama/repdigit.c.s
-.PHONY : cpama/repdigit.c.s
+cpama/pointer/pointerarrtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerarrtest.dir/build.make CMakeFiles/pointerarrtest.dir/cpama/pointer/pointerarrtest.c.s
+.PHONY : cpama/pointer/pointerarrtest.c.s
 
-cpama/reverse.o: cpama/reverse.c.o
+cpama/pointer/pointermultiarray.o: cpama/pointer/pointermultiarray.c.o
 
-.PHONY : cpama/reverse.o
+.PHONY : cpama/pointer/pointermultiarray.o
 
 # target to build an object file
-cpama/reverse.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/reverse.c.o
-.PHONY : cpama/reverse.c.o
+cpama/pointer/pointermultiarray.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointermultiarray.dir/build.make CMakeFiles/pointermultiarray.dir/cpama/pointer/pointermultiarray.c.o
+.PHONY : cpama/pointer/pointermultiarray.c.o
 
-cpama/reverse.i: cpama/reverse.c.i
+cpama/pointer/pointermultiarray.i: cpama/pointer/pointermultiarray.c.i
 
-.PHONY : cpama/reverse.i
+.PHONY : cpama/pointer/pointermultiarray.i
 
 # target to preprocess a source file
-cpama/reverse.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/reverse.c.i
-.PHONY : cpama/reverse.c.i
+cpama/pointer/pointermultiarray.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointermultiarray.dir/build.make CMakeFiles/pointermultiarray.dir/cpama/pointer/pointermultiarray.c.i
+.PHONY : cpama/pointer/pointermultiarray.c.i
 
-cpama/reverse.s: cpama/reverse.c.s
+cpama/pointer/pointermultiarray.s: cpama/pointer/pointermultiarray.c.s
 
-.PHONY : cpama/reverse.s
+.PHONY : cpama/pointer/pointermultiarray.s
 
 # target to generate assembly for a file
-cpama/reverse.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/cpama/reverse.c.s
-.PHONY : cpama/reverse.c.s
+cpama/pointer/pointermultiarray.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointermultiarray.dir/build.make CMakeFiles/pointermultiarray.dir/cpama/pointer/pointermultiarray.c.s
+.PHONY : cpama/pointer/pointermultiarray.c.s
 
-cpama/reverse2.o: cpama/reverse2.c.o
+cpama/pointer/reverse3.o: cpama/pointer/reverse3.c.o
 
-.PHONY : cpama/reverse2.o
+.PHONY : cpama/pointer/reverse3.o
 
 # target to build an object file
-cpama/reverse2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/reverse2.c.o
-.PHONY : cpama/reverse2.c.o
+cpama/pointer/reverse3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse3.dir/build.make CMakeFiles/reverse3.dir/cpama/pointer/reverse3.c.o
+.PHONY : cpama/pointer/reverse3.c.o
 
-cpama/reverse2.i: cpama/reverse2.c.i
+cpama/pointer/reverse3.i: cpama/pointer/reverse3.c.i
 
-.PHONY : cpama/reverse2.i
+.PHONY : cpama/pointer/reverse3.i
 
 # target to preprocess a source file
-cpama/reverse2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/reverse2.c.i
-.PHONY : cpama/reverse2.c.i
+cpama/pointer/reverse3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse3.dir/build.make CMakeFiles/reverse3.dir/cpama/pointer/reverse3.c.i
+.PHONY : cpama/pointer/reverse3.c.i
 
-cpama/reverse2.s: cpama/reverse2.c.s
+cpama/pointer/reverse3.s: cpama/pointer/reverse3.c.s
 
-.PHONY : cpama/reverse2.s
+.PHONY : cpama/pointer/reverse3.s
 
 # target to generate assembly for a file
-cpama/reverse2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/cpama/reverse2.c.s
-.PHONY : cpama/reverse2.c.s
+cpama/pointer/reverse3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse3.dir/build.make CMakeFiles/reverse3.dir/cpama/pointer/reverse3.c.s
+.PHONY : cpama/pointer/reverse3.c.s
 
-cpama/scantest.o: cpama/scantest.c.o
+cpama/pointer/stack2.o: cpama/pointer/stack2.c.o
 
-.PHONY : cpama/scantest.o
+.PHONY : cpama/pointer/stack2.o
 
 # target to build an object file
-cpama/scantest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/scantest.c.o
-.PHONY : cpama/scantest.c.o
+cpama/pointer/stack2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/cpama/pointer/stack2.c.o
+.PHONY : cpama/pointer/stack2.c.o
 
-cpama/scantest.i: cpama/scantest.c.i
+cpama/pointer/stack2.i: cpama/pointer/stack2.c.i
 
-.PHONY : cpama/scantest.i
+.PHONY : cpama/pointer/stack2.i
 
 # target to preprocess a source file
-cpama/scantest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/scantest.c.i
-.PHONY : cpama/scantest.c.i
+cpama/pointer/stack2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/cpama/pointer/stack2.c.i
+.PHONY : cpama/pointer/stack2.c.i
 
-cpama/scantest.s: cpama/scantest.c.s
+cpama/pointer/stack2.s: cpama/pointer/stack2.c.s
 
-.PHONY : cpama/scantest.s
+.PHONY : cpama/pointer/stack2.s
 
 # target to generate assembly for a file
-cpama/scantest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/cpama/scantest.c.s
-.PHONY : cpama/scantest.c.s
+cpama/pointer/stack2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/cpama/pointer/stack2.c.s
+.PHONY : cpama/pointer/stack2.c.s
 
-cpama/sizeoftest.o: cpama/sizeoftest.c.o
+cpama/string/stringtest.o: cpama/string/stringtest.c.o
 
-.PHONY : cpama/sizeoftest.o
+.PHONY : cpama/string/stringtest.o
 
 # target to build an object file
-cpama/sizeoftest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/sizeoftest.c.o
-.PHONY : cpama/sizeoftest.c.o
+cpama/string/stringtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/cpama/string/stringtest.c.o
+.PHONY : cpama/string/stringtest.c.o
 
-cpama/sizeoftest.i: cpama/sizeoftest.c.i
+cpama/string/stringtest.i: cpama/string/stringtest.c.i
 
-.PHONY : cpama/sizeoftest.i
-
-# target to preprocess a source file
-cpama/sizeoftest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/sizeoftest.c.i
-.PHONY : cpama/sizeoftest.c.i
-
-cpama/sizeoftest.s: cpama/sizeoftest.c.s
-
-.PHONY : cpama/sizeoftest.s
-
-# target to generate assembly for a file
-cpama/sizeoftest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/cpama/sizeoftest.c.s
-.PHONY : cpama/sizeoftest.c.s
-
-cpama/square.o: cpama/square.c.o
-
-.PHONY : cpama/square.o
-
-# target to build an object file
-cpama/square.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/square.c.o
-.PHONY : cpama/square.c.o
-
-cpama/square.i: cpama/square.c.i
-
-.PHONY : cpama/square.i
+.PHONY : cpama/string/stringtest.i
 
 # target to preprocess a source file
-cpama/square.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/square.c.i
-.PHONY : cpama/square.c.i
+cpama/string/stringtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/cpama/string/stringtest.c.i
+.PHONY : cpama/string/stringtest.c.i
 
-cpama/square.s: cpama/square.c.s
+cpama/string/stringtest.s: cpama/string/stringtest.c.s
 
-.PHONY : cpama/square.s
-
-# target to generate assembly for a file
-cpama/square.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/cpama/square.c.s
-.PHONY : cpama/square.c.s
-
-cpama/square2.o: cpama/square2.c.o
-
-.PHONY : cpama/square2.o
-
-# target to build an object file
-cpama/square2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/square2.c.o
-.PHONY : cpama/square2.c.o
-
-cpama/square2.i: cpama/square2.c.i
-
-.PHONY : cpama/square2.i
-
-# target to preprocess a source file
-cpama/square2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/square2.c.i
-.PHONY : cpama/square2.c.i
-
-cpama/square2.s: cpama/square2.c.s
-
-.PHONY : cpama/square2.s
+.PHONY : cpama/string/stringtest.s
 
 # target to generate assembly for a file
-cpama/square2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/cpama/square2.c.s
-.PHONY : cpama/square2.c.s
-
-cpama/square3.o: cpama/square3.c.o
-
-.PHONY : cpama/square3.o
-
-# target to build an object file
-cpama/square3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/square3.c.o
-.PHONY : cpama/square3.c.o
-
-cpama/square3.i: cpama/square3.c.i
-
-.PHONY : cpama/square3.i
-
-# target to preprocess a source file
-cpama/square3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/square3.c.i
-.PHONY : cpama/square3.c.i
-
-cpama/square3.s: cpama/square3.c.s
-
-.PHONY : cpama/square3.s
-
-# target to generate assembly for a file
-cpama/square3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/cpama/square3.c.s
-.PHONY : cpama/square3.c.s
-
-cpama/statementtest.o: cpama/statementtest.c.o
-
-.PHONY : cpama/statementtest.o
-
-# target to build an object file
-cpama/statementtest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/statementtest.c.o
-.PHONY : cpama/statementtest.c.o
-
-cpama/statementtest.i: cpama/statementtest.c.i
-
-.PHONY : cpama/statementtest.i
-
-# target to preprocess a source file
-cpama/statementtest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/statementtest.c.i
-.PHONY : cpama/statementtest.c.i
-
-cpama/statementtest.s: cpama/statementtest.c.s
-
-.PHONY : cpama/statementtest.s
-
-# target to generate assembly for a file
-cpama/statementtest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/cpama/statementtest.c.s
-.PHONY : cpama/statementtest.c.s
+cpama/string/stringtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/cpama/string/stringtest.c.s
+.PHONY : cpama/string/stringtest.c.s
 
 cpama/structure/guess.o: cpama/structure/guess.c.o
 
@@ -1847,141 +2262,6 @@ cpama/structure/stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/cpama/structure/stack.c.s
 .PHONY : cpama/structure/stack.c.s
 
-cpama/sum.o: cpama/sum.c.o
-
-.PHONY : cpama/sum.o
-
-# target to build an object file
-cpama/sum.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/sum.c.o
-.PHONY : cpama/sum.c.o
-
-cpama/sum.i: cpama/sum.c.i
-
-.PHONY : cpama/sum.i
-
-# target to preprocess a source file
-cpama/sum.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/sum.c.i
-.PHONY : cpama/sum.c.i
-
-cpama/sum.s: cpama/sum.c.s
-
-.PHONY : cpama/sum.s
-
-# target to generate assembly for a file
-cpama/sum.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/cpama/sum.c.s
-.PHONY : cpama/sum.c.s
-
-cpama/sum2.o: cpama/sum2.c.o
-
-.PHONY : cpama/sum2.o
-
-# target to build an object file
-cpama/sum2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/sum2.c.o
-.PHONY : cpama/sum2.c.o
-
-cpama/sum2.i: cpama/sum2.c.i
-
-.PHONY : cpama/sum2.i
-
-# target to preprocess a source file
-cpama/sum2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/sum2.c.i
-.PHONY : cpama/sum2.c.i
-
-cpama/sum2.s: cpama/sum2.c.s
-
-.PHONY : cpama/sum2.s
-
-# target to generate assembly for a file
-cpama/sum2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/cpama/sum2.c.s
-.PHONY : cpama/sum2.c.s
-
-cpama/switchtest.o: cpama/switchtest.c.o
-
-.PHONY : cpama/switchtest.o
-
-# target to build an object file
-cpama/switchtest.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/switchtest.c.o
-.PHONY : cpama/switchtest.c.o
-
-cpama/switchtest.i: cpama/switchtest.c.i
-
-.PHONY : cpama/switchtest.i
-
-# target to preprocess a source file
-cpama/switchtest.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/switchtest.c.i
-.PHONY : cpama/switchtest.c.i
-
-cpama/switchtest.s: cpama/switchtest.c.s
-
-.PHONY : cpama/switchtest.s
-
-# target to generate assembly for a file
-cpama/switchtest.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/cpama/switchtest.c.s
-.PHONY : cpama/switchtest.c.s
-
-cpama/tprintf.o: cpama/tprintf.c.o
-
-.PHONY : cpama/tprintf.o
-
-# target to build an object file
-cpama/tprintf.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tprintf.dir/build.make CMakeFiles/tprintf.dir/cpama/tprintf.c.o
-.PHONY : cpama/tprintf.c.o
-
-cpama/tprintf.i: cpama/tprintf.c.i
-
-.PHONY : cpama/tprintf.i
-
-# target to preprocess a source file
-cpama/tprintf.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tprintf.dir/build.make CMakeFiles/tprintf.dir/cpama/tprintf.c.i
-.PHONY : cpama/tprintf.c.i
-
-cpama/tprintf.s: cpama/tprintf.c.s
-
-.PHONY : cpama/tprintf.s
-
-# target to generate assembly for a file
-cpama/tprintf.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/tprintf.dir/build.make CMakeFiles/tprintf.dir/cpama/tprintf.c.s
-.PHONY : cpama/tprintf.c.s
-
-cpama/upc.o: cpama/upc.c.o
-
-.PHONY : cpama/upc.o
-
-# target to build an object file
-cpama/upc.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/upc.c.o
-.PHONY : cpama/upc.c.o
-
-cpama/upc.i: cpama/upc.c.i
-
-.PHONY : cpama/upc.i
-
-# target to preprocess a source file
-cpama/upc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/upc.c.i
-.PHONY : cpama/upc.c.i
-
-cpama/upc.s: cpama/upc.c.s
-
-.PHONY : cpama/upc.s
-
-# target to generate assembly for a file
-cpama/upc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/upc.c.s
-.PHONY : cpama/upc.c.s
-
 main.o: main.c.o
 
 .PHONY : main.o
@@ -2019,6 +2299,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... addfrac"
 	@echo "... arraytest"
+	@echo "... arrsum"
 	@echo "... assigntest"
 	@echo "... average"
 	@echo "... average2"
@@ -2032,6 +2313,7 @@ help:
 	@echo "... deal"
 	@echo "... dweight"
 	@echo "... dweight2"
+	@echo "... findlargest"
 	@echo "... floattest"
 	@echo "... getchartest"
 	@echo "... gototest"
@@ -2043,6 +2325,8 @@ help:
 	@echo "... maxmin"
 	@echo "... methodtest"
 	@echo "... numdigit"
+	@echo "... pointerarrtest"
+	@echo "... pointermultiarray"
 	@echo "... poker"
 	@echo "... prime"
 	@echo "... pun"
@@ -2052,69 +2336,120 @@ help:
 	@echo "... repdigit"
 	@echo "... reverse"
 	@echo "... reverse2"
+	@echo "... reverse3"
 	@echo "... scantest"
 	@echo "... sizeoftest"
 	@echo "... square"
 	@echo "... square2"
 	@echo "... square3"
 	@echo "... stack"
+	@echo "... stack2"
 	@echo "... statementtest"
+	@echo "... stringtest"
 	@echo "... sum"
 	@echo "... sum2"
 	@echo "... switchtest"
 	@echo "... tprintf"
 	@echo "... upc"
-	@echo "... cpama/addfrac.o"
-	@echo "... cpama/addfrac.i"
-	@echo "... cpama/addfrac.s"
-	@echo "... cpama/arraytest.o"
-	@echo "... cpama/arraytest.i"
-	@echo "... cpama/arraytest.s"
-	@echo "... cpama/assigntest.o"
-	@echo "... cpama/assigntest.i"
-	@echo "... cpama/assigntest.s"
-	@echo "... cpama/broker.o"
-	@echo "... cpama/broker.i"
-	@echo "... cpama/broker.s"
-	@echo "... cpama/celsius.o"
-	@echo "... cpama/celsius.i"
-	@echo "... cpama/celsius.s"
-	@echo "... cpama/checking.o"
-	@echo "... cpama/checking.i"
-	@echo "... cpama/checking.s"
-	@echo "... cpama/converttest.o"
-	@echo "... cpama/converttest.i"
-	@echo "... cpama/converttest.s"
-	@echo "... cpama/data.o"
-	@echo "... cpama/data.i"
-	@echo "... cpama/data.s"
-	@echo "... cpama/deal.o"
-	@echo "... cpama/deal.i"
-	@echo "... cpama/deal.s"
-	@echo "... cpama/dweight.o"
-	@echo "... cpama/dweight.i"
-	@echo "... cpama/dweight.s"
-	@echo "... cpama/dweight2.o"
-	@echo "... cpama/dweight2.i"
-	@echo "... cpama/dweight2.s"
-	@echo "... cpama/floattest.o"
-	@echo "... cpama/floattest.i"
-	@echo "... cpama/floattest.s"
-	@echo "... cpama/getchartest.o"
-	@echo "... cpama/getchartest.i"
-	@echo "... cpama/getchartest.s"
-	@echo "... cpama/gototest.o"
-	@echo "... cpama/gototest.i"
-	@echo "... cpama/gototest.s"
-	@echo "... cpama/interest.o"
-	@echo "... cpama/interest.i"
-	@echo "... cpama/interest.s"
-	@echo "... cpama/length.o"
-	@echo "... cpama/length.i"
-	@echo "... cpama/length.s"
-	@echo "... cpama/length2.o"
-	@echo "... cpama/length2.i"
-	@echo "... cpama/length2.s"
+	@echo "... cpama/arr/arraytest.o"
+	@echo "... cpama/arr/arraytest.i"
+	@echo "... cpama/arr/arraytest.s"
+	@echo "... cpama/arr/deal.o"
+	@echo "... cpama/arr/deal.i"
+	@echo "... cpama/arr/deal.s"
+	@echo "... cpama/arr/interest.o"
+	@echo "... cpama/arr/interest.i"
+	@echo "... cpama/arr/interest.s"
+	@echo "... cpama/arr/repdigit.o"
+	@echo "... cpama/arr/repdigit.i"
+	@echo "... cpama/arr/repdigit.s"
+	@echo "... cpama/arr/reverse.o"
+	@echo "... cpama/arr/reverse.i"
+	@echo "... cpama/arr/reverse.s"
+	@echo "... cpama/arr/reverse2.o"
+	@echo "... cpama/arr/reverse2.i"
+	@echo "... cpama/arr/reverse2.s"
+	@echo "... cpama/base/addfrac.o"
+	@echo "... cpama/base/addfrac.i"
+	@echo "... cpama/base/addfrac.s"
+	@echo "... cpama/base/assigntest.o"
+	@echo "... cpama/base/assigntest.i"
+	@echo "... cpama/base/assigntest.s"
+	@echo "... cpama/base/broker.o"
+	@echo "... cpama/base/broker.i"
+	@echo "... cpama/base/broker.s"
+	@echo "... cpama/base/celsius.o"
+	@echo "... cpama/base/celsius.i"
+	@echo "... cpama/base/celsius.s"
+	@echo "... cpama/base/checking.o"
+	@echo "... cpama/base/checking.i"
+	@echo "... cpama/base/checking.s"
+	@echo "... cpama/base/converttest.o"
+	@echo "... cpama/base/converttest.i"
+	@echo "... cpama/base/converttest.s"
+	@echo "... cpama/base/data.o"
+	@echo "... cpama/base/data.i"
+	@echo "... cpama/base/data.s"
+	@echo "... cpama/base/dweight.o"
+	@echo "... cpama/base/dweight.i"
+	@echo "... cpama/base/dweight.s"
+	@echo "... cpama/base/dweight2.o"
+	@echo "... cpama/base/dweight2.i"
+	@echo "... cpama/base/dweight2.s"
+	@echo "... cpama/base/floattest.o"
+	@echo "... cpama/base/floattest.i"
+	@echo "... cpama/base/floattest.s"
+	@echo "... cpama/base/getchartest.o"
+	@echo "... cpama/base/getchartest.i"
+	@echo "... cpama/base/getchartest.s"
+	@echo "... cpama/base/gototest.o"
+	@echo "... cpama/base/gototest.i"
+	@echo "... cpama/base/gototest.s"
+	@echo "... cpama/base/length.o"
+	@echo "... cpama/base/length.i"
+	@echo "... cpama/base/length.s"
+	@echo "... cpama/base/length2.o"
+	@echo "... cpama/base/length2.i"
+	@echo "... cpama/base/length2.s"
+	@echo "... cpama/base/numdigit.o"
+	@echo "... cpama/base/numdigit.i"
+	@echo "... cpama/base/numdigit.s"
+	@echo "... cpama/base/pun.o"
+	@echo "... cpama/base/pun.i"
+	@echo "... cpama/base/pun.s"
+	@echo "... cpama/base/scantest.o"
+	@echo "... cpama/base/scantest.i"
+	@echo "... cpama/base/scantest.s"
+	@echo "... cpama/base/sizeoftest.o"
+	@echo "... cpama/base/sizeoftest.i"
+	@echo "... cpama/base/sizeoftest.s"
+	@echo "... cpama/base/square.o"
+	@echo "... cpama/base/square.i"
+	@echo "... cpama/base/square.s"
+	@echo "... cpama/base/square2.o"
+	@echo "... cpama/base/square2.i"
+	@echo "... cpama/base/square2.s"
+	@echo "... cpama/base/square3.o"
+	@echo "... cpama/base/square3.i"
+	@echo "... cpama/base/square3.s"
+	@echo "... cpama/base/statementtest.o"
+	@echo "... cpama/base/statementtest.i"
+	@echo "... cpama/base/statementtest.s"
+	@echo "... cpama/base/sum.o"
+	@echo "... cpama/base/sum.i"
+	@echo "... cpama/base/sum.s"
+	@echo "... cpama/base/sum2.o"
+	@echo "... cpama/base/sum2.i"
+	@echo "... cpama/base/sum2.s"
+	@echo "... cpama/base/switchtest.o"
+	@echo "... cpama/base/switchtest.i"
+	@echo "... cpama/base/switchtest.s"
+	@echo "... cpama/base/tprintf.o"
+	@echo "... cpama/base/tprintf.i"
+	@echo "... cpama/base/tprintf.s"
+	@echo "... cpama/base/upc.o"
+	@echo "... cpama/base/upc.i"
+	@echo "... cpama/base/upc.s"
 	@echo "... cpama/method/average.o"
 	@echo "... cpama/method/average.i"
 	@echo "... cpama/method/average.s"
@@ -2139,42 +2474,30 @@ help:
 	@echo "... cpama/method/recursetest.o"
 	@echo "... cpama/method/recursetest.i"
 	@echo "... cpama/method/recursetest.s"
-	@echo "... cpama/numdigit.o"
-	@echo "... cpama/numdigit.i"
-	@echo "... cpama/numdigit.s"
+	@echo "... cpama/pointer/arrsum.o"
+	@echo "... cpama/pointer/arrsum.i"
+	@echo "... cpama/pointer/arrsum.s"
+	@echo "... cpama/pointer/findlargest.o"
+	@echo "... cpama/pointer/findlargest.i"
+	@echo "... cpama/pointer/findlargest.s"
 	@echo "... cpama/pointer/maxmin.o"
 	@echo "... cpama/pointer/maxmin.i"
 	@echo "... cpama/pointer/maxmin.s"
-	@echo "... cpama/pun.o"
-	@echo "... cpama/pun.i"
-	@echo "... cpama/pun.s"
-	@echo "... cpama/repdigit.o"
-	@echo "... cpama/repdigit.i"
-	@echo "... cpama/repdigit.s"
-	@echo "... cpama/reverse.o"
-	@echo "... cpama/reverse.i"
-	@echo "... cpama/reverse.s"
-	@echo "... cpama/reverse2.o"
-	@echo "... cpama/reverse2.i"
-	@echo "... cpama/reverse2.s"
-	@echo "... cpama/scantest.o"
-	@echo "... cpama/scantest.i"
-	@echo "... cpama/scantest.s"
-	@echo "... cpama/sizeoftest.o"
-	@echo "... cpama/sizeoftest.i"
-	@echo "... cpama/sizeoftest.s"
-	@echo "... cpama/square.o"
-	@echo "... cpama/square.i"
-	@echo "... cpama/square.s"
-	@echo "... cpama/square2.o"
-	@echo "... cpama/square2.i"
-	@echo "... cpama/square2.s"
-	@echo "... cpama/square3.o"
-	@echo "... cpama/square3.i"
-	@echo "... cpama/square3.s"
-	@echo "... cpama/statementtest.o"
-	@echo "... cpama/statementtest.i"
-	@echo "... cpama/statementtest.s"
+	@echo "... cpama/pointer/pointerarrtest.o"
+	@echo "... cpama/pointer/pointerarrtest.i"
+	@echo "... cpama/pointer/pointerarrtest.s"
+	@echo "... cpama/pointer/pointermultiarray.o"
+	@echo "... cpama/pointer/pointermultiarray.i"
+	@echo "... cpama/pointer/pointermultiarray.s"
+	@echo "... cpama/pointer/reverse3.o"
+	@echo "... cpama/pointer/reverse3.i"
+	@echo "... cpama/pointer/reverse3.s"
+	@echo "... cpama/pointer/stack2.o"
+	@echo "... cpama/pointer/stack2.i"
+	@echo "... cpama/pointer/stack2.s"
+	@echo "... cpama/string/stringtest.o"
+	@echo "... cpama/string/stringtest.i"
+	@echo "... cpama/string/stringtest.s"
 	@echo "... cpama/structure/guess.o"
 	@echo "... cpama/structure/guess.i"
 	@echo "... cpama/structure/guess.s"
@@ -2187,21 +2510,6 @@ help:
 	@echo "... cpama/structure/stack.o"
 	@echo "... cpama/structure/stack.i"
 	@echo "... cpama/structure/stack.s"
-	@echo "... cpama/sum.o"
-	@echo "... cpama/sum.i"
-	@echo "... cpama/sum.s"
-	@echo "... cpama/sum2.o"
-	@echo "... cpama/sum2.i"
-	@echo "... cpama/sum2.s"
-	@echo "... cpama/switchtest.o"
-	@echo "... cpama/switchtest.i"
-	@echo "... cpama/switchtest.s"
-	@echo "... cpama/tprintf.o"
-	@echo "... cpama/tprintf.i"
-	@echo "... cpama/tprintf.s"
-	@echo "... cpama/upc.o"
-	@echo "... cpama/upc.i"
-	@echo "... cpama/upc.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

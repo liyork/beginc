@@ -76,27 +76,27 @@ include CMakeFiles/statementtest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/statementtest.dir/flags.make
 
-CMakeFiles/statementtest.dir/cpama/statementtest.c.o: CMakeFiles/statementtest.dir/flags.make
-CMakeFiles/statementtest.dir/cpama/statementtest.c.o: ../cpama/statementtest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/statementtest.dir/cpama/statementtest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/statementtest.dir/cpama/statementtest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/statementtest.c
+CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o: CMakeFiles/statementtest.dir/flags.make
+CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o: ../cpama/base/statementtest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/statementtest.c
 
-CMakeFiles/statementtest.dir/cpama/statementtest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/statementtest.dir/cpama/statementtest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/statementtest.c > CMakeFiles/statementtest.dir/cpama/statementtest.c.i
+CMakeFiles/statementtest.dir/cpama/base/statementtest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/statementtest.dir/cpama/base/statementtest.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/statementtest.c > CMakeFiles/statementtest.dir/cpama/base/statementtest.c.i
 
-CMakeFiles/statementtest.dir/cpama/statementtest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/statementtest.dir/cpama/statementtest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/statementtest.c -o CMakeFiles/statementtest.dir/cpama/statementtest.c.s
+CMakeFiles/statementtest.dir/cpama/base/statementtest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/statementtest.dir/cpama/base/statementtest.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/statementtest.c -o CMakeFiles/statementtest.dir/cpama/base/statementtest.c.s
 
 # Object files for target statementtest
 statementtest_OBJECTS = \
-"CMakeFiles/statementtest.dir/cpama/statementtest.c.o"
+"CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o"
 
 # External object files for target statementtest
 statementtest_EXTERNAL_OBJECTS =
 
-statementtest: CMakeFiles/statementtest.dir/cpama/statementtest.c.o
+statementtest: CMakeFiles/statementtest.dir/cpama/base/statementtest.c.o
 statementtest: CMakeFiles/statementtest.dir/build.make
 statementtest: CMakeFiles/statementtest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable statementtest"

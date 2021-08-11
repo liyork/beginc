@@ -76,27 +76,27 @@ include CMakeFiles/dweight2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/dweight2.dir/flags.make
 
-CMakeFiles/dweight2.dir/cpama/dweight2.c.o: CMakeFiles/dweight2.dir/flags.make
-CMakeFiles/dweight2.dir/cpama/dweight2.c.o: ../cpama/dweight2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dweight2.dir/cpama/dweight2.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dweight2.dir/cpama/dweight2.c.o -c /Users/chaoli/c_workspace/beginc/cpama/dweight2.c
+CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o: CMakeFiles/dweight2.dir/flags.make
+CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o: ../cpama/base/dweight2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/dweight2.c
 
-CMakeFiles/dweight2.dir/cpama/dweight2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dweight2.dir/cpama/dweight2.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/dweight2.c > CMakeFiles/dweight2.dir/cpama/dweight2.c.i
+CMakeFiles/dweight2.dir/cpama/base/dweight2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/dweight2.dir/cpama/base/dweight2.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/dweight2.c > CMakeFiles/dweight2.dir/cpama/base/dweight2.c.i
 
-CMakeFiles/dweight2.dir/cpama/dweight2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dweight2.dir/cpama/dweight2.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/dweight2.c -o CMakeFiles/dweight2.dir/cpama/dweight2.c.s
+CMakeFiles/dweight2.dir/cpama/base/dweight2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/dweight2.dir/cpama/base/dweight2.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/dweight2.c -o CMakeFiles/dweight2.dir/cpama/base/dweight2.c.s
 
 # Object files for target dweight2
 dweight2_OBJECTS = \
-"CMakeFiles/dweight2.dir/cpama/dweight2.c.o"
+"CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o"
 
 # External object files for target dweight2
 dweight2_EXTERNAL_OBJECTS =
 
-dweight2: CMakeFiles/dweight2.dir/cpama/dweight2.c.o
+dweight2: CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o
 dweight2: CMakeFiles/dweight2.dir/build.make
 dweight2: CMakeFiles/dweight2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable dweight2"

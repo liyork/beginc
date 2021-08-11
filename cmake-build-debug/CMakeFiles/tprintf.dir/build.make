@@ -76,27 +76,27 @@ include CMakeFiles/tprintf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tprintf.dir/flags.make
 
-CMakeFiles/tprintf.dir/cpama/tprintf.c.o: CMakeFiles/tprintf.dir/flags.make
-CMakeFiles/tprintf.dir/cpama/tprintf.c.o: ../cpama/tprintf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tprintf.dir/cpama/tprintf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tprintf.dir/cpama/tprintf.c.o -c /Users/chaoli/c_workspace/beginc/cpama/tprintf.c
+CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o: CMakeFiles/tprintf.dir/flags.make
+CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o: ../cpama/base/tprintf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/tprintf.c
 
-CMakeFiles/tprintf.dir/cpama/tprintf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tprintf.dir/cpama/tprintf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/tprintf.c > CMakeFiles/tprintf.dir/cpama/tprintf.c.i
+CMakeFiles/tprintf.dir/cpama/base/tprintf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/tprintf.dir/cpama/base/tprintf.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/tprintf.c > CMakeFiles/tprintf.dir/cpama/base/tprintf.c.i
 
-CMakeFiles/tprintf.dir/cpama/tprintf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tprintf.dir/cpama/tprintf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/tprintf.c -o CMakeFiles/tprintf.dir/cpama/tprintf.c.s
+CMakeFiles/tprintf.dir/cpama/base/tprintf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/tprintf.dir/cpama/base/tprintf.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/tprintf.c -o CMakeFiles/tprintf.dir/cpama/base/tprintf.c.s
 
 # Object files for target tprintf
 tprintf_OBJECTS = \
-"CMakeFiles/tprintf.dir/cpama/tprintf.c.o"
+"CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o"
 
 # External object files for target tprintf
 tprintf_EXTERNAL_OBJECTS =
 
-tprintf: CMakeFiles/tprintf.dir/cpama/tprintf.c.o
+tprintf: CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o
 tprintf: CMakeFiles/tprintf.dir/build.make
 tprintf: CMakeFiles/tprintf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable tprintf"

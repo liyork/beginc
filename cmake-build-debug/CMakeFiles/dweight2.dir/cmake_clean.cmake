@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dweight2.dir/cpama/dweight2.c.o"
+  "CMakeFiles/dweight2.dir/cpama/base/dweight2.c.o"
   "dweight2"
   "dweight2.pdb"
 )

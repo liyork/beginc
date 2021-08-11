@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/scantest.dir/cpama/scantest.c.o"
+  "CMakeFiles/scantest.dir/cpama/base/scantest.c.o"
   "scantest"
   "scantest.pdb"
 )

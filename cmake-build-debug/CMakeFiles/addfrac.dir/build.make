@@ -76,27 +76,27 @@ include CMakeFiles/addfrac.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/addfrac.dir/flags.make
 
-CMakeFiles/addfrac.dir/cpama/addfrac.c.o: CMakeFiles/addfrac.dir/flags.make
-CMakeFiles/addfrac.dir/cpama/addfrac.c.o: ../cpama/addfrac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/addfrac.dir/cpama/addfrac.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/addfrac.dir/cpama/addfrac.c.o -c /Users/chaoli/c_workspace/beginc/cpama/addfrac.c
+CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o: CMakeFiles/addfrac.dir/flags.make
+CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o: ../cpama/base/addfrac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/addfrac.c
 
-CMakeFiles/addfrac.dir/cpama/addfrac.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/addfrac.dir/cpama/addfrac.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/addfrac.c > CMakeFiles/addfrac.dir/cpama/addfrac.c.i
+CMakeFiles/addfrac.dir/cpama/base/addfrac.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/addfrac.dir/cpama/base/addfrac.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/addfrac.c > CMakeFiles/addfrac.dir/cpama/base/addfrac.c.i
 
-CMakeFiles/addfrac.dir/cpama/addfrac.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/addfrac.dir/cpama/addfrac.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/addfrac.c -o CMakeFiles/addfrac.dir/cpama/addfrac.c.s
+CMakeFiles/addfrac.dir/cpama/base/addfrac.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/addfrac.dir/cpama/base/addfrac.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/addfrac.c -o CMakeFiles/addfrac.dir/cpama/base/addfrac.c.s
 
 # Object files for target addfrac
 addfrac_OBJECTS = \
-"CMakeFiles/addfrac.dir/cpama/addfrac.c.o"
+"CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o"
 
 # External object files for target addfrac
 addfrac_EXTERNAL_OBJECTS =
 
-addfrac: CMakeFiles/addfrac.dir/cpama/addfrac.c.o
+addfrac: CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o
 addfrac: CMakeFiles/addfrac.dir/build.make
 addfrac: CMakeFiles/addfrac.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable addfrac"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/upc.dir/cpama/upc.c.o"
+  "CMakeFiles/upc.dir/cpama/base/upc.c.o"
   "upc"
   "upc.pdb"
 )

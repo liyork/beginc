@@ -76,27 +76,27 @@ include CMakeFiles/assigntest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/assigntest.dir/flags.make
 
-CMakeFiles/assigntest.dir/cpama/assigntest.c.o: CMakeFiles/assigntest.dir/flags.make
-CMakeFiles/assigntest.dir/cpama/assigntest.c.o: ../cpama/assigntest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/assigntest.dir/cpama/assigntest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assigntest.dir/cpama/assigntest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/assigntest.c
+CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o: CMakeFiles/assigntest.dir/flags.make
+CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o: ../cpama/base/assigntest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/assigntest.c
 
-CMakeFiles/assigntest.dir/cpama/assigntest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assigntest.dir/cpama/assigntest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/assigntest.c > CMakeFiles/assigntest.dir/cpama/assigntest.c.i
+CMakeFiles/assigntest.dir/cpama/base/assigntest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/assigntest.dir/cpama/base/assigntest.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/assigntest.c > CMakeFiles/assigntest.dir/cpama/base/assigntest.c.i
 
-CMakeFiles/assigntest.dir/cpama/assigntest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assigntest.dir/cpama/assigntest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/assigntest.c -o CMakeFiles/assigntest.dir/cpama/assigntest.c.s
+CMakeFiles/assigntest.dir/cpama/base/assigntest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/assigntest.dir/cpama/base/assigntest.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/assigntest.c -o CMakeFiles/assigntest.dir/cpama/base/assigntest.c.s
 
 # Object files for target assigntest
 assigntest_OBJECTS = \
-"CMakeFiles/assigntest.dir/cpama/assigntest.c.o"
+"CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o"
 
 # External object files for target assigntest
 assigntest_EXTERNAL_OBJECTS =
 
-assigntest: CMakeFiles/assigntest.dir/cpama/assigntest.c.o
+assigntest: CMakeFiles/assigntest.dir/cpama/base/assigntest.c.o
 assigntest: CMakeFiles/assigntest.dir/build.make
 assigntest: CMakeFiles/assigntest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable assigntest"

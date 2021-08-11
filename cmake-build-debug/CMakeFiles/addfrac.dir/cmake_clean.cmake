@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/addfrac.dir/cpama/addfrac.c.o"
+  "CMakeFiles/addfrac.dir/cpama/base/addfrac.c.o"
   "addfrac"
   "addfrac.pdb"
 )

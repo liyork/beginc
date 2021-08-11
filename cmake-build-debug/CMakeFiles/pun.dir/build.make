@@ -76,27 +76,27 @@ include CMakeFiles/pun.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/pun.dir/flags.make
 
-CMakeFiles/pun.dir/cpama/pun.c.o: CMakeFiles/pun.dir/flags.make
-CMakeFiles/pun.dir/cpama/pun.c.o: ../cpama/pun.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pun.dir/cpama/pun.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pun.dir/cpama/pun.c.o -c /Users/chaoli/c_workspace/beginc/cpama/pun.c
+CMakeFiles/pun.dir/cpama/base/pun.c.o: CMakeFiles/pun.dir/flags.make
+CMakeFiles/pun.dir/cpama/base/pun.c.o: ../cpama/base/pun.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/pun.dir/cpama/base/pun.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/pun.dir/cpama/base/pun.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/pun.c
 
-CMakeFiles/pun.dir/cpama/pun.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pun.dir/cpama/pun.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/pun.c > CMakeFiles/pun.dir/cpama/pun.c.i
+CMakeFiles/pun.dir/cpama/base/pun.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/pun.dir/cpama/base/pun.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/pun.c > CMakeFiles/pun.dir/cpama/base/pun.c.i
 
-CMakeFiles/pun.dir/cpama/pun.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pun.dir/cpama/pun.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/pun.c -o CMakeFiles/pun.dir/cpama/pun.c.s
+CMakeFiles/pun.dir/cpama/base/pun.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/pun.dir/cpama/base/pun.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/pun.c -o CMakeFiles/pun.dir/cpama/base/pun.c.s
 
 # Object files for target pun
 pun_OBJECTS = \
-"CMakeFiles/pun.dir/cpama/pun.c.o"
+"CMakeFiles/pun.dir/cpama/base/pun.c.o"
 
 # External object files for target pun
 pun_EXTERNAL_OBJECTS =
 
-pun: CMakeFiles/pun.dir/cpama/pun.c.o
+pun: CMakeFiles/pun.dir/cpama/base/pun.c.o
 pun: CMakeFiles/pun.dir/build.make
 pun: CMakeFiles/pun.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable pun"

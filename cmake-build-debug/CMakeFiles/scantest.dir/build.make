@@ -76,27 +76,27 @@ include CMakeFiles/scantest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/scantest.dir/flags.make
 
-CMakeFiles/scantest.dir/cpama/scantest.c.o: CMakeFiles/scantest.dir/flags.make
-CMakeFiles/scantest.dir/cpama/scantest.c.o: ../cpama/scantest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/scantest.dir/cpama/scantest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scantest.dir/cpama/scantest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/scantest.c
+CMakeFiles/scantest.dir/cpama/base/scantest.c.o: CMakeFiles/scantest.dir/flags.make
+CMakeFiles/scantest.dir/cpama/base/scantest.c.o: ../cpama/base/scantest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/scantest.dir/cpama/base/scantest.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/scantest.dir/cpama/base/scantest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/scantest.c
 
-CMakeFiles/scantest.dir/cpama/scantest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scantest.dir/cpama/scantest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/scantest.c > CMakeFiles/scantest.dir/cpama/scantest.c.i
+CMakeFiles/scantest.dir/cpama/base/scantest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/scantest.dir/cpama/base/scantest.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/scantest.c > CMakeFiles/scantest.dir/cpama/base/scantest.c.i
 
-CMakeFiles/scantest.dir/cpama/scantest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scantest.dir/cpama/scantest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/scantest.c -o CMakeFiles/scantest.dir/cpama/scantest.c.s
+CMakeFiles/scantest.dir/cpama/base/scantest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/scantest.dir/cpama/base/scantest.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/scantest.c -o CMakeFiles/scantest.dir/cpama/base/scantest.c.s
 
 # Object files for target scantest
 scantest_OBJECTS = \
-"CMakeFiles/scantest.dir/cpama/scantest.c.o"
+"CMakeFiles/scantest.dir/cpama/base/scantest.c.o"
 
 # External object files for target scantest
 scantest_EXTERNAL_OBJECTS =
 
-scantest: CMakeFiles/scantest.dir/cpama/scantest.c.o
+scantest: CMakeFiles/scantest.dir/cpama/base/scantest.c.o
 scantest: CMakeFiles/scantest.dir/build.make
 scantest: CMakeFiles/scantest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable scantest"

@@ -76,27 +76,27 @@ include CMakeFiles/broker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/broker.dir/flags.make
 
-CMakeFiles/broker.dir/cpama/broker.c.o: CMakeFiles/broker.dir/flags.make
-CMakeFiles/broker.dir/cpama/broker.c.o: ../cpama/broker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/broker.dir/cpama/broker.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/broker.dir/cpama/broker.c.o -c /Users/chaoli/c_workspace/beginc/cpama/broker.c
+CMakeFiles/broker.dir/cpama/base/broker.c.o: CMakeFiles/broker.dir/flags.make
+CMakeFiles/broker.dir/cpama/base/broker.c.o: ../cpama/base/broker.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/broker.dir/cpama/base/broker.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/broker.dir/cpama/base/broker.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/broker.c
 
-CMakeFiles/broker.dir/cpama/broker.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/broker.dir/cpama/broker.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/broker.c > CMakeFiles/broker.dir/cpama/broker.c.i
+CMakeFiles/broker.dir/cpama/base/broker.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/broker.dir/cpama/base/broker.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/broker.c > CMakeFiles/broker.dir/cpama/base/broker.c.i
 
-CMakeFiles/broker.dir/cpama/broker.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/broker.dir/cpama/broker.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/broker.c -o CMakeFiles/broker.dir/cpama/broker.c.s
+CMakeFiles/broker.dir/cpama/base/broker.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/broker.dir/cpama/base/broker.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/broker.c -o CMakeFiles/broker.dir/cpama/base/broker.c.s
 
 # Object files for target broker
 broker_OBJECTS = \
-"CMakeFiles/broker.dir/cpama/broker.c.o"
+"CMakeFiles/broker.dir/cpama/base/broker.c.o"
 
 # External object files for target broker
 broker_EXTERNAL_OBJECTS =
 
-broker: CMakeFiles/broker.dir/cpama/broker.c.o
+broker: CMakeFiles/broker.dir/cpama/base/broker.c.o
 broker: CMakeFiles/broker.dir/build.make
 broker: CMakeFiles/broker.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable broker"

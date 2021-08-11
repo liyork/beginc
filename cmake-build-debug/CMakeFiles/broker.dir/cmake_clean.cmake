@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/broker.dir/cpama/broker.c.o"
+  "CMakeFiles/broker.dir/cpama/base/broker.c.o"
   "broker"
   "broker.pdb"
 )

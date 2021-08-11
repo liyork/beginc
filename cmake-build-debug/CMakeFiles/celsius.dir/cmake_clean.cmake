@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/celsius.dir/cpama/celsius.c.o"
+  "CMakeFiles/celsius.dir/cpama/base/celsius.c.o"
   "celsius"
   "celsius.pdb"
 )

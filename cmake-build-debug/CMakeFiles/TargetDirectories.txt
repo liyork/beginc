@@ -1,5 +1,7 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pointermultiarray.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/findlargest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/maxmin.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/guess.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/qsort.dir
@@ -15,7 +17,9 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/arraytest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/sum.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/stack.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/stack2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/sizeoftest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pointerarrtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/guess2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/converttest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/length.dir
@@ -29,15 +33,18 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/repdigit.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/checking.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/square.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/stringtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/floattest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/square2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/gototest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/reverse3.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/celsius.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/square3.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/upc.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/data.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/switchtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pun.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/arrsum.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/statementtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/deal.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/broker.dir

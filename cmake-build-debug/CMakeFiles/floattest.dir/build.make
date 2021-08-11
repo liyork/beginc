@@ -76,27 +76,27 @@ include CMakeFiles/floattest.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/floattest.dir/flags.make
 
-CMakeFiles/floattest.dir/cpama/floattest.c.o: CMakeFiles/floattest.dir/flags.make
-CMakeFiles/floattest.dir/cpama/floattest.c.o: ../cpama/floattest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/floattest.dir/cpama/floattest.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/floattest.dir/cpama/floattest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/floattest.c
+CMakeFiles/floattest.dir/cpama/base/floattest.c.o: CMakeFiles/floattest.dir/flags.make
+CMakeFiles/floattest.dir/cpama/base/floattest.c.o: ../cpama/base/floattest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/floattest.dir/cpama/base/floattest.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/floattest.dir/cpama/base/floattest.c.o -c /Users/chaoli/c_workspace/beginc/cpama/base/floattest.c
 
-CMakeFiles/floattest.dir/cpama/floattest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/floattest.dir/cpama/floattest.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/floattest.c > CMakeFiles/floattest.dir/cpama/floattest.c.i
+CMakeFiles/floattest.dir/cpama/base/floattest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/floattest.dir/cpama/base/floattest.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chaoli/c_workspace/beginc/cpama/base/floattest.c > CMakeFiles/floattest.dir/cpama/base/floattest.c.i
 
-CMakeFiles/floattest.dir/cpama/floattest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/floattest.dir/cpama/floattest.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/floattest.c -o CMakeFiles/floattest.dir/cpama/floattest.c.s
+CMakeFiles/floattest.dir/cpama/base/floattest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/floattest.dir/cpama/base/floattest.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chaoli/c_workspace/beginc/cpama/base/floattest.c -o CMakeFiles/floattest.dir/cpama/base/floattest.c.s
 
 # Object files for target floattest
 floattest_OBJECTS = \
-"CMakeFiles/floattest.dir/cpama/floattest.c.o"
+"CMakeFiles/floattest.dir/cpama/base/floattest.c.o"
 
 # External object files for target floattest
 floattest_EXTERNAL_OBJECTS =
 
-floattest: CMakeFiles/floattest.dir/cpama/floattest.c.o
+floattest: CMakeFiles/floattest.dir/cpama/base/floattest.c.o
 floattest: CMakeFiles/floattest.dir/build.make
 floattest: CMakeFiles/floattest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable floattest"

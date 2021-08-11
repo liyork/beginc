@@ -37,6 +37,86 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="pointermultiarray">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/pointermultiarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointermultiarray"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointermultiarray/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/pointermultiarray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointermultiarray/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findlargest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/findlargest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 findlargest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="findlargest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/findlargest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 findlargest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="maxmin">
 				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/maxmin" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
@@ -637,6 +717,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="stack2">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/stack2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stack2/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/stack2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 stack2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="sizeoftest">
 				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/sizeoftest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
@@ -672,6 +792,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 sizeoftest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointerarrtest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/pointerarrtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointerarrtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pointerarrtest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/pointerarrtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 pointerarrtest/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1197,6 +1357,46 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="stringtest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/stringtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 stringtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="stringtest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/stringtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 stringtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="floattest">
 				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/floattest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
@@ -1312,6 +1512,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 gototest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse3">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/reverse3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="reverse3/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/reverse3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 reverse3/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1552,6 +1792,46 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 pun/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrsum">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/arrsum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrsum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="arrsum/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/arrsum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 arrsum/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1918,56 +2198,104 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/addfrac.c">
-			<Option target="addfrac"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arraytest.c">
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arr/arraytest.c">
 			<Option target="arraytest"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/assigntest.c">
-			<Option target="assigntest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/broker.c">
-			<Option target="broker"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/celsius.c">
-			<Option target="celsius"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/checking.c">
-			<Option target="checking"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/converttest.c">
-			<Option target="converttest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/data.c">
-			<Option target="data"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/deal.c">
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arr/deal.c">
 			<Option target="deal"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/dweight.c">
-			<Option target="dweight"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/dweight2.c">
-			<Option target="dweight2"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/floattest.c">
-			<Option target="floattest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/getchartest.c">
-			<Option target="getchartest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/gototest.c">
-			<Option target="gototest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/interest.c">
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arr/interest.c">
 			<Option target="interest"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/length.c">
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arr/repdigit.c">
+			<Option target="repdigit"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arr/reverse.c">
+			<Option target="reverse"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/arr/reverse2.c">
+			<Option target="reverse2"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/addfrac.c">
+			<Option target="addfrac"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/assigntest.c">
+			<Option target="assigntest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/broker.c">
+			<Option target="broker"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/celsius.c">
+			<Option target="celsius"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/checking.c">
+			<Option target="checking"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/converttest.c">
+			<Option target="converttest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/data.c">
+			<Option target="data"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/dweight.c">
+			<Option target="dweight"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/dweight2.c">
+			<Option target="dweight2"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/floattest.c">
+			<Option target="floattest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/getchartest.c">
+			<Option target="getchartest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/gototest.c">
+			<Option target="gototest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/length.c">
 			<Option target="length"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/length2.c">
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/length2.c">
 			<Option target="length2"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/numdigit.c">
+			<Option target="numdigit"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/pun.c">
+			<Option target="pun"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/scantest.c">
+			<Option target="scantest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/sizeoftest.c">
+			<Option target="sizeoftest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/square.c">
+			<Option target="square"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/square2.c">
+			<Option target="square2"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/square3.c">
+			<Option target="square3"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/statementtest.c">
+			<Option target="statementtest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/sum.c">
+			<Option target="sum"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/sum2.c">
+			<Option target="sum2"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/switchtest.c">
+			<Option target="switchtest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/tprintf.c">
+			<Option target="tprintf"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/base/upc.c">
+			<Option target="upc"/>
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/method/average.c">
 			<Option target="average"/>
@@ -1993,41 +2321,29 @@
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/method/recursetest.c">
 			<Option target="recursetest"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/numdigit.c">
-			<Option target="numdigit"/>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/arrsum.c">
+			<Option target="arrsum"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/findlargest.c">
+			<Option target="findlargest"/>
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/maxmin.c">
 			<Option target="maxmin"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pun.c">
-			<Option target="pun"/>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/pointerarrtest.c">
+			<Option target="pointerarrtest"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/repdigit.c">
-			<Option target="repdigit"/>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/pointermultiarray.c">
+			<Option target="pointermultiarray"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/reverse.c">
-			<Option target="reverse"/>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/reverse3.c">
+			<Option target="reverse3"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/reverse2.c">
-			<Option target="reverse2"/>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/pointer/stack2.c">
+			<Option target="stack2"/>
 		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/scantest.c">
-			<Option target="scantest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/sizeoftest.c">
-			<Option target="sizeoftest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/square.c">
-			<Option target="square"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/square2.c">
-			<Option target="square2"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/square3.c">
-			<Option target="square3"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/statementtest.c">
-			<Option target="statementtest"/>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/string/stringtest.c">
+			<Option target="stringtest"/>
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/structure/guess.c">
 			<Option target="guess"/>
@@ -2040,21 +2356,6 @@
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/structure/stack.c">
 			<Option target="stack"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/sum.c">
-			<Option target="sum"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/sum2.c">
-			<Option target="sum2"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/switchtest.c">
-			<Option target="switchtest"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/tprintf.c">
-			<Option target="tprintf"/>
-		</Unit>
-		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/upc.c">
-			<Option target="upc"/>
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/main.c">
 			<Option target="beginc"/>

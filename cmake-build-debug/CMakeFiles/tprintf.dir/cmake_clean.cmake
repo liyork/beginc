@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tprintf.dir/cpama/tprintf.c.o"
+  "CMakeFiles/tprintf.dir/cpama/base/tprintf.c.o"
   "tprintf"
   "tprintf.pdb"
 )

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/floattest.dir/cpama/floattest.c.o"
+  "CMakeFiles/floattest.dir/cpama/base/floattest.c.o"
   "floattest"
   "floattest.pdb"
 )
