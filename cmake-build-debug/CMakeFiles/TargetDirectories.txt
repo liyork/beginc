@@ -1,5 +1,10 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/strpointarrtest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/strcpyEvolution.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/remind.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/strstdtest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/readline.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pointermultiarray.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/findlargest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/maxmin.dir
@@ -7,10 +12,12 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/qsort.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/recursetest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/average2.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/planet.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/poker.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/prime.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/methodtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pun2.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/strconvention.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/average.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/reverse2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/interest.dir
@@ -19,6 +26,7 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/stack.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/stack2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/sizeoftest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/countspace.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pointerarrtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/guess2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/converttest.dir
@@ -53,4 +61,5 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/addfrac.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/dweight2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/dweight.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/argstest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/beginc.dir

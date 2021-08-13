@@ -72,6 +72,11 @@ CMAKE_BINARY_DIR = /Users/chaoli/c_workspace/beginc/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/strpointarrtest.dir/all
+all: CMakeFiles/strcpyEvolution.dir/all
+all: CMakeFiles/remind.dir/all
+all: CMakeFiles/strstdtest.dir/all
+all: CMakeFiles/readline.dir/all
 all: CMakeFiles/pointermultiarray.dir/all
 all: CMakeFiles/findlargest.dir/all
 all: CMakeFiles/maxmin.dir/all
@@ -79,10 +84,12 @@ all: CMakeFiles/guess.dir/all
 all: CMakeFiles/qsort.dir/all
 all: CMakeFiles/recursetest.dir/all
 all: CMakeFiles/average2.dir/all
+all: CMakeFiles/planet.dir/all
 all: CMakeFiles/poker.dir/all
 all: CMakeFiles/prime.dir/all
 all: CMakeFiles/methodtest.dir/all
 all: CMakeFiles/pun2.dir/all
+all: CMakeFiles/strconvention.dir/all
 all: CMakeFiles/average.dir/all
 all: CMakeFiles/reverse2.dir/all
 all: CMakeFiles/interest.dir/all
@@ -91,6 +98,7 @@ all: CMakeFiles/sum.dir/all
 all: CMakeFiles/stack.dir/all
 all: CMakeFiles/stack2.dir/all
 all: CMakeFiles/sizeoftest.dir/all
+all: CMakeFiles/countspace.dir/all
 all: CMakeFiles/pointerarrtest.dir/all
 all: CMakeFiles/guess2.dir/all
 all: CMakeFiles/converttest.dir/all
@@ -125,6 +133,7 @@ all: CMakeFiles/countdown.dir/all
 all: CMakeFiles/addfrac.dir/all
 all: CMakeFiles/dweight2.dir/all
 all: CMakeFiles/dweight.dir/all
+all: CMakeFiles/argstest.dir/all
 all: CMakeFiles/beginc.dir/all
 
 .PHONY : all
@@ -135,6 +144,11 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/strpointarrtest.dir/clean
+clean: CMakeFiles/strcpyEvolution.dir/clean
+clean: CMakeFiles/remind.dir/clean
+clean: CMakeFiles/strstdtest.dir/clean
+clean: CMakeFiles/readline.dir/clean
 clean: CMakeFiles/pointermultiarray.dir/clean
 clean: CMakeFiles/findlargest.dir/clean
 clean: CMakeFiles/maxmin.dir/clean
@@ -142,10 +156,12 @@ clean: CMakeFiles/guess.dir/clean
 clean: CMakeFiles/qsort.dir/clean
 clean: CMakeFiles/recursetest.dir/clean
 clean: CMakeFiles/average2.dir/clean
+clean: CMakeFiles/planet.dir/clean
 clean: CMakeFiles/poker.dir/clean
 clean: CMakeFiles/prime.dir/clean
 clean: CMakeFiles/methodtest.dir/clean
 clean: CMakeFiles/pun2.dir/clean
+clean: CMakeFiles/strconvention.dir/clean
 clean: CMakeFiles/average.dir/clean
 clean: CMakeFiles/reverse2.dir/clean
 clean: CMakeFiles/interest.dir/clean
@@ -154,6 +170,7 @@ clean: CMakeFiles/sum.dir/clean
 clean: CMakeFiles/stack.dir/clean
 clean: CMakeFiles/stack2.dir/clean
 clean: CMakeFiles/sizeoftest.dir/clean
+clean: CMakeFiles/countspace.dir/clean
 clean: CMakeFiles/pointerarrtest.dir/clean
 clean: CMakeFiles/guess2.dir/clean
 clean: CMakeFiles/converttest.dir/clean
@@ -188,9 +205,145 @@ clean: CMakeFiles/countdown.dir/clean
 clean: CMakeFiles/addfrac.dir/clean
 clean: CMakeFiles/dweight2.dir/clean
 clean: CMakeFiles/dweight.dir/clean
+clean: CMakeFiles/argstest.dir/clean
 clean: CMakeFiles/beginc.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strpointarrtest.dir
+
+# All Build rule for target.
+CMakeFiles/strpointarrtest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target strpointarrtest"
+.PHONY : CMakeFiles/strpointarrtest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strpointarrtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strpointarrtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/strpointarrtest.dir/rule
+
+# Convenience name for target.
+strpointarrtest: CMakeFiles/strpointarrtest.dir/rule
+
+.PHONY : strpointarrtest
+
+# clean rule for target.
+CMakeFiles/strpointarrtest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/clean
+.PHONY : CMakeFiles/strpointarrtest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strcpyEvolution.dir
+
+# All Build rule for target.
+CMakeFiles/strcpyEvolution.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=86,87 "Built target strcpyEvolution"
+.PHONY : CMakeFiles/strcpyEvolution.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strcpyEvolution.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strcpyEvolution.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/strcpyEvolution.dir/rule
+
+# Convenience name for target.
+strcpyEvolution: CMakeFiles/strcpyEvolution.dir/rule
+
+.PHONY : strcpyEvolution
+
+# clean rule for target.
+CMakeFiles/strcpyEvolution.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/clean
+.PHONY : CMakeFiles/strcpyEvolution.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/remind.dir
+
+# All Build rule for target.
+CMakeFiles/remind.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target remind"
+.PHONY : CMakeFiles/remind.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/remind.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/remind.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/remind.dir/rule
+
+# Convenience name for target.
+remind: CMakeFiles/remind.dir/rule
+
+.PHONY : remind
+
+# clean rule for target.
+CMakeFiles/remind.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/clean
+.PHONY : CMakeFiles/remind.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strstdtest.dir
+
+# All Build rule for target.
+CMakeFiles/strstdtest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target strstdtest"
+.PHONY : CMakeFiles/strstdtest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strstdtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strstdtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/strstdtest.dir/rule
+
+# Convenience name for target.
+strstdtest: CMakeFiles/strstdtest.dir/rule
+
+.PHONY : strstdtest
+
+# clean rule for target.
+CMakeFiles/strstdtest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/clean
+.PHONY : CMakeFiles/strstdtest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/readline.dir
+
+# All Build rule for target.
+CMakeFiles/readline.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=61 "Built target readline"
+.PHONY : CMakeFiles/readline.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/readline.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/readline.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/readline.dir/rule
+
+# Convenience name for target.
+readline: CMakeFiles/readline.dir/rule
+
+.PHONY : readline
+
+# clean rule for target.
+CMakeFiles/readline.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/clean
+.PHONY : CMakeFiles/readline.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/pointermultiarray.dir
@@ -199,7 +352,7 @@ clean: CMakeFiles/beginc.dir/clean
 CMakeFiles/pointermultiarray.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointermultiarray.dir/build.make CMakeFiles/pointermultiarray.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointermultiarray.dir/build.make CMakeFiles/pointermultiarray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target pointermultiarray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target pointermultiarray"
 .PHONY : CMakeFiles/pointermultiarray.dir/all
 
 # Build rule for subdir invocation for target.
@@ -226,7 +379,7 @@ CMakeFiles/pointermultiarray.dir/clean:
 CMakeFiles/findlargest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/findlargest.dir/build.make CMakeFiles/findlargest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/findlargest.dir/build.make CMakeFiles/findlargest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target findlargest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target findlargest"
 .PHONY : CMakeFiles/findlargest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -253,7 +406,7 @@ CMakeFiles/findlargest.dir/clean:
 CMakeFiles/maxmin.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/maxmin.dir/build.make CMakeFiles/maxmin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target maxmin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target maxmin"
 .PHONY : CMakeFiles/maxmin.dir/all
 
 # Build rule for subdir invocation for target.
@@ -280,12 +433,12 @@ CMakeFiles/maxmin.dir/clean:
 CMakeFiles/guess.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess.dir/build.make CMakeFiles/guess.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess.dir/build.make CMakeFiles/guess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=38 "Built target guess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target guess"
 .PHONY : CMakeFiles/guess.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/guess.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/guess.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/guess.dir/rule
@@ -307,7 +460,7 @@ CMakeFiles/guess.dir/clean:
 CMakeFiles/qsort.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qsort.dir/build.make CMakeFiles/qsort.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/qsort.dir/build.make CMakeFiles/qsort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target qsort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=59,60 "Built target qsort"
 .PHONY : CMakeFiles/qsort.dir/all
 
 # Build rule for subdir invocation for target.
@@ -334,7 +487,7 @@ CMakeFiles/qsort.dir/clean:
 CMakeFiles/recursetest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/recursetest.dir/build.make CMakeFiles/recursetest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=65,66 "Built target recursetest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=62,63 "Built target recursetest"
 .PHONY : CMakeFiles/recursetest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -382,18 +535,45 @@ CMakeFiles/average2.dir/clean:
 .PHONY : CMakeFiles/average2.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/planet.dir
+
+# All Build rule for target.
+CMakeFiles/planet.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target planet"
+.PHONY : CMakeFiles/planet.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/planet.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/planet.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/planet.dir/rule
+
+# Convenience name for target.
+planet: CMakeFiles/planet.dir/rule
+
+.PHONY : planet
+
+# clean rule for target.
+CMakeFiles/planet.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/clean
+.PHONY : CMakeFiles/planet.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/poker.dir
 
 # All Build rule for target.
 CMakeFiles/poker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/poker.dir/build.make CMakeFiles/poker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/poker.dir/build.make CMakeFiles/poker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target poker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=53 "Built target poker"
 .PHONY : CMakeFiles/poker.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/poker.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/poker.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/poker.dir/rule
@@ -415,7 +595,7 @@ CMakeFiles/poker.dir/clean:
 CMakeFiles/prime.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prime.dir/build.make CMakeFiles/prime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target prime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target prime"
 .PHONY : CMakeFiles/prime.dir/all
 
 # Build rule for subdir invocation for target.
@@ -442,7 +622,7 @@ CMakeFiles/prime.dir/clean:
 CMakeFiles/methodtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/methodtest.dir/build.make CMakeFiles/methodtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/methodtest.dir/build.make CMakeFiles/methodtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target methodtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target methodtest"
 .PHONY : CMakeFiles/methodtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -469,7 +649,7 @@ CMakeFiles/methodtest.dir/clean:
 CMakeFiles/pun2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=62 "Built target pun2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=58 "Built target pun2"
 .PHONY : CMakeFiles/pun2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -488,6 +668,33 @@ pun2: CMakeFiles/pun2.dir/rule
 CMakeFiles/pun2.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/clean
 .PHONY : CMakeFiles/pun2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/strconvention.dir
+
+# All Build rule for target.
+CMakeFiles/strconvention.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=85 "Built target strconvention"
+.PHONY : CMakeFiles/strconvention.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/strconvention.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/strconvention.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/strconvention.dir/rule
+
+# Convenience name for target.
+strconvention: CMakeFiles/strconvention.dir/rule
+
+.PHONY : strconvention
+
+# clean rule for target.
+CMakeFiles/strconvention.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/clean
+.PHONY : CMakeFiles/strconvention.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/average.dir
@@ -523,12 +730,12 @@ CMakeFiles/average.dir/clean:
 CMakeFiles/reverse2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse2.dir/build.make CMakeFiles/reverse2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=71,72 "Built target reverse2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=69 "Built target reverse2"
 .PHONY : CMakeFiles/reverse2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/reverse2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/reverse2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/reverse2.dir/rule
@@ -550,12 +757,12 @@ CMakeFiles/reverse2.dir/clean:
 CMakeFiles/interest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/interest.dir/build.make CMakeFiles/interest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target interest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=39 "Built target interest"
 .PHONY : CMakeFiles/interest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/interest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/interest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/interest.dir/rule
@@ -577,12 +784,12 @@ CMakeFiles/interest.dir/clean:
 CMakeFiles/arraytest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=2,3 "Built target arraytest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=4 "Built target arraytest"
 .PHONY : CMakeFiles/arraytest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/arraytest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/arraytest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/arraytest.dir/rule
@@ -604,12 +811,12 @@ CMakeFiles/arraytest.dir/clean:
 CMakeFiles/sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum.dir/build.make CMakeFiles/sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=93 "Built target sum"
 .PHONY : CMakeFiles/sum.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sum.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sum.dir/rule
@@ -631,12 +838,12 @@ CMakeFiles/sum.dir/clean:
 CMakeFiles/stack.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target stack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=80 "Built target stack"
 .PHONY : CMakeFiles/stack.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stack.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/stack.dir/rule
@@ -658,7 +865,7 @@ CMakeFiles/stack.dir/clean:
 CMakeFiles/stack2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=86,87 "Built target stack2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target stack2"
 .PHONY : CMakeFiles/stack2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -685,12 +892,12 @@ CMakeFiles/stack2.dir/clean:
 CMakeFiles/sizeoftest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=76,77 "Built target sizeoftest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=74 "Built target sizeoftest"
 .PHONY : CMakeFiles/sizeoftest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sizeoftest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sizeoftest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sizeoftest.dir/rule
@@ -706,18 +913,45 @@ CMakeFiles/sizeoftest.dir/clean:
 .PHONY : CMakeFiles/sizeoftest.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/countspace.dir
+
+# All Build rule for target.
+CMakeFiles/countspace.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target countspace"
+.PHONY : CMakeFiles/countspace.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/countspace.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/countspace.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/countspace.dir/rule
+
+# Convenience name for target.
+countspace: CMakeFiles/countspace.dir/rule
+
+.PHONY : countspace
+
+# clean rule for target.
+CMakeFiles/countspace.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/clean
+.PHONY : CMakeFiles/countspace.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/pointerarrtest.dir
 
 # All Build rule for target.
 CMakeFiles/pointerarrtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerarrtest.dir/build.make CMakeFiles/pointerarrtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pointerarrtest.dir/build.make CMakeFiles/pointerarrtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=52,53 "Built target pointerarrtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=50 "Built target pointerarrtest"
 .PHONY : CMakeFiles/pointerarrtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/pointerarrtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/pointerarrtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/pointerarrtest.dir/rule
@@ -739,7 +973,7 @@ CMakeFiles/pointerarrtest.dir/clean:
 CMakeFiles/guess2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess2.dir/build.make CMakeFiles/guess2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/guess2.dir/build.make CMakeFiles/guess2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target guess2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=37,38 "Built target guess2"
 .PHONY : CMakeFiles/guess2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -766,7 +1000,7 @@ CMakeFiles/guess2.dir/clean:
 CMakeFiles/converttest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/converttest.dir/build.make CMakeFiles/converttest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target converttest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target converttest"
 .PHONY : CMakeFiles/converttest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -793,7 +1027,7 @@ CMakeFiles/converttest.dir/clean:
 CMakeFiles/length.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/length.dir/build.make CMakeFiles/length.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target length"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=40,41 "Built target length"
 .PHONY : CMakeFiles/length.dir/all
 
 # Build rule for subdir invocation for target.
@@ -820,12 +1054,12 @@ CMakeFiles/length.dir/clean:
 CMakeFiles/assigntest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/assigntest.dir/build.make CMakeFiles/assigntest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=6,7 "Built target assigntest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=7 "Built target assigntest"
 .PHONY : CMakeFiles/assigntest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/assigntest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/assigntest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/assigntest.dir/rule
@@ -847,7 +1081,7 @@ CMakeFiles/assigntest.dir/clean:
 CMakeFiles/getchartest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/getchartest.dir/build.make CMakeFiles/getchartest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=34,35 "Built target getchartest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target getchartest"
 .PHONY : CMakeFiles/getchartest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -874,7 +1108,7 @@ CMakeFiles/getchartest.dir/clean:
 CMakeFiles/reverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse.dir/build.make CMakeFiles/reverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target reverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target reverse"
 .PHONY : CMakeFiles/reverse.dir/all
 
 # Build rule for subdir invocation for target.
@@ -901,7 +1135,7 @@ CMakeFiles/reverse.dir/clean:
 CMakeFiles/sum2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sum2.dir/build.make CMakeFiles/sum2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target sum2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=94,95 "Built target sum2"
 .PHONY : CMakeFiles/sum2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -928,12 +1162,12 @@ CMakeFiles/sum2.dir/clean:
 CMakeFiles/length2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/length2.dir/build.make CMakeFiles/length2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target length2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=42 "Built target length2"
 .PHONY : CMakeFiles/length2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/length2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/length2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/length2.dir/rule
@@ -955,12 +1189,12 @@ CMakeFiles/length2.dir/clean:
 CMakeFiles/scantest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/scantest.dir/build.make CMakeFiles/scantest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=75 "Built target scantest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target scantest"
 .PHONY : CMakeFiles/scantest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/scantest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/scantest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/scantest.dir/rule
@@ -982,7 +1216,7 @@ CMakeFiles/scantest.dir/clean:
 CMakeFiles/numdigit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/numdigit.dir/build.make CMakeFiles/numdigit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=51 "Built target numdigit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=47 "Built target numdigit"
 .PHONY : CMakeFiles/numdigit.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1009,12 +1243,12 @@ CMakeFiles/numdigit.dir/clean:
 CMakeFiles/repdigit.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/repdigit.dir/build.make CMakeFiles/repdigit.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target repdigit"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=66 "Built target repdigit"
 .PHONY : CMakeFiles/repdigit.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/repdigit.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/repdigit.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/repdigit.dir/rule
@@ -1036,7 +1270,7 @@ CMakeFiles/repdigit.dir/clean:
 CMakeFiles/checking.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/checking.dir/build.make CMakeFiles/checking.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target checking"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target checking"
 .PHONY : CMakeFiles/checking.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1063,7 +1297,7 @@ CMakeFiles/checking.dir/clean:
 CMakeFiles/square.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square.dir/build.make CMakeFiles/square.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=78,79 "Built target square"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target square"
 .PHONY : CMakeFiles/square.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1090,12 +1324,12 @@ CMakeFiles/square.dir/clean:
 CMakeFiles/stringtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=89,90 "Built target stringtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=88 "Built target stringtest"
 .PHONY : CMakeFiles/stringtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/stringtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/stringtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/stringtest.dir/rule
@@ -1117,12 +1351,12 @@ CMakeFiles/stringtest.dir/clean:
 CMakeFiles/floattest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/floattest.dir/build.make CMakeFiles/floattest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target floattest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=31 "Built target floattest"
 .PHONY : CMakeFiles/floattest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/floattest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/floattest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/floattest.dir/rule
@@ -1144,12 +1378,12 @@ CMakeFiles/floattest.dir/clean:
 CMakeFiles/square2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square2.dir/build.make CMakeFiles/square2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=80,81 "Built target square2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=77 "Built target square2"
 .PHONY : CMakeFiles/square2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/square2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/square2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/square2.dir/rule
@@ -1171,12 +1405,12 @@ CMakeFiles/square2.dir/clean:
 CMakeFiles/gototest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/gototest.dir/build.make CMakeFiles/gototest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target gototest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=34 "Built target gototest"
 .PHONY : CMakeFiles/gototest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/gototest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/gototest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/gototest.dir/rule
@@ -1198,7 +1432,7 @@ CMakeFiles/gototest.dir/clean:
 CMakeFiles/reverse3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse3.dir/build.make CMakeFiles/reverse3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/reverse3.dir/build.make CMakeFiles/reverse3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=73,74 "Built target reverse3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target reverse3"
 .PHONY : CMakeFiles/reverse3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1225,12 +1459,12 @@ CMakeFiles/reverse3.dir/clean:
 CMakeFiles/celsius.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/celsius.dir/build.make CMakeFiles/celsius.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target celsius"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=15 "Built target celsius"
 .PHONY : CMakeFiles/celsius.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/celsius.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/celsius.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/celsius.dir/rule
@@ -1252,7 +1486,7 @@ CMakeFiles/celsius.dir/clean:
 CMakeFiles/square3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/square3.dir/build.make CMakeFiles/square3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=82,83 "Built target square3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=78,79 "Built target square3"
 .PHONY : CMakeFiles/square3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1306,12 +1540,12 @@ CMakeFiles/upc.dir/clean:
 CMakeFiles/data.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data.dir/build.make CMakeFiles/data.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=23 "Built target data"
 .PHONY : CMakeFiles/data.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/data.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/data.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/data.dir/rule
@@ -1333,12 +1567,12 @@ CMakeFiles/data.dir/clean:
 CMakeFiles/switchtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/switchtest.dir/build.make CMakeFiles/switchtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=95,96 "Built target switchtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=96 "Built target switchtest"
 .PHONY : CMakeFiles/switchtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/switchtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/switchtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/switchtest.dir/rule
@@ -1360,7 +1594,7 @@ CMakeFiles/switchtest.dir/clean:
 CMakeFiles/pun.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun.dir/build.make CMakeFiles/pun.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target pun"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=56,57 "Built target pun"
 .PHONY : CMakeFiles/pun.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1387,7 +1621,7 @@ CMakeFiles/pun.dir/clean:
 CMakeFiles/arrsum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrsum.dir/build.make CMakeFiles/arrsum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arrsum.dir/build.make CMakeFiles/arrsum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=4,5 "Built target arrsum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target arrsum"
 .PHONY : CMakeFiles/arrsum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1414,12 +1648,12 @@ CMakeFiles/arrsum.dir/clean:
 CMakeFiles/statementtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/statementtest.dir/build.make CMakeFiles/statementtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=88 "Built target statementtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target statementtest"
 .PHONY : CMakeFiles/statementtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/statementtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/statementtest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/statementtest.dir/rule
@@ -1441,12 +1675,12 @@ CMakeFiles/statementtest.dir/clean:
 CMakeFiles/deal.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deal.dir/build.make CMakeFiles/deal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=25 "Built target deal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target deal"
 .PHONY : CMakeFiles/deal.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/deal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/deal.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/deal.dir/rule
@@ -1522,12 +1756,12 @@ CMakeFiles/tprintf.dir/clean:
 CMakeFiles/countdown.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/countdown.dir/build.make CMakeFiles/countdown.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/countdown.dir/build.make CMakeFiles/countdown.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target countdown"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=20 "Built target countdown"
 .PHONY : CMakeFiles/countdown.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/countdown.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/countdown.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/countdown.dir/rule
@@ -1576,7 +1810,7 @@ CMakeFiles/addfrac.dir/clean:
 CMakeFiles/dweight2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight2.dir/build.make CMakeFiles/dweight2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=28,29 "Built target dweight2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target dweight2"
 .PHONY : CMakeFiles/dweight2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1603,12 +1837,12 @@ CMakeFiles/dweight2.dir/clean:
 CMakeFiles/dweight.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=26,27 "Built target dweight"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=26 "Built target dweight"
 .PHONY : CMakeFiles/dweight.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/dweight.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/dweight.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/dweight.dir/rule
@@ -1622,6 +1856,33 @@ dweight: CMakeFiles/dweight.dir/rule
 CMakeFiles/dweight.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/clean
 .PHONY : CMakeFiles/dweight.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/argstest.dir
+
+# All Build rule for target.
+CMakeFiles/argstest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles --progress-num=2,3 "Built target argstest"
+.PHONY : CMakeFiles/argstest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/argstest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/argstest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/argstest.dir/rule
+
+# Convenience name for target.
+argstest: CMakeFiles/argstest.dir/rule
+
+.PHONY : argstest
+
+# clean rule for target.
+CMakeFiles/argstest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/clean
+.PHONY : CMakeFiles/argstest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/beginc.dir

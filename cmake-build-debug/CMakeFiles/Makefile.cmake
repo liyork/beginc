@@ -45,6 +45,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/strpointarrtest.dir/DependInfo.cmake"
+  "CMakeFiles/strcpyEvolution.dir/DependInfo.cmake"
+  "CMakeFiles/remind.dir/DependInfo.cmake"
+  "CMakeFiles/strstdtest.dir/DependInfo.cmake"
+  "CMakeFiles/readline.dir/DependInfo.cmake"
   "CMakeFiles/pointermultiarray.dir/DependInfo.cmake"
   "CMakeFiles/findlargest.dir/DependInfo.cmake"
   "CMakeFiles/maxmin.dir/DependInfo.cmake"
@@ -52,10 +57,12 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/qsort.dir/DependInfo.cmake"
   "CMakeFiles/recursetest.dir/DependInfo.cmake"
   "CMakeFiles/average2.dir/DependInfo.cmake"
+  "CMakeFiles/planet.dir/DependInfo.cmake"
   "CMakeFiles/poker.dir/DependInfo.cmake"
   "CMakeFiles/prime.dir/DependInfo.cmake"
   "CMakeFiles/methodtest.dir/DependInfo.cmake"
   "CMakeFiles/pun2.dir/DependInfo.cmake"
+  "CMakeFiles/strconvention.dir/DependInfo.cmake"
   "CMakeFiles/average.dir/DependInfo.cmake"
   "CMakeFiles/reverse2.dir/DependInfo.cmake"
   "CMakeFiles/interest.dir/DependInfo.cmake"
@@ -64,6 +71,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/stack.dir/DependInfo.cmake"
   "CMakeFiles/stack2.dir/DependInfo.cmake"
   "CMakeFiles/sizeoftest.dir/DependInfo.cmake"
+  "CMakeFiles/countspace.dir/DependInfo.cmake"
   "CMakeFiles/pointerarrtest.dir/DependInfo.cmake"
   "CMakeFiles/guess2.dir/DependInfo.cmake"
   "CMakeFiles/converttest.dir/DependInfo.cmake"
@@ -98,5 +106,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/addfrac.dir/DependInfo.cmake"
   "CMakeFiles/dweight2.dir/DependInfo.cmake"
   "CMakeFiles/dweight.dir/DependInfo.cmake"
+  "CMakeFiles/argstest.dir/DependInfo.cmake"
   "CMakeFiles/beginc.dir/DependInfo.cmake"
   )

@@ -130,6 +130,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named strpointarrtest
+
+# Build rule for target.
+strpointarrtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strpointarrtest
+.PHONY : strpointarrtest
+
+# fast build rule for target.
+strpointarrtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/build
+.PHONY : strpointarrtest/fast
+
+#=============================================================================
+# Target rules for targets named strcpyEvolution
+
+# Build rule for target.
+strcpyEvolution: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strcpyEvolution
+.PHONY : strcpyEvolution
+
+# fast build rule for target.
+strcpyEvolution/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/build
+.PHONY : strcpyEvolution/fast
+
+#=============================================================================
+# Target rules for targets named remind
+
+# Build rule for target.
+remind: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 remind
+.PHONY : remind
+
+# fast build rule for target.
+remind/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/build
+.PHONY : remind/fast
+
+#=============================================================================
+# Target rules for targets named strstdtest
+
+# Build rule for target.
+strstdtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strstdtest
+.PHONY : strstdtest
+
+# fast build rule for target.
+strstdtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/build
+.PHONY : strstdtest/fast
+
+#=============================================================================
+# Target rules for targets named readline
+
+# Build rule for target.
+readline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 readline
+.PHONY : readline
+
+# fast build rule for target.
+readline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/build
+.PHONY : readline/fast
+
+#=============================================================================
 # Target rules for targets named pointermultiarray
 
 # Build rule for target.
@@ -221,6 +286,19 @@ average2/fast:
 .PHONY : average2/fast
 
 #=============================================================================
+# Target rules for targets named planet
+
+# Build rule for target.
+planet: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 planet
+.PHONY : planet
+
+# fast build rule for target.
+planet/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/build
+.PHONY : planet/fast
+
+#=============================================================================
 # Target rules for targets named poker
 
 # Build rule for target.
@@ -271,6 +349,19 @@ pun2: cmake_check_build_system
 pun2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pun2.dir/build.make CMakeFiles/pun2.dir/build
 .PHONY : pun2/fast
+
+#=============================================================================
+# Target rules for targets named strconvention
+
+# Build rule for target.
+strconvention: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 strconvention
+.PHONY : strconvention
+
+# fast build rule for target.
+strconvention/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/build
+.PHONY : strconvention/fast
 
 #=============================================================================
 # Target rules for targets named average
@@ -375,6 +466,19 @@ sizeoftest: cmake_check_build_system
 sizeoftest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sizeoftest.dir/build.make CMakeFiles/sizeoftest.dir/build
 .PHONY : sizeoftest/fast
+
+#=============================================================================
+# Target rules for targets named countspace
+
+# Build rule for target.
+countspace: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 countspace
+.PHONY : countspace
+
+# fast build rule for target.
+countspace/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/build
+.PHONY : countspace/fast
 
 #=============================================================================
 # Target rules for targets named pointerarrtest
@@ -817,6 +921,19 @@ dweight: cmake_check_build_system
 dweight/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/dweight.dir/build.make CMakeFiles/dweight.dir/build
 .PHONY : dweight/fast
+
+#=============================================================================
+# Target rules for targets named argstest
+
+# Build rule for target.
+argstest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 argstest
+.PHONY : argstest
+
+# fast build rule for target.
+argstest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/build
+.PHONY : argstest/fast
 
 #=============================================================================
 # Target rules for targets named beginc
@@ -2127,6 +2244,168 @@ cpama/pointer/stack2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/cpama/pointer/stack2.c.s
 .PHONY : cpama/pointer/stack2.c.s
 
+cpama/string/countspace.o: cpama/string/countspace.c.o
+
+.PHONY : cpama/string/countspace.o
+
+# target to build an object file
+cpama/string/countspace.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/cpama/string/countspace.c.o
+.PHONY : cpama/string/countspace.c.o
+
+cpama/string/countspace.i: cpama/string/countspace.c.i
+
+.PHONY : cpama/string/countspace.i
+
+# target to preprocess a source file
+cpama/string/countspace.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/cpama/string/countspace.c.i
+.PHONY : cpama/string/countspace.c.i
+
+cpama/string/countspace.s: cpama/string/countspace.c.s
+
+.PHONY : cpama/string/countspace.s
+
+# target to generate assembly for a file
+cpama/string/countspace.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/countspace.dir/build.make CMakeFiles/countspace.dir/cpama/string/countspace.c.s
+.PHONY : cpama/string/countspace.c.s
+
+cpama/string/planet.o: cpama/string/planet.c.o
+
+.PHONY : cpama/string/planet.o
+
+# target to build an object file
+cpama/string/planet.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/cpama/string/planet.c.o
+.PHONY : cpama/string/planet.c.o
+
+cpama/string/planet.i: cpama/string/planet.c.i
+
+.PHONY : cpama/string/planet.i
+
+# target to preprocess a source file
+cpama/string/planet.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/cpama/string/planet.c.i
+.PHONY : cpama/string/planet.c.i
+
+cpama/string/planet.s: cpama/string/planet.c.s
+
+.PHONY : cpama/string/planet.s
+
+# target to generate assembly for a file
+cpama/string/planet.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/planet.dir/build.make CMakeFiles/planet.dir/cpama/string/planet.c.s
+.PHONY : cpama/string/planet.c.s
+
+cpama/string/readline.o: cpama/string/readline.c.o
+
+.PHONY : cpama/string/readline.o
+
+# target to build an object file
+cpama/string/readline.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/cpama/string/readline.c.o
+.PHONY : cpama/string/readline.c.o
+
+cpama/string/readline.i: cpama/string/readline.c.i
+
+.PHONY : cpama/string/readline.i
+
+# target to preprocess a source file
+cpama/string/readline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/cpama/string/readline.c.i
+.PHONY : cpama/string/readline.c.i
+
+cpama/string/readline.s: cpama/string/readline.c.s
+
+.PHONY : cpama/string/readline.s
+
+# target to generate assembly for a file
+cpama/string/readline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/readline.dir/build.make CMakeFiles/readline.dir/cpama/string/readline.c.s
+.PHONY : cpama/string/readline.c.s
+
+cpama/string/remind.o: cpama/string/remind.c.o
+
+.PHONY : cpama/string/remind.o
+
+# target to build an object file
+cpama/string/remind.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/cpama/string/remind.c.o
+.PHONY : cpama/string/remind.c.o
+
+cpama/string/remind.i: cpama/string/remind.c.i
+
+.PHONY : cpama/string/remind.i
+
+# target to preprocess a source file
+cpama/string/remind.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/cpama/string/remind.c.i
+.PHONY : cpama/string/remind.c.i
+
+cpama/string/remind.s: cpama/string/remind.c.s
+
+.PHONY : cpama/string/remind.s
+
+# target to generate assembly for a file
+cpama/string/remind.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/remind.dir/build.make CMakeFiles/remind.dir/cpama/string/remind.c.s
+.PHONY : cpama/string/remind.c.s
+
+cpama/string/strargstest.o: cpama/string/strargstest.c.o
+
+.PHONY : cpama/string/strargstest.o
+
+# target to build an object file
+cpama/string/strargstest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/cpama/string/strargstest.c.o
+.PHONY : cpama/string/strargstest.c.o
+
+cpama/string/strargstest.i: cpama/string/strargstest.c.i
+
+.PHONY : cpama/string/strargstest.i
+
+# target to preprocess a source file
+cpama/string/strargstest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/cpama/string/strargstest.c.i
+.PHONY : cpama/string/strargstest.c.i
+
+cpama/string/strargstest.s: cpama/string/strargstest.c.s
+
+.PHONY : cpama/string/strargstest.s
+
+# target to generate assembly for a file
+cpama/string/strargstest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/argstest.dir/build.make CMakeFiles/argstest.dir/cpama/string/strargstest.c.s
+.PHONY : cpama/string/strargstest.c.s
+
+cpama/string/strcatEvolution.o: cpama/string/strcatEvolution.c.o
+
+.PHONY : cpama/string/strcatEvolution.o
+
+# target to build an object file
+cpama/string/strcatEvolution.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/cpama/string/strcatEvolution.c.o
+.PHONY : cpama/string/strcatEvolution.c.o
+
+cpama/string/strcatEvolution.i: cpama/string/strcatEvolution.c.i
+
+.PHONY : cpama/string/strcatEvolution.i
+
+# target to preprocess a source file
+cpama/string/strcatEvolution.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/cpama/string/strcatEvolution.c.i
+.PHONY : cpama/string/strcatEvolution.c.i
+
+cpama/string/strcatEvolution.s: cpama/string/strcatEvolution.c.s
+
+.PHONY : cpama/string/strcatEvolution.s
+
+# target to generate assembly for a file
+cpama/string/strcatEvolution.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strcpyEvolution.dir/build.make CMakeFiles/strcpyEvolution.dir/cpama/string/strcatEvolution.c.s
+.PHONY : cpama/string/strcatEvolution.c.s
+
 cpama/string/stringtest.o: cpama/string/stringtest.c.o
 
 .PHONY : cpama/string/stringtest.o
@@ -2153,6 +2432,87 @@ cpama/string/stringtest.s: cpama/string/stringtest.c.s
 cpama/string/stringtest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stringtest.dir/build.make CMakeFiles/stringtest.dir/cpama/string/stringtest.c.s
 .PHONY : cpama/string/stringtest.c.s
+
+cpama/string/strlenEvolution.o: cpama/string/strlenEvolution.c.o
+
+.PHONY : cpama/string/strlenEvolution.o
+
+# target to build an object file
+cpama/string/strlenEvolution.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/cpama/string/strlenEvolution.c.o
+.PHONY : cpama/string/strlenEvolution.c.o
+
+cpama/string/strlenEvolution.i: cpama/string/strlenEvolution.c.i
+
+.PHONY : cpama/string/strlenEvolution.i
+
+# target to preprocess a source file
+cpama/string/strlenEvolution.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/cpama/string/strlenEvolution.c.i
+.PHONY : cpama/string/strlenEvolution.c.i
+
+cpama/string/strlenEvolution.s: cpama/string/strlenEvolution.c.s
+
+.PHONY : cpama/string/strlenEvolution.s
+
+# target to generate assembly for a file
+cpama/string/strlenEvolution.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strconvention.dir/build.make CMakeFiles/strconvention.dir/cpama/string/strlenEvolution.c.s
+.PHONY : cpama/string/strlenEvolution.c.s
+
+cpama/string/strpointerarrtest.o: cpama/string/strpointerarrtest.c.o
+
+.PHONY : cpama/string/strpointerarrtest.o
+
+# target to build an object file
+cpama/string/strpointerarrtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/cpama/string/strpointerarrtest.c.o
+.PHONY : cpama/string/strpointerarrtest.c.o
+
+cpama/string/strpointerarrtest.i: cpama/string/strpointerarrtest.c.i
+
+.PHONY : cpama/string/strpointerarrtest.i
+
+# target to preprocess a source file
+cpama/string/strpointerarrtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/cpama/string/strpointerarrtest.c.i
+.PHONY : cpama/string/strpointerarrtest.c.i
+
+cpama/string/strpointerarrtest.s: cpama/string/strpointerarrtest.c.s
+
+.PHONY : cpama/string/strpointerarrtest.s
+
+# target to generate assembly for a file
+cpama/string/strpointerarrtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strpointarrtest.dir/build.make CMakeFiles/strpointarrtest.dir/cpama/string/strpointerarrtest.c.s
+.PHONY : cpama/string/strpointerarrtest.c.s
+
+cpama/string/strstdtest.o: cpama/string/strstdtest.c.o
+
+.PHONY : cpama/string/strstdtest.o
+
+# target to build an object file
+cpama/string/strstdtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/cpama/string/strstdtest.c.o
+.PHONY : cpama/string/strstdtest.c.o
+
+cpama/string/strstdtest.i: cpama/string/strstdtest.c.i
+
+.PHONY : cpama/string/strstdtest.i
+
+# target to preprocess a source file
+cpama/string/strstdtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/cpama/string/strstdtest.c.i
+.PHONY : cpama/string/strstdtest.c.i
+
+cpama/string/strstdtest.s: cpama/string/strstdtest.c.s
+
+.PHONY : cpama/string/strstdtest.s
+
+# target to generate assembly for a file
+cpama/string/strstdtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/cpama/string/strstdtest.c.s
+.PHONY : cpama/string/strstdtest.c.s
 
 cpama/structure/guess.o: cpama/structure/guess.c.o
 
@@ -2298,6 +2658,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... addfrac"
+	@echo "... argstest"
 	@echo "... arraytest"
 	@echo "... arrsum"
 	@echo "... assigntest"
@@ -2309,6 +2670,7 @@ help:
 	@echo "... checking"
 	@echo "... converttest"
 	@echo "... countdown"
+	@echo "... countspace"
 	@echo "... data"
 	@echo "... deal"
 	@echo "... dweight"
@@ -2325,6 +2687,7 @@ help:
 	@echo "... maxmin"
 	@echo "... methodtest"
 	@echo "... numdigit"
+	@echo "... planet"
 	@echo "... pointerarrtest"
 	@echo "... pointermultiarray"
 	@echo "... poker"
@@ -2332,7 +2695,9 @@ help:
 	@echo "... pun"
 	@echo "... pun2"
 	@echo "... qsort"
+	@echo "... readline"
 	@echo "... recursetest"
+	@echo "... remind"
 	@echo "... repdigit"
 	@echo "... reverse"
 	@echo "... reverse2"
@@ -2345,7 +2710,11 @@ help:
 	@echo "... stack"
 	@echo "... stack2"
 	@echo "... statementtest"
+	@echo "... strconvention"
+	@echo "... strcpyEvolution"
 	@echo "... stringtest"
+	@echo "... strpointarrtest"
+	@echo "... strstdtest"
 	@echo "... sum"
 	@echo "... sum2"
 	@echo "... switchtest"
@@ -2495,9 +2864,36 @@ help:
 	@echo "... cpama/pointer/stack2.o"
 	@echo "... cpama/pointer/stack2.i"
 	@echo "... cpama/pointer/stack2.s"
+	@echo "... cpama/string/countspace.o"
+	@echo "... cpama/string/countspace.i"
+	@echo "... cpama/string/countspace.s"
+	@echo "... cpama/string/planet.o"
+	@echo "... cpama/string/planet.i"
+	@echo "... cpama/string/planet.s"
+	@echo "... cpama/string/readline.o"
+	@echo "... cpama/string/readline.i"
+	@echo "... cpama/string/readline.s"
+	@echo "... cpama/string/remind.o"
+	@echo "... cpama/string/remind.i"
+	@echo "... cpama/string/remind.s"
+	@echo "... cpama/string/strargstest.o"
+	@echo "... cpama/string/strargstest.i"
+	@echo "... cpama/string/strargstest.s"
+	@echo "... cpama/string/strcatEvolution.o"
+	@echo "... cpama/string/strcatEvolution.i"
+	@echo "... cpama/string/strcatEvolution.s"
 	@echo "... cpama/string/stringtest.o"
 	@echo "... cpama/string/stringtest.i"
 	@echo "... cpama/string/stringtest.s"
+	@echo "... cpama/string/strlenEvolution.o"
+	@echo "... cpama/string/strlenEvolution.i"
+	@echo "... cpama/string/strlenEvolution.s"
+	@echo "... cpama/string/strpointerarrtest.o"
+	@echo "... cpama/string/strpointerarrtest.i"
+	@echo "... cpama/string/strpointerarrtest.s"
+	@echo "... cpama/string/strstdtest.o"
+	@echo "... cpama/string/strstdtest.i"
+	@echo "... cpama/string/strstdtest.s"
 	@echo "... cpama/structure/guess.o"
 	@echo "... cpama/structure/guess.i"
 	@echo "... cpama/structure/guess.s"
