@@ -41,6 +41,7 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/repdigit.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/checking.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/square.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/concompile.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/stringtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/floattest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/square2.dir
@@ -59,6 +60,7 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/tprintf.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/countdown.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/addfrac.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/parammacro.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/dweight2.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/dweight.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/argstest.dir

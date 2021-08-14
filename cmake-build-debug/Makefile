@@ -663,6 +663,19 @@ square/fast:
 .PHONY : square/fast
 
 #=============================================================================
+# Target rules for targets named concompile
+
+# Build rule for target.
+concompile: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 concompile
+.PHONY : concompile
+
+# fast build rule for target.
+concompile/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concompile.dir/build.make CMakeFiles/concompile.dir/build
+.PHONY : concompile/fast
+
+#=============================================================================
 # Target rules for targets named stringtest
 
 # Build rule for target.
@@ -895,6 +908,19 @@ addfrac: cmake_check_build_system
 addfrac/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/addfrac.dir/build.make CMakeFiles/addfrac.dir/build
 .PHONY : addfrac/fast
+
+#=============================================================================
+# Target rules for targets named parammacro
+
+# Build rule for target.
+parammacro: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 parammacro
+.PHONY : parammacro
+
+# fast build rule for target.
+parammacro/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parammacro.dir/build.make CMakeFiles/parammacro.dir/build
+.PHONY : parammacro/fast
 
 #=============================================================================
 # Target rules for targets named dweight2
@@ -1839,6 +1865,60 @@ cpama/base/upc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/upc.dir/build.make CMakeFiles/upc.dir/cpama/base/upc.c.s
 .PHONY : cpama/base/upc.c.s
 
+cpama/macro/concompile.o: cpama/macro/concompile.c.o
+
+.PHONY : cpama/macro/concompile.o
+
+# target to build an object file
+cpama/macro/concompile.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concompile.dir/build.make CMakeFiles/concompile.dir/cpama/macro/concompile.c.o
+.PHONY : cpama/macro/concompile.c.o
+
+cpama/macro/concompile.i: cpama/macro/concompile.c.i
+
+.PHONY : cpama/macro/concompile.i
+
+# target to preprocess a source file
+cpama/macro/concompile.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concompile.dir/build.make CMakeFiles/concompile.dir/cpama/macro/concompile.c.i
+.PHONY : cpama/macro/concompile.c.i
+
+cpama/macro/concompile.s: cpama/macro/concompile.c.s
+
+.PHONY : cpama/macro/concompile.s
+
+# target to generate assembly for a file
+cpama/macro/concompile.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/concompile.dir/build.make CMakeFiles/concompile.dir/cpama/macro/concompile.c.s
+.PHONY : cpama/macro/concompile.c.s
+
+cpama/macro/parammacro.o: cpama/macro/parammacro.c.o
+
+.PHONY : cpama/macro/parammacro.o
+
+# target to build an object file
+cpama/macro/parammacro.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parammacro.dir/build.make CMakeFiles/parammacro.dir/cpama/macro/parammacro.c.o
+.PHONY : cpama/macro/parammacro.c.o
+
+cpama/macro/parammacro.i: cpama/macro/parammacro.c.i
+
+.PHONY : cpama/macro/parammacro.i
+
+# target to preprocess a source file
+cpama/macro/parammacro.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parammacro.dir/build.make CMakeFiles/parammacro.dir/cpama/macro/parammacro.c.i
+.PHONY : cpama/macro/parammacro.c.i
+
+cpama/macro/parammacro.s: cpama/macro/parammacro.c.s
+
+.PHONY : cpama/macro/parammacro.s
+
+# target to generate assembly for a file
+cpama/macro/parammacro.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/parammacro.dir/build.make CMakeFiles/parammacro.dir/cpama/macro/parammacro.c.s
+.PHONY : cpama/macro/parammacro.c.s
+
 cpama/method/average.o: cpama/method/average.c.o
 
 .PHONY : cpama/method/average.o
@@ -2668,6 +2748,7 @@ help:
 	@echo "... broker"
 	@echo "... celsius"
 	@echo "... checking"
+	@echo "... concompile"
 	@echo "... converttest"
 	@echo "... countdown"
 	@echo "... countspace"
@@ -2687,6 +2768,7 @@ help:
 	@echo "... maxmin"
 	@echo "... methodtest"
 	@echo "... numdigit"
+	@echo "... parammacro"
 	@echo "... planet"
 	@echo "... pointerarrtest"
 	@echo "... pointermultiarray"
@@ -2819,6 +2901,12 @@ help:
 	@echo "... cpama/base/upc.o"
 	@echo "... cpama/base/upc.i"
 	@echo "... cpama/base/upc.s"
+	@echo "... cpama/macro/concompile.o"
+	@echo "... cpama/macro/concompile.i"
+	@echo "... cpama/macro/concompile.s"
+	@echo "... cpama/macro/parammacro.o"
+	@echo "... cpama/macro/parammacro.i"
+	@echo "... cpama/macro/parammacro.s"
 	@echo "... cpama/method/average.o"
 	@echo "... cpama/method/average.i"
 	@echo "... cpama/method/average.s"
