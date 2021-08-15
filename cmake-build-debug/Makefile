@@ -221,6 +221,19 @@ findlargest/fast:
 .PHONY : findlargest/fast
 
 #=============================================================================
+# Target rules for targets named justify
+
+# Build rule for target.
+justify: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 justify
+.PHONY : justify
+
+# fast build rule for target.
+justify/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/build
+.PHONY : justify/fast
+
+#=============================================================================
 # Target rules for targets named maxmin
 
 # Build rule for target.
@@ -869,6 +882,19 @@ broker: cmake_check_build_system
 broker/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/broker.dir/build.make CMakeFiles/broker.dir/build
 .PHONY : broker/fast
+
+#=============================================================================
+# Target rules for targets named includetest
+
+# Build rule for target.
+includetest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 includetest
+.PHONY : includetest
+
+# fast build rule for target.
+includetest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/build
+.PHONY : includetest/fast
 
 #=============================================================================
 # Target rules for targets named tprintf
@@ -2324,6 +2350,141 @@ cpama/pointer/stack2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack2.dir/build.make CMakeFiles/stack2.dir/cpama/pointer/stack2.c.s
 .PHONY : cpama/pointer/stack2.c.s
 
+cpama/program/includetest/includetest.o: cpama/program/includetest/includetest.c.o
+
+.PHONY : cpama/program/includetest/includetest.o
+
+# target to build an object file
+cpama/program/includetest/includetest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/cpama/program/includetest/includetest.c.o
+.PHONY : cpama/program/includetest/includetest.c.o
+
+cpama/program/includetest/includetest.i: cpama/program/includetest/includetest.c.i
+
+.PHONY : cpama/program/includetest/includetest.i
+
+# target to preprocess a source file
+cpama/program/includetest/includetest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/cpama/program/includetest/includetest.c.i
+.PHONY : cpama/program/includetest/includetest.c.i
+
+cpama/program/includetest/includetest.s: cpama/program/includetest/includetest.c.s
+
+.PHONY : cpama/program/includetest/includetest.s
+
+# target to generate assembly for a file
+cpama/program/includetest/includetest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/cpama/program/includetest/includetest.c.s
+.PHONY : cpama/program/includetest/includetest.c.s
+
+cpama/program/includetest/share.o: cpama/program/includetest/share.c.o
+
+.PHONY : cpama/program/includetest/share.o
+
+# target to build an object file
+cpama/program/includetest/share.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/cpama/program/includetest/share.c.o
+.PHONY : cpama/program/includetest/share.c.o
+
+cpama/program/includetest/share.i: cpama/program/includetest/share.c.i
+
+.PHONY : cpama/program/includetest/share.i
+
+# target to preprocess a source file
+cpama/program/includetest/share.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/cpama/program/includetest/share.c.i
+.PHONY : cpama/program/includetest/share.c.i
+
+cpama/program/includetest/share.s: cpama/program/includetest/share.c.s
+
+.PHONY : cpama/program/includetest/share.s
+
+# target to generate assembly for a file
+cpama/program/includetest/share.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/includetest.dir/build.make CMakeFiles/includetest.dir/cpama/program/includetest/share.c.s
+.PHONY : cpama/program/includetest/share.c.s
+
+cpama/program/justify/justify.o: cpama/program/justify/justify.c.o
+
+.PHONY : cpama/program/justify/justify.o
+
+# target to build an object file
+cpama/program/justify/justify.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/justify.c.o
+.PHONY : cpama/program/justify/justify.c.o
+
+cpama/program/justify/justify.i: cpama/program/justify/justify.c.i
+
+.PHONY : cpama/program/justify/justify.i
+
+# target to preprocess a source file
+cpama/program/justify/justify.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/justify.c.i
+.PHONY : cpama/program/justify/justify.c.i
+
+cpama/program/justify/justify.s: cpama/program/justify/justify.c.s
+
+.PHONY : cpama/program/justify/justify.s
+
+# target to generate assembly for a file
+cpama/program/justify/justify.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/justify.c.s
+.PHONY : cpama/program/justify/justify.c.s
+
+cpama/program/justify/line.o: cpama/program/justify/line.c.o
+
+.PHONY : cpama/program/justify/line.o
+
+# target to build an object file
+cpama/program/justify/line.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/line.c.o
+.PHONY : cpama/program/justify/line.c.o
+
+cpama/program/justify/line.i: cpama/program/justify/line.c.i
+
+.PHONY : cpama/program/justify/line.i
+
+# target to preprocess a source file
+cpama/program/justify/line.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/line.c.i
+.PHONY : cpama/program/justify/line.c.i
+
+cpama/program/justify/line.s: cpama/program/justify/line.c.s
+
+.PHONY : cpama/program/justify/line.s
+
+# target to generate assembly for a file
+cpama/program/justify/line.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/line.c.s
+.PHONY : cpama/program/justify/line.c.s
+
+cpama/program/justify/word.o: cpama/program/justify/word.c.o
+
+.PHONY : cpama/program/justify/word.o
+
+# target to build an object file
+cpama/program/justify/word.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/word.c.o
+.PHONY : cpama/program/justify/word.c.o
+
+cpama/program/justify/word.i: cpama/program/justify/word.c.i
+
+.PHONY : cpama/program/justify/word.i
+
+# target to preprocess a source file
+cpama/program/justify/word.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/word.c.i
+.PHONY : cpama/program/justify/word.c.i
+
+cpama/program/justify/word.s: cpama/program/justify/word.c.s
+
+.PHONY : cpama/program/justify/word.s
+
+# target to generate assembly for a file
+cpama/program/justify/word.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/justify.dir/build.make CMakeFiles/justify.dir/cpama/program/justify/word.c.s
+.PHONY : cpama/program/justify/word.c.s
+
 cpama/string/countspace.o: cpama/string/countspace.c.o
 
 .PHONY : cpama/string/countspace.o
@@ -2762,7 +2923,9 @@ help:
 	@echo "... gototest"
 	@echo "... guess"
 	@echo "... guess2"
+	@echo "... includetest"
 	@echo "... interest"
+	@echo "... justify"
 	@echo "... length"
 	@echo "... length2"
 	@echo "... maxmin"
@@ -2952,6 +3115,21 @@ help:
 	@echo "... cpama/pointer/stack2.o"
 	@echo "... cpama/pointer/stack2.i"
 	@echo "... cpama/pointer/stack2.s"
+	@echo "... cpama/program/includetest/includetest.o"
+	@echo "... cpama/program/includetest/includetest.i"
+	@echo "... cpama/program/includetest/includetest.s"
+	@echo "... cpama/program/includetest/share.o"
+	@echo "... cpama/program/includetest/share.i"
+	@echo "... cpama/program/includetest/share.s"
+	@echo "... cpama/program/justify/justify.o"
+	@echo "... cpama/program/justify/justify.i"
+	@echo "... cpama/program/justify/justify.s"
+	@echo "... cpama/program/justify/line.o"
+	@echo "... cpama/program/justify/line.i"
+	@echo "... cpama/program/justify/line.s"
+	@echo "... cpama/program/justify/word.o"
+	@echo "... cpama/program/justify/word.i"
+	@echo "... cpama/program/justify/word.s"
 	@echo "... cpama/string/countspace.o"
 	@echo "... cpama/string/countspace.i"
 	@echo "... cpama/string/countspace.s"

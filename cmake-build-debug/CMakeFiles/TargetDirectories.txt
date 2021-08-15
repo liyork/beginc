@@ -7,6 +7,7 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/readline.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/pointermultiarray.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/findlargest.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/justify.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/maxmin.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/guess.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/qsort.dir
@@ -57,6 +58,7 @@
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/statementtest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/deal.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/broker.dir
+/Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/includetest.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/tprintf.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/countdown.dir
 /Users/chaoli/c_workspace/beginc/cmake-build-debug/CMakeFiles/addfrac.dir
