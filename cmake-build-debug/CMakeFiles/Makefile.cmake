@@ -45,6 +45,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/enumtest.dir/DependInfo.cmake"
+  "CMakeFiles/uniontest.dir/DependInfo.cmake"
+  "CMakeFiles/inventory.dir/DependInfo.cmake"
   "CMakeFiles/strpointarrtest.dir/DependInfo.cmake"
   "CMakeFiles/strcpyEvolution.dir/DependInfo.cmake"
   "CMakeFiles/remind.dir/DependInfo.cmake"
@@ -65,9 +68,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/pun2.dir/DependInfo.cmake"
   "CMakeFiles/strconvention.dir/DependInfo.cmake"
   "CMakeFiles/average.dir/DependInfo.cmake"
+  "CMakeFiles/structtest.dir/DependInfo.cmake"
   "CMakeFiles/reverse2.dir/DependInfo.cmake"
   "CMakeFiles/interest.dir/DependInfo.cmake"
   "CMakeFiles/arraytest.dir/DependInfo.cmake"
+  "CMakeFiles/invtest.dir/DependInfo.cmake"
   "CMakeFiles/sum.dir/DependInfo.cmake"
   "CMakeFiles/stack.dir/DependInfo.cmake"
   "CMakeFiles/stack2.dir/DependInfo.cmake"

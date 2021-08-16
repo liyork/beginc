@@ -130,6 +130,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named enumtest
+
+# Build rule for target.
+enumtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 enumtest
+.PHONY : enumtest
+
+# fast build rule for target.
+enumtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enumtest.dir/build.make CMakeFiles/enumtest.dir/build
+.PHONY : enumtest/fast
+
+#=============================================================================
+# Target rules for targets named uniontest
+
+# Build rule for target.
+uniontest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uniontest
+.PHONY : uniontest
+
+# fast build rule for target.
+uniontest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniontest.dir/build.make CMakeFiles/uniontest.dir/build
+.PHONY : uniontest/fast
+
+#=============================================================================
+# Target rules for targets named inventory
+
+# Build rule for target.
+inventory: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 inventory
+.PHONY : inventory
+
+# fast build rule for target.
+inventory/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/build
+.PHONY : inventory/fast
+
+#=============================================================================
 # Target rules for targets named strpointarrtest
 
 # Build rule for target.
@@ -390,6 +429,19 @@ average/fast:
 .PHONY : average/fast
 
 #=============================================================================
+# Target rules for targets named structtest
+
+# Build rule for target.
+structtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 structtest
+.PHONY : structtest
+
+# fast build rule for target.
+structtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structtest.dir/build.make CMakeFiles/structtest.dir/build
+.PHONY : structtest/fast
+
+#=============================================================================
 # Target rules for targets named reverse2
 
 # Build rule for target.
@@ -427,6 +479,19 @@ arraytest: cmake_check_build_system
 arraytest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/arraytest.dir/build.make CMakeFiles/arraytest.dir/build
 .PHONY : arraytest/fast
+
+#=============================================================================
+# Target rules for targets named invtest
+
+# Build rule for target.
+invtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 invtest
+.PHONY : invtest
+
+# fast build rule for target.
+invtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/invtest.dir/build.make CMakeFiles/invtest.dir/build
+.PHONY : invtest/fast
 
 #=============================================================================
 # Target rules for targets named sum
@@ -2755,6 +2820,168 @@ cpama/string/strstdtest.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/strstdtest.dir/build.make CMakeFiles/strstdtest.dir/cpama/string/strstdtest.c.s
 .PHONY : cpama/string/strstdtest.c.s
 
+cpama/struct/enumtest.o: cpama/struct/enumtest.c.o
+
+.PHONY : cpama/struct/enumtest.o
+
+# target to build an object file
+cpama/struct/enumtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enumtest.dir/build.make CMakeFiles/enumtest.dir/cpama/struct/enumtest.c.o
+.PHONY : cpama/struct/enumtest.c.o
+
+cpama/struct/enumtest.i: cpama/struct/enumtest.c.i
+
+.PHONY : cpama/struct/enumtest.i
+
+# target to preprocess a source file
+cpama/struct/enumtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enumtest.dir/build.make CMakeFiles/enumtest.dir/cpama/struct/enumtest.c.i
+.PHONY : cpama/struct/enumtest.c.i
+
+cpama/struct/enumtest.s: cpama/struct/enumtest.c.s
+
+.PHONY : cpama/struct/enumtest.s
+
+# target to generate assembly for a file
+cpama/struct/enumtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enumtest.dir/build.make CMakeFiles/enumtest.dir/cpama/struct/enumtest.c.s
+.PHONY : cpama/struct/enumtest.c.s
+
+cpama/struct/inventory/inventory.o: cpama/struct/inventory/inventory.c.o
+
+.PHONY : cpama/struct/inventory/inventory.o
+
+# target to build an object file
+cpama/struct/inventory/inventory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/cpama/struct/inventory/inventory.c.o
+.PHONY : cpama/struct/inventory/inventory.c.o
+
+cpama/struct/inventory/inventory.i: cpama/struct/inventory/inventory.c.i
+
+.PHONY : cpama/struct/inventory/inventory.i
+
+# target to preprocess a source file
+cpama/struct/inventory/inventory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/cpama/struct/inventory/inventory.c.i
+.PHONY : cpama/struct/inventory/inventory.c.i
+
+cpama/struct/inventory/inventory.s: cpama/struct/inventory/inventory.c.s
+
+.PHONY : cpama/struct/inventory/inventory.s
+
+# target to generate assembly for a file
+cpama/struct/inventory/inventory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/cpama/struct/inventory/inventory.c.s
+.PHONY : cpama/struct/inventory/inventory.c.s
+
+cpama/struct/inventory/invtest.o: cpama/struct/inventory/invtest.c.o
+
+.PHONY : cpama/struct/inventory/invtest.o
+
+# target to build an object file
+cpama/struct/inventory/invtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/invtest.dir/build.make CMakeFiles/invtest.dir/cpama/struct/inventory/invtest.c.o
+.PHONY : cpama/struct/inventory/invtest.c.o
+
+cpama/struct/inventory/invtest.i: cpama/struct/inventory/invtest.c.i
+
+.PHONY : cpama/struct/inventory/invtest.i
+
+# target to preprocess a source file
+cpama/struct/inventory/invtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/invtest.dir/build.make CMakeFiles/invtest.dir/cpama/struct/inventory/invtest.c.i
+.PHONY : cpama/struct/inventory/invtest.c.i
+
+cpama/struct/inventory/invtest.s: cpama/struct/inventory/invtest.c.s
+
+.PHONY : cpama/struct/inventory/invtest.s
+
+# target to generate assembly for a file
+cpama/struct/inventory/invtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/invtest.dir/build.make CMakeFiles/invtest.dir/cpama/struct/inventory/invtest.c.s
+.PHONY : cpama/struct/inventory/invtest.c.s
+
+cpama/struct/inventory/readline.o: cpama/struct/inventory/readline.c.o
+
+.PHONY : cpama/struct/inventory/readline.o
+
+# target to build an object file
+cpama/struct/inventory/readline.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/cpama/struct/inventory/readline.c.o
+.PHONY : cpama/struct/inventory/readline.c.o
+
+cpama/struct/inventory/readline.i: cpama/struct/inventory/readline.c.i
+
+.PHONY : cpama/struct/inventory/readline.i
+
+# target to preprocess a source file
+cpama/struct/inventory/readline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/cpama/struct/inventory/readline.c.i
+.PHONY : cpama/struct/inventory/readline.c.i
+
+cpama/struct/inventory/readline.s: cpama/struct/inventory/readline.c.s
+
+.PHONY : cpama/struct/inventory/readline.s
+
+# target to generate assembly for a file
+cpama/struct/inventory/readline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/inventory.dir/build.make CMakeFiles/inventory.dir/cpama/struct/inventory/readline.c.s
+.PHONY : cpama/struct/inventory/readline.c.s
+
+cpama/struct/structtest.o: cpama/struct/structtest.c.o
+
+.PHONY : cpama/struct/structtest.o
+
+# target to build an object file
+cpama/struct/structtest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structtest.dir/build.make CMakeFiles/structtest.dir/cpama/struct/structtest.c.o
+.PHONY : cpama/struct/structtest.c.o
+
+cpama/struct/structtest.i: cpama/struct/structtest.c.i
+
+.PHONY : cpama/struct/structtest.i
+
+# target to preprocess a source file
+cpama/struct/structtest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structtest.dir/build.make CMakeFiles/structtest.dir/cpama/struct/structtest.c.i
+.PHONY : cpama/struct/structtest.c.i
+
+cpama/struct/structtest.s: cpama/struct/structtest.c.s
+
+.PHONY : cpama/struct/structtest.s
+
+# target to generate assembly for a file
+cpama/struct/structtest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/structtest.dir/build.make CMakeFiles/structtest.dir/cpama/struct/structtest.c.s
+.PHONY : cpama/struct/structtest.c.s
+
+cpama/struct/uniontest.o: cpama/struct/uniontest.c.o
+
+.PHONY : cpama/struct/uniontest.o
+
+# target to build an object file
+cpama/struct/uniontest.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniontest.dir/build.make CMakeFiles/uniontest.dir/cpama/struct/uniontest.c.o
+.PHONY : cpama/struct/uniontest.c.o
+
+cpama/struct/uniontest.i: cpama/struct/uniontest.c.i
+
+.PHONY : cpama/struct/uniontest.i
+
+# target to preprocess a source file
+cpama/struct/uniontest.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniontest.dir/build.make CMakeFiles/uniontest.dir/cpama/struct/uniontest.c.i
+.PHONY : cpama/struct/uniontest.c.i
+
+cpama/struct/uniontest.s: cpama/struct/uniontest.c.s
+
+.PHONY : cpama/struct/uniontest.s
+
+# target to generate assembly for a file
+cpama/struct/uniontest.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/uniontest.dir/build.make CMakeFiles/uniontest.dir/cpama/struct/uniontest.c.s
+.PHONY : cpama/struct/uniontest.c.s
+
 cpama/structure/guess.o: cpama/structure/guess.c.o
 
 .PHONY : cpama/structure/guess.o
@@ -2917,6 +3144,7 @@ help:
 	@echo "... deal"
 	@echo "... dweight"
 	@echo "... dweight2"
+	@echo "... enumtest"
 	@echo "... findlargest"
 	@echo "... floattest"
 	@echo "... getchartest"
@@ -2925,6 +3153,8 @@ help:
 	@echo "... guess2"
 	@echo "... includetest"
 	@echo "... interest"
+	@echo "... inventory"
+	@echo "... invtest"
 	@echo "... justify"
 	@echo "... length"
 	@echo "... length2"
@@ -2960,10 +3190,12 @@ help:
 	@echo "... stringtest"
 	@echo "... strpointarrtest"
 	@echo "... strstdtest"
+	@echo "... structtest"
 	@echo "... sum"
 	@echo "... sum2"
 	@echo "... switchtest"
 	@echo "... tprintf"
+	@echo "... uniontest"
 	@echo "... upc"
 	@echo "... cpama/arr/arraytest.o"
 	@echo "... cpama/arr/arraytest.i"
@@ -3160,6 +3392,24 @@ help:
 	@echo "... cpama/string/strstdtest.o"
 	@echo "... cpama/string/strstdtest.i"
 	@echo "... cpama/string/strstdtest.s"
+	@echo "... cpama/struct/enumtest.o"
+	@echo "... cpama/struct/enumtest.i"
+	@echo "... cpama/struct/enumtest.s"
+	@echo "... cpama/struct/inventory/inventory.o"
+	@echo "... cpama/struct/inventory/inventory.i"
+	@echo "... cpama/struct/inventory/inventory.s"
+	@echo "... cpama/struct/inventory/invtest.o"
+	@echo "... cpama/struct/inventory/invtest.i"
+	@echo "... cpama/struct/inventory/invtest.s"
+	@echo "... cpama/struct/inventory/readline.o"
+	@echo "... cpama/struct/inventory/readline.i"
+	@echo "... cpama/struct/inventory/readline.s"
+	@echo "... cpama/struct/structtest.o"
+	@echo "... cpama/struct/structtest.i"
+	@echo "... cpama/struct/structtest.s"
+	@echo "... cpama/struct/uniontest.o"
+	@echo "... cpama/struct/uniontest.i"
+	@echo "... cpama/struct/uniontest.s"
 	@echo "... cpama/structure/guess.o"
 	@echo "... cpama/structure/guess.i"
 	@echo "... cpama/structure/guess.s"

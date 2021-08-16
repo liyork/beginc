@@ -37,6 +37,132 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="enumtest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/enumtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 enumtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="enumtest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/enumtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 enumtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uniontest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/uniontest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 uniontest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uniontest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/uniontest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 uniontest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inventory">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/inventory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 inventory"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="inventory/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/inventory" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 inventory/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="strpointarrtest">
 				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/strpointarrtest" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
@@ -877,6 +1003,48 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="structtest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/structtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 structtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="structtest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/structtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 structtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="reverse2">
 				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/reverse2" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
@@ -998,6 +1166,48 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 arraytest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="invtest">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/invtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 invtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="invtest/fast">
+				<Option output="/Users/chaoli/c_workspace/beginc/cmake-build-debug/invtest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chaoli/c_workspace/beginc/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 invtest/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/chaoli/c_workspace/beginc/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -3052,6 +3262,27 @@
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/string/strstdtest.c">
 			<Option target="strstdtest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/enumtest.c">
+			<Option target="enumtest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/inventory/inventory.c">
+			<Option target="inventory"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/inventory/invtest.c">
+			<Option target="invtest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/inventory/readline.c">
+			<Option target="inventory"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/inventory/readline.h">
+			<Option target="inventory"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/structtest.c">
+			<Option target="structtest"/>
+		</Unit>
+		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/struct/uniontest.c">
+			<Option target="uniontest"/>
 		</Unit>
 		<Unit filename="/Users/chaoli/c_workspace/beginc/cpama/structure/guess.c">
 			<Option target="guess"/>
