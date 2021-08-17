@@ -75,3 +75,7 @@ add_executable(inventory cpama/struct/inventory/readline.h cpama/struct/inventor
 add_executable(invtest cpama/struct/inventory/invtest.c)
 add_executable(uniontest cpama/struct/uniontest.c)
 add_executable(enumtest cpama/struct/enumtest.c)
+add_executable(pointeradtest cpama/pointerad/pointeradtest.c)
+add_executable(remind2 cpama/pointerad/remind2.c)
+add_executable(linktest cpama/pointerad/linktest.c)
+add_executable(inventory2 cpama/pointerad/inventory2.c cpama/pointerad/node.h)
