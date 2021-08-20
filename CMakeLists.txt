@@ -87,3 +87,6 @@ add_executable(stackclient cpama/module/adt/v1/stackADT.c cpama/module/adt/v1/st
 add_executable(stackclient2 cpama/module/adt/v2/stackADT.c cpama/module/adt/v2/stackclient.c)
 add_executable(stackclient3 cpama/module/adt/v3/stackADT.c cpama/module/adt/v3/stackclient.c)
 add_executable(stackclient4 cpama/module/adt/v4/stackclient.c)
+add_executable(bittest cpama/lowprog/bittest.c)
+add_executable(xor cpama/lowprog/xor.c)
+add_executable(viewmemory cpama/lowprog/viewmemory.c)
