@@ -6,7 +6,7 @@ void testSum();
 
 void testScanf();
 
-int max(int x, int y,int q);
+int max(int x, int y, int z);
 
 int main() {
 //    testPrintf();
@@ -26,23 +26,23 @@ void testSum() {
     printf("sum is %d \n", sum);
 }
 
+// 输入：1,2,3
 void testScanf() {
-    int a, b, c,z;
-    scanf("%d,%d,%d", &a, &b,&c);
-    z = max(a, b,c);
+    int a, b, c, z;
+    scanf("%d,%d,%d", &a, &b, &c);
+    z = max(a, b, c);
     printf("max = %d", z);
 }
 
-int max(int x, int y,int q) {
-
-    int z = x;
+int max(int x, int y, int z) {
+    int max = x;
     if (x < y) {
-        z = y;
+        max = y;
     }
 
-    if (z < q) {
-        z = q;
+    if (max < z) {
+        max = z;
     }
 
-    return z;
+    return max;
 }
